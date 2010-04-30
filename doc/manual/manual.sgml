@@ -1,0 +1,163 @@
+<!doctype linuxdoc system>
+
+<ARTICLE>
+
+<TITLE>Manual for Fen2eps v1.0
+<AUTHOR>Dirk B&auml;chle (<TT>dl9obn@darc.de</TT>)
+<DATE>2003-03-25
+
+<ABSTRACT>
+This manual gives a short introduction to the various
+options of the program <EM>Fen2eps</EM>.
+</ABSTRACT>
+
+<TOC>
+
+<SECT>Requirements<LABEL ID="required">
+
+<P>
+Basically, <EM>Fen2eps</EM> doesn't have any requirements.
+
+However, if you
+try to start <EM>Fen2eps</EM> under plain DOS you will have to install
+the required DPMI handler as used by DJGPP (the compiler I created
+the binary version with). 
+The archive `<TT>fen2eps1_0exe.zip</TT>' should contain
+the file `<TT>csdpmi5b.zip</TT>' which you have to unZIP.
+Then, simply copy the `<TT>*.EXE</TT>' files from ``<TT>bin</TT>''
+into the directory where <EM>Fen2eps</EM> resides.
+
+
+<SECT>Starting the program<LABEL ID="start">
+
+<P>
+Starting <EM>Fen2eps</EM> is as simple as saying
+
+<TSCREEN><VERB>
+fen2eps &lt; a.fen &gt; a.eps
+</VERB></TSCREEN>
+
+
+where the file `<TT>a.fen</TT>' contains a single FEN
+string in one line and
+`<TT>a.eps</TT>' is the resulting <EM>EPS</EM> file.
+This <EM>EPS</EM> file contains all necessary graphic symbols
+for displaying the chess diagram, you don't have to install any fonts!
+Since <EM>Fen2eps</EM> reads each line only to the first &dquot;space&dquot;
+character you can also input EPD (Extended Position Description) strings...
+
+If you call <EM>Fen2eps</EM> with one of the command-line arguments ``<TT>&dash;h</TT>'',
+``<TT>&dash;?</TT>'' or ``<TT>&dash;&dash;help</TT>'', a small usage message appears. 
+It provides a short overview of the additional options, which are explained
+in detail in the following sections.
+
+<SECT>Selecting fonts<LABEL ID="fontselect">
+
+<P>
+The current version 1.0 of <EM>Fen2eps</EM> provides 19 different chess
+fonts for creating board diagrams. The outlines of the chess pieces
+are stored in special definition files, which have the extension `<TT>*.fed</TT>'
+and can be found in the `<TT>fen</TT>' directory.
+These files also contain information about the different heights and widths
+of the single ``characters''.
+
+The fonts were downloaded from 
+<URL URL="http://www.enpassant.dk" NAME="www.enpassant.dk"> in TrueType format
+and then converted to Postscript outlines with the help of
+<URL URL="http://pfaedit.sf.net" NAME="Pfaedit">. Please, regard that the
+copyright is still with their authors <EM>Armando Hernandez Marroquin</EM>,
+<EM>Eric Bentzen</EM> and <EM>Egon Madsen</EM>. All fonts are freeware and
+may be used for non-commercial purposes only!
+
+<EM>Fen2eps</EM> does not have something like a built-in font. For maximum
+flexibility it always needs an external `<TT>*.fed</TT>' file where it can
+extract the piece outlines from. If nothing else is specified, <EM>Fen2eps</EM>
+looks for the font file `<TT>default.fed</TT>' which is present in
+the same directory as the executable. Right after unZIPing the archive,
+this default font file is a copy of the font ``<EM>Chess Merida</EM>'' 
+(filename: `<TT>merida.fed</TT>').
+
+If you don't like it, all you have to do is to overwrite the file
+`<TT>default.fed</TT>' with one of the other `<TT>*.fed</TT>' files.
+For an overview you can take a look at the 
+<URL URL="../ps/fontlist.ps" NAME="list of fonts">.
+Afterwards, the new font is used for creating the <EM>EPS</EM> diagrams.
+
+As an alternative, you can use the option ``<TT>-f</TT>'', followed by the
+name of the font definition file that should be used instead of
+`<TT>default.fed</TT>'.
+
+So, replacing
+
+<TSCREEN><VERB>
+cp fed/marroq.fed default.fed
+fen2eps &lt; a.fen > a.eps
+</VERB></TSCREEN>
+
+you could also say
+
+<TSCREEN><VERB>
+fen2eps -f fed/marroq.fed &lt; a.fen > a.eps
+</VERB></TSCREEN>
+
+which leaves the default font file untouched.
+
+<SECT>Additional options<LABEL ID="addoptions">
+
+<P>
+<SECT1>No notation<LABEL ID="nonotation">
+
+<P>
+If you don't want to provide a notation for the chess diagram,
+you can specify the option ``<TT>-n</TT>'' while calling <EM>Fen2eps</EM>.
+The board is output without notation letters and digits then.
+
+<SECT1>Reverse board<LABEL ID="reverseboard">
+
+<P>
+You might want to display a board from Blacks perspective. In this case, use
+the option ``<TT>-r</TT>'' which creates a diagram that is drawn reverse.
+
+<SECT1>Exporting several FEN strings at once<LABEL ID="prefix">
+
+<P>
+Exporting several FEN strings with the same settings is a
+tedious task. <EM>Fen2eps</EM> can help if you prepare a file, let's
+name it `<TT>many.fen</TT>', that contains all the chess positions you
+want to convert. By specifying the 
+``<TT>-p</TT>'' option you give <EM>Fen2eps</EM> a file prefix it can use
+for generating single EPS diagrams automatically. You can say
+
+<TSCREEN><VERB>
+fen2eps -p diag/dg &lt; many.fen
+</VERB></TSCREEN>
+
+for example. What you get is one EPS file for each FEN string in `<TT>many.fen</TT>'.
+These EPS files are created in the directory `<TT>diag</TT>' and have the prefix 
+`<TT>dg</TT>' followed by a unique number.
+
+If the 
+``<TT>-p</TT>'' option is given, <EM>Fen2eps</EM> does <BF>NOT</BF> write to
+`<TT>stdout</TT>' but to the created files directly. So redirecting the
+output by appending a 
+
+<TSCREEN><VERB>
+&gt; isempty.eps
+</VERB></TSCREEN>
+
+to the program call does not have any effect (except that you get an
+empty file named `<TT>isempty.eps</TT>'...).
+
+Of course, you can mix all these options and after the call
+
+<TSCREEN><VERB>
+fen2eps -n -r -p diag/dg -f fed/lucena.fed &lt; many.fen
+</VERB></TSCREEN>
+
+(let's assume the file `<TT>many.fen</TT>' contains 7 FEN strings...) you
+can find the files `<TT>dg1.eps</TT>' to `<TT>dg7.eps</TT>' in the
+directory `<TT>diag</TT>'. All boards are displayed reverse, without notation
+and use the font ``<EM>Chess Lucena</EM>''.
+
+</ARTICLE>
+

@@ -1,0 +1,94 @@
+<HTML>
+<HEAD>
+<TITLE>Fen2eps</TITLE>
+</HEAD>
+<BODY bgcolor="#FFFFFF">
+
+<A HREF="http://sourceforge.net"><IMG
+SRC="http://sourceforge.net/sflogo.php?group_id=76594&type=5"
+ALIGN=RIGHT WIDTH="210" HEIGHT="62" BORDER="0" ALT="SourceForge.net Logo"></a>
+
+<H1>Fen2eps</H1>
+
+<P>
+Welcome to the homepage of <I>Fen2eps</I>!
+
+<P>
+<I>Fen2eps</I> is a small console-based program.
+It was written in order to convert FEN (Forsyth Edwards Notation) strings
+to <I>EPS</I> (Encapsulated Postscript) files directly.
+You can import the created board diagrams into most of the commonly used
+DTP programs, without having to install any fonts! They can be scaled freely
+and still provide the highest quality, limited only by your output device.
+
+<P>
+In general, <I>Fen2eps</I> aims at the editing of documents/texts
+with only a few diagrams, e.g. posters. If you need to display a lot of chess
+positions the <I>LaTeX</I> package 
+``<TT>skak</TT>'' by Torben Hoffmann might be a better solution. It is 
+available at the 
+<A HREF="http://www.tug.org/ctan">CTAN (Comprehensive TeX Archive Network)</A>.
+
+<P>
+<I>Fen2eps</I> reads from `<CODE>stdin</CODE>' and writes to
+`<CODE>stdout</CODE>'. The user can select from 19 different chess fonts for
+creating the diagrams... check out the 
+<A HREF="./ps/fontlist.zip">list of fonts (ZIPed PS, 500KB)</A>. 
+<BR>
+These fonts were converted from the freeware TrueType fonts that can be found at
+<A HREF="http://www.enpassant.dk">www.enpassant.dk</A>. So the credits
+for all the beautiful chess pieces go to their creators 
+<I>Armando Hernandez Marroquin</I>, <I>Eric Bentzen</I> and <I>Egon Madsen</I>.
+Thank you!
+
+<P>
+For more information about the various options, take a look at
+the <A HREF="./manual/manual.html">manual</A> that is contained in the
+<A HREF="http://www.sourceforge.net/projects/fen2eps">download archive</A>,
+together with the source file and a small `<TT>Makefile</TT>'. Compiling
+<I>Fen2eps</I> should be straightforward, using a decent C++ compiler...
+<BR> 
+There is also an archive providing a readily compiled DOS version of
+<I>Fen2eps</I> which should run on most DOS/Windows platforms. If you
+try to start it under plain DOS read the instructions in the
+`<TT>README</TT>' file and the <A HREF="./manual/manual.html">manual</A> first.
+
+<P>
+Please also regard the file `<TT>COPYING</TT>' for the
+terms of the GNU GPL (General Public License).
+<P>
+Using <A HREF="http://www.stack.nl/~dimitri/doxygen">Doxygen</A> 
+you can easily generate a documentation for the source file if you want to.
+
+<H3>Download</H3>
+
+<A HREF="http://www.sourceforge.net/projects/fen2eps">Download archives for Fen2eps</A>
+
+<P>
+Short after the initial release 1.0, I had to realise that there was a small
+error in one of the fonts. The black square of ``<I>Chess Lucena</I>''
+contained a corrupted diagonal line in the middle. Instead of adding a
+completely new release, I would like to ask you to 
+<A HREF="./ps/lucena.zip">download a corrected version of the Lucena font (20KB)</A>.
+Please, unZIP it and use the file `<TT>lucena.fed</TT>' to replace the old version
+in the directory `<TT>fed</TT>'.
+
+<H3>Author</H3>
+
+<A HREF="mailto:dl9obn@darc.de">Dirk B&auml;chle</A>
+
+<H3>Written in</H3>
+C++
+
+<P>
+Dirk B&auml;chle, 2003-03-28
+
+<P>
+<HR>
+<CENTER>
+Questions? Remarks? Suggestions? Criticism? Feel free to contact
+<A HREF="mailto:dl9obn@darc.de">Dirk B&auml;chle</A>.
+</CENTER>
+</BODY>
+</HTML>
+

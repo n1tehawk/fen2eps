@@ -1,0 +1,5152 @@
+%Fen2eps Postscript font definition file
+%Version: 1.0
+%BEGIN FontInfo
+
+%
+% General:
+%
+
+%BEGIN FontName
+Chess Mark
+%END FontName
+%BEGIN FontVersion
+1.1
+%END FontVersion
+%BEGIN FontDate
+1998-8-8
+%END FontDate
+%BEGIN FontAuthor
+Armando Hernandez Marroquin
+%END FontAuthor
+%BEGIN Description
+The TrueType version of this font is available at "http://www.enpassant.dk".
+Converted to Fen2eps by Dirk Baechle (dl9obn@darc.de), 2003-03-23.
+%END Description
+
+%
+% EPS sizes: 
+%
+
+%BEGIN EpsScalingFactor
+%END EpsScalingFactor
+%BEGIN EpsBoardSize
+8cm
+%END EpsBoardSize
+%BEGIN EpsDefaultLineWidth
+0.1
+%END EpsDefaultLineWidth
+%BEGIN EpsLeftMargin
+0
+%END EpsLeftMargin
+%BEGIN EpsRightMargin
+0
+%END EpsRightMargin
+%BEGIN EpsTopMargin
+0
+%END EpsTopMargin
+%BEGIN EpsBottomMargin
+0
+%END EpsBottomMargin
+
+%
+% Heights and widths for the font:
+%
+
+%BEGIN SquareSize
+2048
+%END SquareSize
+%BEGIN SquareHeight
+2048
+%END SquareHeight
+%BEGIN SquareDepth
+0
+%END SquareDepth
+%BEGIN TopFrameHeight
+410
+%END TopFrameHeight
+%BEGIN TopFrameDepth
+0
+%END TopFrameDepth
+%BEGIN LeftFrameWidth
+410
+%END LeftFrameWidth
+%BEGIN LeftFrameHeight
+2048
+%END LeftFrameHeight
+%BEGIN LeftFrameDepth
+0
+%END LeftFrameDepth
+%BEGIN LeftNotationFrameWidth
+2048
+%END LeftNotationFrameWidth
+%BEGIN LeftNotationFrameHeight
+2048
+%END LeftNotationFrameHeight
+%BEGIN LeftNotationFrameDepth
+0
+%END LeftNotationFrameDepth
+%BEGIN RightFrameWidth
+410
+%END RightFrameWidth
+%BEGIN RightFrameHeight
+2048
+%END RightFrameHeight
+%BEGIN RightFrameDepth
+0
+%END RightFrameDepth
+%BEGIN BottomFrameHeight
+410
+%END BottomFrameHeight
+%BEGIN BottomFrameDepth
+0
+%END BottomFrameDepth
+%BEGIN BottomNotationFrameHeight
+2048
+%END BottomNotationFrameHeight
+%BEGIN BottomNotationFrameDepth
+0
+%END BottomNotationFrameDepth
+
+%END FontInfo
+
+%
+% EPS preamble (defining additional commands
+% for the following symbols):
+%
+
+%BEGIN EpsPreamble
+%END EpsPreamble
+
+%
+% Definitions of the single characters:
+%
+
+%BEGIN BS : Black square
+  gsave newpath 
+	0 103 moveto
+	 2048 103 lineto
+	 2048 35 lineto
+	 0 35 lineto
+	 0 103 lineto
+	closepath
+	0 239 moveto
+	 2048 239 lineto
+	 2048 171 lineto
+	 0 171 lineto
+	 0 239 lineto
+	closepath
+	0 378 moveto
+	 2048 378 lineto
+	 2048 310 lineto
+	 0 310 lineto
+	 0 378 lineto
+	closepath
+	0 513 moveto
+	 2048 513 lineto
+	 2048 446 lineto
+	 0 446 lineto
+	 0 513 lineto
+	closepath
+	0 649 moveto
+	 2048 649 lineto
+	 2048 581 lineto
+	 0 581 lineto
+	 0 649 lineto
+	closepath
+	0 785 moveto
+	 2048 785 lineto
+	 2048 717 lineto
+	 0 717 lineto
+	 0 785 lineto
+	closepath
+	0 924 moveto
+	 2048 924 lineto
+	 2048 856 lineto
+	 0 856 lineto
+	 0 924 lineto
+	closepath
+	0 1060 moveto
+	 2048 1060 lineto
+	 2048 992 lineto
+	 0 992 lineto
+	 0 1060 lineto
+	closepath
+	0 1195 moveto
+	 2048 1195 lineto
+	 2048 1127 lineto
+	 0 1127 lineto
+	 0 1195 lineto
+	closepath
+	0 1331 moveto
+	 2048 1331 lineto
+	 2048 1263 lineto
+	 0 1263 lineto
+	 0 1331 lineto
+	closepath
+	0 1470 moveto
+	 2048 1470 lineto
+	 2048 1402 lineto
+	 0 1402 lineto
+	 0 1470 lineto
+	closepath
+	0 1606 moveto
+	 2048 1606 lineto
+	 2048 1538 lineto
+	 0 1538 lineto
+	 0 1606 lineto
+	closepath
+	0 1742 moveto
+	 2048 1742 lineto
+	 2048 1674 lineto
+	 0 1674 lineto
+	 0 1742 lineto
+	closepath
+	0 1877 moveto
+	 2048 1877 lineto
+	 2048 1809 lineto
+	 0 1809 lineto
+	 0 1877 lineto
+	closepath
+	0 2016 moveto
+	 2048 2016 lineto
+	 2048 1949 lineto
+	 0 1949 lineto
+	 0 2016 lineto
+  closepath fill grestore
+%END BS
+
+%BEGIN WPBS : White pawn on black square
+  gsave newpath 
+	1344 514 moveto
+	 1774 513 lineto
+	 1774 203 lineto
+	 274 203 lineto
+	 274 513 lineto
+	 706 513 lineto
+	 554 618.333 478 766 478 956 curveto
+	 478 1106 531.333 1234.5 638 1341.5 curveto
+	 744.667 1448.5 873.333 1502 1024 1502 curveto
+	 1174 1502 1302.5 1448.5 1409.5 1341.5 curveto
+	 1516.5 1234.5 1570 1106 1570 956 curveto
+	 1570 865.333 1549.33 781.5 1508 704.5 curveto
+	 1466.67 627.5 1412 564 1344 514 curveto
+	closepath
+	1344 410 moveto
+	 1274.67 410 1240 444.333 1240 513 curveto
+	 1240 545 1253 572 1279 594 curveto
+	 1335.67 634.667 1381.17 686.667 1415.5 750 curveto
+	 1449.83 813.333 1467 882 1467 956 curveto
+	 1467 1078 1423.67 1182.33 1337 1269 curveto
+	 1250.33 1355.67 1146 1399 1024 1399 curveto
+	 902 1399 797.667 1355.67 711 1269 curveto
+	 624.333 1182.33 581 1078 581 956 curveto
+	 581 880 598.833 809.667 634.5 745 curveto
+	 670.167 680.333 717.667 628 777 588 curveto
+	 797 566.667 807 541.667 807 513 curveto
+	 807 444.333 773.333 410 706 410 curveto
+	 377 410 lineto
+	 377 306 lineto
+	 1671 306 lineto
+	 1671 410 lineto
+	 1344 410 lineto
+	closepath
+	0 239 moveto
+	 171 239 lineto
+	 171 171 lineto
+	 0 171 lineto
+	 0 239 lineto
+	closepath
+	0 378 moveto
+	 171 378 lineto
+	 171 310 lineto
+	 0 310 lineto
+	 0 378 lineto
+	closepath
+	0 513 moveto
+	 171 513 lineto
+	 171 446 lineto
+	 0 446 lineto
+	 0 513 lineto
+	closepath
+	1555 582 moveto
+	 1561.67 592 1570 602.667 1580 614 curveto
+	 1590 625.333 1599 637 1607 649 curveto
+	 2048 649 lineto
+	 2048 581 lineto
+	 1555 582 lineto
+	closepath
+	494 581 moveto
+	 0 581 lineto
+	 0 649 lineto
+	 448 649 lineto
+	 456.667 633 472 610.333 494 581 curveto
+	closepath
+	741 1540 moveto
+	 0 1538 lineto
+	 0 1606 lineto
+	 957 1604 lineto
+	 881 1594.67 809 1573.33 741 1540 curveto
+	closepath
+	555 1402 moveto
+	 0 1402 lineto
+	 0 1470 lineto
+	 632 1469 lineto
+	 609.333 1455.67 583.667 1433.33 555 1402 curveto
+	closepath
+	455 1263 moveto
+	 0 1263 lineto
+	 0 1331 lineto
+	 495 1332 lineto
+	 485.667 1319.33 472.333 1296.33 455 1263 curveto
+	closepath
+	399 1125 moveto
+	 0 1124 lineto
+	 0 1195 lineto
+	 422 1196 lineto
+	 411.333 1172.67 403.667 1149 399 1125 curveto
+	closepath
+	375 991 moveto
+	 0 992 lineto
+	 0 1060 lineto
+	 381 1060 lineto
+	 376.333 1043.33 374.333 1032.17 375 1026.5 curveto
+	 375.667 1020.83 375.667 1009 375 991 curveto
+	closepath
+	384 856 moveto
+	 0 856 lineto
+	 0 924 lineto
+	 377 924 lineto
+	 377 896.667 379.333 874 384 856 curveto
+	closepath
+	422 716 moveto
+	 0 717 lineto
+	 0 785 lineto
+	 398 781 lineto
+	 402 769.667 405.5 758.667 408.5 748 curveto
+	 411.5 737.333 416 726.667 422 716 curveto
+	closepath
+	1628 717 moveto
+	 1631.33 727 1635.67 737.667 1641 749 curveto
+	 1646.33 760.333 1651.67 772.333 1657 785 curveto
+	 2048 785 lineto
+	 2048 717 lineto
+	 1628 717 lineto
+	closepath
+	1674 991 moveto
+	 1670 1027 lineto
+	 1669.33 1033 1668 1044.33 1666 1061 curveto
+	 2048 1060 lineto
+	 2048 992 lineto
+	 1674 991 lineto
+	closepath
+	1666 858 moveto
+	 1668 874 1669.83 884.833 1671.5 890.5 curveto
+	 1673.17 896.167 1674.67 907.333 1676 924 curveto
+	 2048 924 lineto
+	 2048 856 lineto
+	 1666 858 lineto
+	closepath
+	1651 1122 moveto
+	 1646.33 1142 1640 1166.33 1632 1195 curveto
+	 2048 1195 lineto
+	 2048 1124 lineto
+	 1651 1122 lineto
+	closepath
+	1598 1263 moveto
+	 1591.33 1273 1584.83 1283.83 1578.5 1295.5 curveto
+	 1572.17 1307.17 1565 1319 1557 1331 curveto
+	 2048 1331 lineto
+	 2048 1263 lineto
+	 1598 1263 lineto
+	closepath
+	1490 1402 moveto
+	 1460 1434 1436 1456.67 1418 1470 curveto
+	 2048 1470 lineto
+	 2048 1402 lineto
+	 1490 1402 lineto
+	closepath
+	1312 1538 moveto
+	 1241.33 1572.67 1167.67 1594.67 1091 1604 curveto
+	 2048 1606 lineto
+	 2048 1538 lineto
+	 1312 1538 lineto
+	closepath
+	0 2016 moveto
+	 2048 2016 lineto
+	 2048 1949 lineto
+	 0 1949 lineto
+	 0 2016 lineto
+	closepath
+	0 1877 moveto
+	 2048 1877 lineto
+	 2048 1809 lineto
+	 0 1809 lineto
+	 0 1877 lineto
+	closepath
+	0 1742 moveto
+	 2048 1742 lineto
+	 2048 1674 lineto
+	 0 1674 lineto
+	 0 1742 lineto
+	closepath
+	0 103 moveto
+	 2048 103 lineto
+	 2048 35 lineto
+	 0 35 lineto
+	 0 103 lineto
+	closepath
+	1877 513 moveto
+	 2047 513 lineto
+	 2047 446 lineto
+	 1877 446 lineto
+	 1877 513 lineto
+	closepath
+	1877 378 moveto
+	 2047 378 lineto
+	 2047 310 lineto
+	 1877 310 lineto
+	 1877 378 lineto
+	closepath
+	1877 239 moveto
+	 2047 239 lineto
+	 2047 171 lineto
+	 1877 171 lineto
+	 1877 239 lineto
+  closepath fill grestore
+%END WPBS
+%BEGIN BPBS : Black pawn on black square
+  gsave newpath 
+	1877 239 moveto
+	 2047 239 lineto
+	 2047 171 lineto
+	 1877 171 lineto
+	 1877 239 lineto
+	closepath
+	1877 378 moveto
+	 2047 378 lineto
+	 2047 310 lineto
+	 1877 310 lineto
+	 1877 378 lineto
+	closepath
+	1877 513 moveto
+	 2047 513 lineto
+	 2047 446 lineto
+	 1877 446 lineto
+	 1877 513 lineto
+	closepath
+	0 103 moveto
+	 2048 103 lineto
+	 2048 35 lineto
+	 0 35 lineto
+	 0 103 lineto
+	closepath
+	0 1742 moveto
+	 2048 1742 lineto
+	 2048 1674 lineto
+	 0 1674 lineto
+	 0 1742 lineto
+	closepath
+	0 1877 moveto
+	 2048 1877 lineto
+	 2048 1809 lineto
+	 0 1809 lineto
+	 0 1877 lineto
+	closepath
+	0 2016 moveto
+	 2048 2016 lineto
+	 2048 1949 lineto
+	 0 1949 lineto
+	 0 2016 lineto
+	closepath
+	1312 1538 moveto
+	 1241.33 1572.67 1167.67 1594.67 1091 1604 curveto
+	 2048 1606 lineto
+	 2048 1538 lineto
+	 1312 1538 lineto
+	closepath
+	1490 1402 moveto
+	 1460 1434 1436 1456.67 1418 1470 curveto
+	 2048 1470 lineto
+	 2048 1402 lineto
+	 1490 1402 lineto
+	closepath
+	1598 1263 moveto
+	 1591.33 1273 1584.83 1283.83 1578.5 1295.5 curveto
+	 1572.17 1307.17 1565 1319 1557 1331 curveto
+	 2048 1331 lineto
+	 2048 1263 lineto
+	 1598 1263 lineto
+	closepath
+	1651 1122 moveto
+	 1646.33 1142 1640 1166.33 1632 1195 curveto
+	 2048 1195 lineto
+	 2048 1124 lineto
+	 1651 1122 lineto
+	closepath
+	1666 858 moveto
+	 1668 874 1669.83 884.833 1671.5 890.5 curveto
+	 1673.17 896.167 1674.67 907.333 1676 924 curveto
+	 2048 924 lineto
+	 2048 856 lineto
+	 1666 858 lineto
+	closepath
+	1674 991 moveto
+	 1670 1027 lineto
+	 1669.33 1033 1668 1044.33 1666 1061 curveto
+	 2048 1060 lineto
+	 2048 992 lineto
+	 1674 991 lineto
+	closepath
+	1628 717 moveto
+	 1631.33 727 1635.67 737.667 1641 749 curveto
+	 1646.33 760.333 1651.67 772.333 1657 785 curveto
+	 2048 785 lineto
+	 2048 717 lineto
+	 1628 717 lineto
+	closepath
+	422 716 moveto
+	 0 717 lineto
+	 0 785 lineto
+	 398 781 lineto
+	 402 769.667 405.5 758.667 408.5 748 curveto
+	 411.5 737.333 416 726.667 422 716 curveto
+	closepath
+	384 856 moveto
+	 0 856 lineto
+	 0 924 lineto
+	 377 924 lineto
+	 377 896.667 379.333 874 384 856 curveto
+	closepath
+	375 991 moveto
+	 0 992 lineto
+	 0 1060 lineto
+	 381 1060 lineto
+	 376.333 1043.33 374.333 1032.17 375 1026.5 curveto
+	 375.667 1020.83 375.667 1009 375 991 curveto
+	closepath
+	399 1125 moveto
+	 0 1124 lineto
+	 0 1195 lineto
+	 422 1196 lineto
+	 411.333 1172.67 403.667 1149 399 1125 curveto
+	closepath
+	455 1263 moveto
+	 0 1263 lineto
+	 0 1331 lineto
+	 495 1332 lineto
+	 485.667 1319.33 472.333 1296.33 455 1263 curveto
+	closepath
+	555 1402 moveto
+	 0 1402 lineto
+	 0 1470 lineto
+	 632 1469 lineto
+	 609.333 1455.67 583.667 1433.33 555 1402 curveto
+	closepath
+	741 1540 moveto
+	 0 1538 lineto
+	 0 1606 lineto
+	 957 1604 lineto
+	 881 1594.67 809 1573.33 741 1540 curveto
+	closepath
+	494 581 moveto
+	 0 581 lineto
+	 0 649 lineto
+	 448 649 lineto
+	 456.667 633 472 610.333 494 581 curveto
+	closepath
+	1555 582 moveto
+	 1561.67 592 1570 602.667 1580 614 curveto
+	 1590 625.333 1599 637 1607 649 curveto
+	 2048 649 lineto
+	 2048 581 lineto
+	 1555 582 lineto
+	closepath
+	0 513 moveto
+	 171 513 lineto
+	 171 446 lineto
+	 0 446 lineto
+	 0 513 lineto
+	closepath
+	0 378 moveto
+	 171 378 lineto
+	 171 310 lineto
+	 0 310 lineto
+	 0 378 lineto
+	closepath
+	0 239 moveto
+	 171 239 lineto
+	 171 171 lineto
+	 0 171 lineto
+	 0 239 lineto
+	closepath
+	1344 514 moveto
+	 1774 513 lineto
+	 1774 203 lineto
+	 274 203 lineto
+	 274 513 lineto
+	 706 513 lineto
+	 554 618.333 478 766 478 956 curveto
+	 478 1106 531.333 1234.5 638 1341.5 curveto
+	 744.667 1448.5 873.333 1502 1024 1502 curveto
+	 1174 1502 1302.5 1448.5 1409.5 1341.5 curveto
+	 1516.5 1234.5 1570 1106 1570 956 curveto
+	 1570 865.333 1549.33 781.5 1508 704.5 curveto
+	 1466.67 627.5 1412 564 1344 514 curveto
+  closepath fill grestore
+%END BPBS
+%BEGIN WNBS : White knight on black square
+  gsave newpath 
+	1742 239 moveto
+	 2047 239 lineto
+	 2047 171 lineto
+	 1742 171 lineto
+	 1742 239 lineto
+	closepath
+	0 239 moveto
+	 249 239 lineto
+	 249 171 lineto
+	 0 171 lineto
+	 0 239 lineto
+	closepath
+	0 103 moveto
+	 2048 103 lineto
+	 2048 35 lineto
+	 0 35 lineto
+	 0 103 lineto
+	closepath
+	0 1877 moveto
+	 2048 1877 lineto
+	 2048 1809 lineto
+	 0 1809 lineto
+	 0 1877 lineto
+	closepath
+	0 2016 moveto
+	 2048 2016 lineto
+	 2048 1949 lineto
+	 0 1949 lineto
+	 0 2016 lineto
+	closepath
+	1767 1674 moveto
+	 1757.67 1688 1750.83 1700.33 1746.5 1711 curveto
+	 1742.17 1721.67 1737 1732 1731 1742 curveto
+	 2048 1742 lineto
+	 2048 1674 lineto
+	 1767 1674 lineto
+	closepath
+	1813 1538 moveto
+	 1811 1548 1808.17 1558.67 1804.5 1570 curveto
+	 1800.83 1581.33 1797.67 1593.33 1795 1606 curveto
+	 2048 1606 lineto
+	 2048 1538 lineto
+	 1813 1538 lineto
+	closepath
+	1784 1402 moveto
+	 1788 1418.67 1794 1441 1802 1469 curveto
+	 2048 1470 lineto
+	 2048 1402 lineto
+	 1784 1402 lineto
+	closepath
+	1685 1263 moveto
+	 1704.33 1277.67 1725.67 1300.33 1749 1331 curveto
+	 2048 1331 lineto
+	 2048 1263 lineto
+	 1685 1263 lineto
+	closepath
+	1728 1128 moveto
+	 1725.33 1138 1723 1148.67 1721 1160 curveto
+	 1719 1171.33 1715.33 1183 1710 1195 curveto
+	 2048 1195 lineto
+	 2047 1131 lineto
+	 1728 1128 lineto
+	closepath
+	1721 992 moveto
+	 1727 1006 1732.33 1016.17 1737 1022.5 curveto
+	 1741.67 1028.83 1743.67 1041.33 1743 1060 curveto
+	 2048 1060 lineto
+	 2048 992 lineto
+	 1721 992 lineto
+	closepath
+	1708 924 moveto
+	 2048 924 lineto
+	 2048 856 lineto
+	 1699 858 lineto
+	 1691.67 864 1687.5 869.5 1686.5 874.5 curveto
+	 1685.5 879.5 1682.67 884 1678 888 curveto
+	 1686.67 893.333 1692.17 898.667 1694.5 904 curveto
+	 1696.83 909.333 1701.33 916 1708 924 curveto
+	closepath
+	1717 784 moveto
+	 2048 785 lineto
+	 2048 717 lineto
+	 1738 718 lineto
+	 1735.33 738 1728.33 760 1717 784 curveto
+	closepath
+	1721 581 moveto
+	 1731 610.5 lineto
+	 1735 622.167 1738.67 635 1742 649 curveto
+	 2047 649 lineto
+	 2048 581 lineto
+	 1721 581 lineto
+	closepath
+	1715 444 moveto
+	 1711 468 1707.83 481 1705.5 483 curveto
+	 1703.17 485 1694 495 1678 513 curveto
+	 2048 513 lineto
+	 2048 446 lineto
+	 1715 444 lineto
+	closepath
+	1742 309 moveto
+	 1742 338 lineto
+	 1742 354 1740 367.333 1736 378 curveto
+	 2048 378 lineto
+	 2048 310 lineto
+	 1742 309 lineto
+	closepath
+	1422 1673 moveto
+	 0 1674 lineto
+	 0 1742 lineto
+	 1583 1741 lineto
+	 1527 1711.67 1473.33 1689 1422 1673 curveto
+	closepath
+	638 1538 moveto
+	 0 1538 lineto
+	 0 1606 lineto
+	 1182 1606 lineto
+	 1100.67 1589.33 1015.17 1575 925.5 1563 curveto
+	 835.833 1551 740 1542.67 638 1538 curveto
+	closepath
+	260 1402 moveto
+	 0 1402 lineto
+	 0 1470 lineto
+	 302 1470 lineto
+	 283.333 1453.33 269.333 1430.67 260 1402 curveto
+	closepath
+	235 1263 moveto
+	 0 1263 lineto
+	 0 1331 lineto
+	 237 1331 lineto
+	 233.667 1309 233 1286.33 235 1263 curveto
+	closepath
+	246 1128 moveto
+	 0 1128 lineto
+	 0 1195 lineto
+	 242 1195 lineto
+	 240.667 1165 242 1142.67 246 1128 curveto
+	closepath
+	317 992 moveto
+	 0 992 lineto
+	 0 1060 lineto
+	 269 1060 lineto
+	 277.667 1030 293.667 1007.33 317 992 curveto
+	closepath
+	539 857 moveto
+	 0 856 lineto
+	 0 924 lineto
+	 633 924 lineto
+	 597.667 904 566.333 881.667 539 857 curveto
+	closepath
+	409 717 moveto
+	 0 717 lineto
+	 0 785 lineto
+	 469 785 lineto
+	 438 753 lineto
+	 426.667 741.667 417 729.667 409 717 curveto
+	closepath
+	337 582 moveto
+	 0 581 lineto
+	 0 649 lineto
+	 373 649 lineto
+	 355.667 622.333 343.667 600 337 582 curveto
+	closepath
+	290 446 moveto
+	 0 446 lineto
+	 0 513 lineto
+	 317 513 lineto
+	 301 479 lineto
+	 295.667 467.667 292 456.667 290 446 curveto
+	closepath
+	256 310 moveto
+	 0 310 lineto
+	 0 378 lineto
+	 278 378 lineto
+	 274 364.667 269.333 352.5 264 341.5 curveto
+	 258.667 330.5 256 320 256 310 curveto
+	closepath
+	1127 1209 moveto
+	 1057 1195.67 1019 1208 1013 1246 curveto
+	 1006.33 1283.33 1038 1308.67 1108 1322 curveto
+	 1176.67 1335.33 1214.33 1323 1221 1285 curveto
+	 1227 1246.33 1195.67 1221 1127 1209 curveto
+	closepath
+	1536 303 moveto
+	 1536 369 1508 401.667 1452 401 curveto
+	 1390 399.667 1359 432 1359 498 curveto
+	 1359 563.333 1390 596 1452 596 curveto
+	 1513.33 596.667 1544 629.667 1544 695 curveto
+	 1544 761 1513.33 793 1452 791 curveto
+	 1390 788.333 1359 820.333 1359 887 curveto
+	 1359 953 1391 986 1455 986 curveto
+	 1514.33 984.667 1544 1016.33 1544 1081 curveto
+	 1544 1146.33 1513.33 1179 1452 1179 curveto
+	 1390 1177.67 1359 1210 1359 1276 curveto
+	 1359 1340.67 1390 1373.67 1452 1375 curveto
+	 1494 1375.67 1530 1391.83 1560 1423.5 curveto
+	 1590 1455.17 1605.33 1492 1606 1534 curveto
+	 1486 1470.67 1328.33 1420.83 1133 1384.5 curveto
+	 937.667 1348.17 734.333 1334 523 1342 curveto
+	 461 1346.67 430 1322.67 430 1270 curveto
+	 430 1249.33 430.5 1221.33 431.5 1186 curveto
+	 432.5 1150.67 454.667 1136 498 1142 curveto
+	 534 1131.33 569.167 1129.83 603.5 1137.5 curveto
+	 637.833 1145.17 674 1152.67 712 1160 curveto
+	 740.667 1092 787.5 1043.67 852.5 1015 curveto
+	 917.5 986.333 982 988 1046 1020 curveto
+	 1118 1023.33 1154 989.667 1154 919 curveto
+	 1154 848.333 1118 810.333 1046 805 curveto
+	 864 807 729 760.667 641 666 curveto
+	 553 571.333 498 451 476 305 curveto
+	 1536 303 lineto
+	closepath
+	1639 205 moveto
+	 349 203 lineto
+	 360.333 379.667 409.833 535.333 497.5 670 curveto
+	 585.167 804.667 719.667 883 901 905 curveto
+	 852.333 910.333 806.833 925.667 764.5 951 curveto
+	 722.167 976.333 690 1013 668 1061 curveto
+	 646 1059 619.667 1053 589 1043 curveto
+	 558.333 1033 525.667 1034 491 1046 curveto
+	 415 1042 369.5 1067 354.5 1121 curveto
+	 339.5 1175 332 1225.33 332 1272 curveto
+	 332 1318.67 347.667 1358.83 379 1392.5 curveto
+	 410.333 1426.17 449 1444.33 495 1447 curveto
+	 747 1443 980.167 1462.17 1194.5 1504.5 curveto
+	 1408.83 1546.83 1563 1607.67 1657 1687 curveto
+	 1685 1639 1699 1589.67 1699 1539 curveto
+	 1699 1473.67 1678.83 1416.5 1638.5 1367.5 curveto
+	 1598.17 1318.5 1548.33 1289 1489 1279 curveto
+	 1531 1269 1566.33 1245.83 1595 1209.5 curveto
+	 1623.67 1173.17 1638 1131.67 1638 1085 curveto
+	 1638 1037 1623.67 995 1595 959 curveto
+	 1566.33 923 1531 900 1489 890 curveto
+	 1531 879.333 1566.33 856 1595 820 curveto
+	 1623.67 784 1638 742.333 1638 695 curveto
+	 1638 647 1623.67 605 1595 569 curveto
+	 1566.33 533 1531 510 1489 500 curveto
+	 1531 489.333 1566.17 465.833 1594.5 429.5 curveto
+	 1622.83 393.167 1637 351.667 1637 305 curveto
+	 1639 205 lineto
+  closepath fill grestore
+%END WNBS
+%BEGIN BNBS : Black knight on black square
+  gsave newpath 
+	1127 1206 moveto
+	 1199.67 1219.33 1232.67 1246 1226 1286 curveto
+	 1219.33 1325.33 1179.67 1338.33 1107 1325 curveto
+	 1033.67 1311 1000.67 1284.33 1008 1245 curveto
+	 1015.33 1204.33 1055 1191.33 1127 1206 curveto
+	closepath
+	1639 205 moveto
+	 349 203 lineto
+	 360.333 379.667 409.833 535.333 497.5 670 curveto
+	 585.167 804.667 719.667 883 901 905 curveto
+	 852.333 910.333 806.833 925.667 764.5 951 curveto
+	 722.167 976.333 690 1013 668 1061 curveto
+	 646 1059 619.667 1053 589 1043 curveto
+	 558.333 1033 525.667 1034 491 1046 curveto
+	 415 1042 369.5 1067 354.5 1121 curveto
+	 339.5 1175 332 1225.33 332 1272 curveto
+	 332 1318.67 347.667 1358.83 379 1392.5 curveto
+	 410.333 1426.17 449 1444.33 495 1447 curveto
+	 747 1443 980.167 1462.17 1194.5 1504.5 curveto
+	 1408.83 1546.83 1563 1607.67 1657 1687 curveto
+	 1685 1639 1699 1589.67 1699 1539 curveto
+	 1699 1473.67 1678.83 1416.5 1638.5 1367.5 curveto
+	 1598.17 1318.5 1548.33 1289 1489 1279 curveto
+	 1531 1269 1566.33 1245.83 1595 1209.5 curveto
+	 1623.67 1173.17 1638 1131.67 1638 1085 curveto
+	 1638 1037 1623.67 995 1595 959 curveto
+	 1566.33 923 1531 900 1489 890 curveto
+	 1531 879.333 1566.33 856 1595 820 curveto
+	 1623.67 784 1638 742.333 1638 695 curveto
+	 1638 647 1623.67 605 1595 569 curveto
+	 1566.33 533 1531 510 1489 500 curveto
+	 1531 489.333 1566.17 465.833 1594.5 429.5 curveto
+	 1622.83 393.167 1637 351.667 1637 305 curveto
+	 1639 205 lineto
+	closepath
+	256 310 moveto
+	 0 310 lineto
+	 0 378 lineto
+	 278 378 lineto
+	 274 364.667 269.333 352.5 264 341.5 curveto
+	 258.667 330.5 256 320 256 310 curveto
+	closepath
+	290 446 moveto
+	 0 446 lineto
+	 0 513 lineto
+	 317 513 lineto
+	 301 479 lineto
+	 295.667 467.667 292 456.667 290 446 curveto
+	closepath
+	337 582 moveto
+	 0 581 lineto
+	 0 649 lineto
+	 373 649 lineto
+	 355.667 622.333 343.667 600 337 582 curveto
+	closepath
+	409 717 moveto
+	 0 717 lineto
+	 0 785 lineto
+	 469 785 lineto
+	 438 753 lineto
+	 426.667 741.667 417 729.667 409 717 curveto
+	closepath
+	539 857 moveto
+	 0 856 lineto
+	 0 924 lineto
+	 633 924 lineto
+	 597.667 904 566.333 881.667 539 857 curveto
+	closepath
+	317 992 moveto
+	 0 992 lineto
+	 0 1060 lineto
+	 269 1060 lineto
+	 277.667 1030 293.667 1007.33 317 992 curveto
+	closepath
+	246 1128 moveto
+	 0 1128 lineto
+	 0 1195 lineto
+	 242 1195 lineto
+	 240.667 1165 242 1142.67 246 1128 curveto
+	closepath
+	235 1263 moveto
+	 0 1263 lineto
+	 0 1331 lineto
+	 237 1331 lineto
+	 233.667 1309 233 1286.33 235 1263 curveto
+	closepath
+	260 1402 moveto
+	 0 1402 lineto
+	 0 1470 lineto
+	 302 1470 lineto
+	 283.333 1453.33 269.333 1430.67 260 1402 curveto
+	closepath
+	638 1538 moveto
+	 0 1538 lineto
+	 0 1606 lineto
+	 1182 1606 lineto
+	 1100.67 1589.33 1015.17 1575 925.5 1563 curveto
+	 835.833 1551 740 1542.67 638 1538 curveto
+	closepath
+	1422 1673 moveto
+	 0 1674 lineto
+	 0 1742 lineto
+	 1583 1741 lineto
+	 1527 1711.67 1473.33 1689 1422 1673 curveto
+	closepath
+	1742 309 moveto
+	 1742 338 lineto
+	 1742 354 1740 367.333 1736 378 curveto
+	 2048 378 lineto
+	 2048 310 lineto
+	 1742 309 lineto
+	closepath
+	1715 444 moveto
+	 1711 468 1707.83 481 1705.5 483 curveto
+	 1703.17 485 1694 495 1678 513 curveto
+	 2048 513 lineto
+	 2048 446 lineto
+	 1715 444 lineto
+	closepath
+	1721 581 moveto
+	 1731 610.5 lineto
+	 1735 622.167 1738.67 635 1742 649 curveto
+	 2047 649 lineto
+	 2048 581 lineto
+	 1721 581 lineto
+	closepath
+	1717 784 moveto
+	 2048 785 lineto
+	 2048 717 lineto
+	 1738 718 lineto
+	 1735.33 738 1728.33 760 1717 784 curveto
+	closepath
+	1708 924 moveto
+	 2047 924 lineto
+	 2047 856 lineto
+	 1699 858 lineto
+	 1691.67 864 1684.83 869.333 1678.5 874 curveto
+	 1672.17 878.667 1666.67 883 1662 887 curveto
+	 1678.67 895.667 1694 908 1708 924 curveto
+	closepath
+	1721 992 moveto
+	 1727 1006 1732.33 1016.17 1737 1022.5 curveto
+	 1741.67 1028.83 1743.67 1041.33 1743 1060 curveto
+	 2048 1060 lineto
+	 2048 992 lineto
+	 1721 992 lineto
+	closepath
+	1728 1128 moveto
+	 1725.33 1138 1723 1148.67 1721 1160 curveto
+	 1719 1171.33 1715.33 1183 1710 1195 curveto
+	 2048 1195 lineto
+	 2047 1131 lineto
+	 1728 1128 lineto
+	closepath
+	1685 1263 moveto
+	 1704.33 1277.67 1725.67 1300.33 1749 1331 curveto
+	 2048 1331 lineto
+	 2048 1263 lineto
+	 1685 1263 lineto
+	closepath
+	1784 1402 moveto
+	 1788 1418.67 1794 1441 1802 1469 curveto
+	 2048 1470 lineto
+	 2048 1402 lineto
+	 1784 1402 lineto
+	closepath
+	1813 1538 moveto
+	 1811 1548 1808.17 1558.67 1804.5 1570 curveto
+	 1800.83 1581.33 1797.67 1593.33 1795 1606 curveto
+	 2048 1606 lineto
+	 2048 1538 lineto
+	 1813 1538 lineto
+	closepath
+	1767 1674 moveto
+	 1757.67 1688 1750.83 1700.33 1746.5 1711 curveto
+	 1742.17 1721.67 1737 1732 1731 1742 curveto
+	 2048 1742 lineto
+	 2048 1674 lineto
+	 1767 1674 lineto
+	closepath
+	0 2016 moveto
+	 2048 2016 lineto
+	 2048 1949 lineto
+	 0 1949 lineto
+	 0 2016 lineto
+	closepath
+	0 1877 moveto
+	 2048 1877 lineto
+	 2048 1809 lineto
+	 0 1809 lineto
+	 0 1877 lineto
+	closepath
+	0 103 moveto
+	 2048 103 lineto
+	 2048 35 lineto
+	 0 35 lineto
+	 0 103 lineto
+	closepath
+	0 239 moveto
+	 249 239 lineto
+	 249 171 lineto
+	 0 171 lineto
+	 0 239 lineto
+	closepath
+	1742 239 moveto
+	 2047 239 lineto
+	 2047 171 lineto
+	 1742 171 lineto
+	 1742 239 lineto
+  closepath fill grestore
+%END BNBS
+%BEGIN WBBS : White bishop on black square
+  gsave newpath 
+	1710 238 moveto
+	 2048 239 lineto
+	 2048 174 lineto
+	 1681 171 lineto
+	 1710 238 lineto
+	closepath
+	1752 378 moveto
+	 2048 378 lineto
+	 2048 310 lineto
+	 1732 309 lineto
+	 1733.33 319 1736.17 330 1740.5 342 curveto
+	 1744.83 354 1748.67 366 1752 378 curveto
+	closepath
+	1768 515 moveto
+	 2048 513 lineto
+	 2048 446 lineto
+	 1758 445 lineto
+	 1762 478.333 1765.33 501.667 1768 515 curveto
+	closepath
+	1772 650 moveto
+	 2055 653 lineto
+	 2048 581 lineto
+	 1772 581 lineto
+	 1769.33 604.333 1769.33 627.333 1772 650 curveto
+	closepath
+	1761 783 moveto
+	 2048 785 lineto
+	 2048 717 lineto
+	 1767 717 lineto
+	 1765 727 1763.67 737.333 1763 748 curveto
+	 1762.33 758.667 1761.67 770.333 1761 783 curveto
+	closepath
+	1733 924 moveto
+	 2048 924 lineto
+	 2048 856 lineto
+	 1749 856 lineto
+	 1740.5 889 lineto
+	 1737.5 900.333 1735 912 1733 924 curveto
+	closepath
+	1692 1060 moveto
+	 2048 1060 lineto
+	 2048 992 lineto
+	 1717 992 lineto
+	 1714.33 997.333 1711 1006 1707 1018 curveto
+	 1703 1030 1698 1044 1692 1060 curveto
+	closepath
+	1617 1195 moveto
+	 2048 1195 lineto
+	 2040 1131 lineto
+	 1653 1128 lineto
+	 1647 1140 1641 1151.17 1635 1161.5 curveto
+	 1629 1171.83 1623 1183 1617 1195 curveto
+	closepath
+	1540 1332 moveto
+	 2048 1331 lineto
+	 2048 1263 lineto
+	 1586 1260 lineto
+	 1577.33 1272 1569.17 1284.5 1561.5 1297.5 curveto
+	 1553.83 1310.5 1546.67 1322 1540 1332 curveto
+	closepath
+	1418 1470 moveto
+	 2048 1470 lineto
+	 2048 1402 lineto
+	 1482 1402 lineto
+	 1470.67 1416 1449.33 1438.67 1418 1470 curveto
+	closepath
+	1251 1606 moveto
+	 2048 1606 lineto
+	 2048 1538 lineto
+	 1345 1539 lineto
+	 1296 1574 lineto
+	 1251 1606 lineto
+	closepath
+	341 239 moveto
+	 345 226.333 349.667 214.333 355 203 curveto
+	 370 171 lineto
+	 0 171 lineto
+	 0 239 lineto
+	 341 239 lineto
+	closepath
+	306 378 moveto
+	 308 366.667 309.667 355.333 311 344 curveto
+	 312.333 332.667 315 321.667 319 311 curveto
+	 0 310 lineto
+	 0 378 lineto
+	 306 378 lineto
+	closepath
+	284 517 moveto
+	 285.333 504.333 286.167 491.833 286.5 479.5 curveto
+	 286.833 467.167 288.667 456 292 446 curveto
+	 0 446 lineto
+	 0 513 lineto
+	 284 517 lineto
+	closepath
+	273 650 moveto
+	 271 634 271 610.667 273 580 curveto
+	 0 581 lineto
+	 0 649 lineto
+	 273 650 lineto
+	closepath
+	281 785 moveto
+	 277.667 758.333 276.667 735.667 278 717 curveto
+	 0 717 lineto
+	 0 785 lineto
+	 281 785 lineto
+	closepath
+	306 924 moveto
+	 299.333 899.333 295.667 876.667 295 856 curveto
+	 0 856 lineto
+	 0 924 lineto
+	 306 924 lineto
+	closepath
+	349 1060 moveto
+	 339 1038 331.667 1015.33 327 992 curveto
+	 0 992 lineto
+	 0 1060 lineto
+	 349 1060 lineto
+	closepath
+	412 1195 moveto
+	 393.333 1167.67 380.333 1145.33 373 1128 curveto
+	 0 1128 lineto
+	 0 1195 lineto
+	 412 1195 lineto
+	closepath
+	495 1332 moveto
+	 475 1304 460 1281 450 1263 curveto
+	 0 1263 lineto
+	 0 1331 lineto
+	 495 1332 lineto
+	closepath
+	622 1470 moveto
+	 593.333 1444.67 569.667 1422 551 1402 curveto
+	 0 1402 lineto
+	 0 1470 lineto
+	 622 1470 lineto
+	closepath
+	692 1538 moveto
+	 0 1538 lineto
+	 0 1606 lineto
+	 782 1605 lineto
+	 752 1585 722 1562.67 692 1538 curveto
+	closepath
+	0 2016 moveto
+	 2048 2016 lineto
+	 2048 1949 lineto
+	 0 1949 lineto
+	 0 2016 lineto
+	closepath
+	0 1877 moveto
+	 2048 1877 lineto
+	 2048 1809 lineto
+	 0 1809 lineto
+	 0 1877 lineto
+	closepath
+	1130 1674 moveto
+	 1081.5 1694 lineto
+	 1065.17 1700.67 1046 1707.67 1024 1715 curveto
+	 1002 1709 982.333 1702.33 965 1695 curveto
+	 915 1673 lineto
+	 0 1674 lineto
+	 0 1742 lineto
+	 2048 1742 lineto
+	 2048 1674 lineto
+	 1130 1674 lineto
+	closepath
+	0 103 moveto
+	 2048 103 lineto
+	 2048 35 lineto
+	 0 35 lineto
+	 0 103 lineto
+	closepath
+	1549 203 moveto
+	 501 203 lineto
+	 434.333 324.333 394.833 456.5 382.5 599.5 curveto
+	 370.167 742.5 389.667 884.333 441 1025 curveto
+	 492.333 1165.67 569.333 1285.83 672 1385.5 curveto
+	 774.667 1485.17 892 1560 1024 1610 curveto
+	 1154.67 1554 1270.33 1475.67 1371 1375 curveto
+	 1471.67 1274.33 1547.67 1154 1599 1014 curveto
+	 1649 875.333 1668.67 735.5 1658 594.5 curveto
+	 1647.33 453.5 1611 323 1549 203 curveto
+	closepath
+	562 306 moveto
+	 1500 303 lineto
+	 1586.67 518.333 1587.67 743.667 1503 979 curveto
+	 1459 1099.67 1395 1205.33 1311 1296 curveto
+	 1227 1386.67 1131.33 1458 1024 1510 curveto
+	 916.667 1463.33 819.833 1395.17 733.5 1305.5 curveto
+	 647.167 1215.83 582 1110.67 538 990 curveto
+	 495.333 874 477 756.667 483 638 curveto
+	 489 519.333 515.333 408.667 562 306 curveto
+	closepath
+	926 533 moveto
+	 906 571.667 909 626.5 935 697.5 curveto
+	 961 768.5 968 822.333 956 859 curveto
+	 944 895 923.833 892.833 895.5 852.5 curveto
+	 867.167 812.167 844.667 803 828 825 curveto
+	 810.667 846.333 802 878.833 802 922.5 curveto
+	 802 966.167 810.667 999 828 1021 curveto
+	 844.667 1042.33 866.167 1038.17 892.5 1008.5 curveto
+	 918.833 978.833 940 972 956 988 curveto
+	 972 1002.67 965.5 1023.5 936.5 1050.5 curveto
+	 907.5 1077.5 904 1099.33 926 1116 curveto
+	 947.333 1132.67 979.833 1141 1023.5 1141 curveto
+	 1067.17 1141 1100 1132.67 1122 1116 curveto
+	 1143.33 1099.33 1139.5 1077.5 1110.5 1050.5 curveto
+	 1081.5 1023.5 1075 1002.67 1091 988 curveto
+	 1107 972 1128.17 978.833 1154.5 1008.5 curveto
+	 1180.83 1038.17 1202.67 1042.33 1220 1021 curveto
+	 1236.67 999 1245 966.167 1245 922.5 curveto
+	 1245 878.833 1236.67 846.333 1220 825 curveto
+	 1202.67 803 1179.83 812.167 1151.5 852.5 curveto
+	 1123.17 892.833 1103 895 1091 859 curveto
+	 1079 822.333 1086 768.5 1112 697.5 curveto
+	 1138 626.5 1141.33 571.667 1122 533 curveto
+	 1102 493.667 1069.17 474 1023.5 474 curveto
+	 977.833 474 945.333 493.667 926 533 curveto
+  closepath fill grestore
+%END WBBS
+%BEGIN BBBS : Black bishop on black square
+  gsave newpath 
+	1549 203 moveto
+	 501 203 lineto
+	 434.333 324.333 394.833 456.5 382.5 599.5 curveto
+	 370.167 742.5 389.667 884.333 441 1025 curveto
+	 492.333 1165.67 569.333 1285.83 672 1385.5 curveto
+	 774.667 1485.17 892 1560 1024 1610 curveto
+	 1154.67 1554 1270.33 1475.67 1371 1375 curveto
+	 1471.67 1274.33 1547.67 1154 1599 1014 curveto
+	 1649 875.333 1668.67 735.5 1658 594.5 curveto
+	 1647.33 453.5 1611 323 1549 203 curveto
+	closepath
+	921 519 moveto
+	 941.667 478.333 975.833 458 1023.5 458 curveto
+	 1071.17 458 1105.67 478.333 1127 519 curveto
+	 1147 559.667 1143.33 617.333 1116 692 curveto
+	 1088.67 766.667 1081.67 823 1095 861 curveto
+	 1107 899 1128 897 1158 855 curveto
+	 1188 813 1212 803.333 1230 826 curveto
+	 1247.33 848 1256 882.167 1256 928.5 curveto
+	 1256 974.833 1247.33 1009.33 1230 1032 curveto
+	 1212 1054 1189 1049.67 1161 1019 curveto
+	 1133 988.333 1111 981 1095 997 curveto
+	 1077.67 1013 1084.17 1035 1114.5 1063 curveto
+	 1144.83 1091 1149 1114 1127 1132 curveto
+	 1104.33 1149.33 1069.83 1158 1023.5 1158 curveto
+	 977.167 1158 943 1149.33 921 1132 curveto
+	 899 1114 902.833 1091 932.5 1063 curveto
+	 962.167 1035 969 1013 953 997 curveto
+	 936.333 981 914.167 988.333 886.5 1019 curveto
+	 858.833 1049.67 836.333 1054 819 1032 curveto
+	 801 1009.33 792 974.833 792 928.5 curveto
+	 792 882.167 801 848 819 826 curveto
+	 836.333 803.333 859.833 813 889.5 855 curveto
+	 919.167 897 940.333 899 953 861 curveto
+	 965 823 957.5 766.667 930.5 692 curveto
+	 903.5 617.333 900.333 559.667 921 519 curveto
+	closepath
+	0 103 moveto
+	 2048 103 lineto
+	 2048 35 lineto
+	 0 35 lineto
+	 0 103 lineto
+	closepath
+	1130 1674 moveto
+	 1081.5 1694 lineto
+	 1065.17 1700.67 1046 1707.67 1024 1715 curveto
+	 1002 1709 982.333 1702.33 965 1695 curveto
+	 915 1673 lineto
+	 0 1674 lineto
+	 0 1742 lineto
+	 2048 1742 lineto
+	 2048 1674 lineto
+	 1130 1674 lineto
+	closepath
+	0 1877 moveto
+	 2048 1877 lineto
+	 2048 1809 lineto
+	 0 1809 lineto
+	 0 1877 lineto
+	closepath
+	0 2016 moveto
+	 2048 2016 lineto
+	 2048 1949 lineto
+	 0 1949 lineto
+	 0 2016 lineto
+	closepath
+	692 1538 moveto
+	 0 1538 lineto
+	 0 1606 lineto
+	 782 1605 lineto
+	 752 1585 722 1562.67 692 1538 curveto
+	closepath
+	622 1470 moveto
+	 593.333 1444.67 569.667 1422 551 1402 curveto
+	 0 1402 lineto
+	 0 1470 lineto
+	 622 1470 lineto
+	closepath
+	495 1332 moveto
+	 475 1304 460 1281 450 1263 curveto
+	 0 1263 lineto
+	 0 1331 lineto
+	 495 1332 lineto
+	closepath
+	412 1195 moveto
+	 393.333 1167.67 380.333 1145.33 373 1128 curveto
+	 0 1128 lineto
+	 0 1195 lineto
+	 412 1195 lineto
+	closepath
+	349 1060 moveto
+	 339 1038 331.667 1015.33 327 992 curveto
+	 0 992 lineto
+	 0 1060 lineto
+	 349 1060 lineto
+	closepath
+	306 924 moveto
+	 299.333 899.333 295.667 876.667 295 856 curveto
+	 0 856 lineto
+	 0 924 lineto
+	 306 924 lineto
+	closepath
+	281 785 moveto
+	 277.667 758.333 276.667 735.667 278 717 curveto
+	 0 717 lineto
+	 0 785 lineto
+	 281 785 lineto
+	closepath
+	273 650 moveto
+	 271 634 271 610.667 273 580 curveto
+	 0 581 lineto
+	 0 649 lineto
+	 273 650 lineto
+	closepath
+	284 517 moveto
+	 285.333 504.333 286.167 491.833 286.5 479.5 curveto
+	 286.833 467.167 288.667 456 292 446 curveto
+	 0 446 lineto
+	 0 513 lineto
+	 284 517 lineto
+	closepath
+	306 378 moveto
+	 308 366.667 309.667 355.333 311 344 curveto
+	 312.333 332.667 315 321.667 319 311 curveto
+	 0 310 lineto
+	 0 378 lineto
+	 306 378 lineto
+	closepath
+	341 239 moveto
+	 345 226.333 349.667 214.333 355 203 curveto
+	 370 171 lineto
+	 0 171 lineto
+	 0 239 lineto
+	 341 239 lineto
+	closepath
+	1251 1606 moveto
+	 2048 1606 lineto
+	 2048 1538 lineto
+	 1345 1539 lineto
+	 1296 1574 lineto
+	 1251 1606 lineto
+	closepath
+	1418 1470 moveto
+	 2048 1470 lineto
+	 2048 1402 lineto
+	 1482 1402 lineto
+	 1470.67 1416 1449.33 1438.67 1418 1470 curveto
+	closepath
+	1540 1332 moveto
+	 2048 1331 lineto
+	 2048 1263 lineto
+	 1586 1260 lineto
+	 1577.33 1272 1569.17 1284.5 1561.5 1297.5 curveto
+	 1553.83 1310.5 1546.67 1322 1540 1332 curveto
+	closepath
+	1617 1195 moveto
+	 2048 1195 lineto
+	 2040 1131 lineto
+	 1653 1128 lineto
+	 1647 1140 1641 1151.17 1635 1161.5 curveto
+	 1629 1171.83 1623 1183 1617 1195 curveto
+	closepath
+	1692 1060 moveto
+	 2048 1060 lineto
+	 2048 992 lineto
+	 1717 992 lineto
+	 1714.33 997.333 1711 1006 1707 1018 curveto
+	 1703 1030 1698 1044 1692 1060 curveto
+	closepath
+	1733 924 moveto
+	 2048 924 lineto
+	 2048 856 lineto
+	 1749 856 lineto
+	 1740.5 889 lineto
+	 1737.5 900.333 1735 912 1733 924 curveto
+	closepath
+	1761 783 moveto
+	 2048 785 lineto
+	 2048 717 lineto
+	 1767 717 lineto
+	 1765 727 1763.67 737.333 1763 748 curveto
+	 1762.33 758.667 1761.67 770.333 1761 783 curveto
+	closepath
+	1772 650 moveto
+	 2055 653 lineto
+	 2048 581 lineto
+	 1772 581 lineto
+	 1769.33 604.333 1769.33 627.333 1772 650 curveto
+	closepath
+	1768 515 moveto
+	 2048 513 lineto
+	 2048 446 lineto
+	 1758 445 lineto
+	 1762 478.333 1765.33 501.667 1768 515 curveto
+	closepath
+	1752 378 moveto
+	 2048 378 lineto
+	 2048 310 lineto
+	 1732 309 lineto
+	 1733.33 319 1736.17 330 1740.5 342 curveto
+	 1744.83 354 1748.67 366 1752 378 curveto
+	closepath
+	1710 238 moveto
+	 2048 239 lineto
+	 2048 174 lineto
+	 1681 171 lineto
+	 1710 238 lineto
+  closepath fill grestore
+%END BBBS
+%BEGIN WRBS : White rook on black square
+  gsave newpath 
+	0 2016 moveto
+	 2048 2016 lineto
+	 2048 1949 lineto
+	 0 1949 lineto
+	 0 2016 lineto
+	closepath
+	0 1877 moveto
+	 2048 1877 lineto
+	 2048 1809 lineto
+	 0 1809 lineto
+	 0 1877 lineto
+	closepath
+	0 1742 moveto
+	 2048 1742 lineto
+	 2048 1674 lineto
+	 0 1674 lineto
+	 0 1742 lineto
+	closepath
+	0 1606 moveto
+	 2048 1606 lineto
+	 2048 1538 lineto
+	 0 1538 lineto
+	 0 1606 lineto
+	closepath
+	0 103 moveto
+	 2048 103 lineto
+	 2048 35 lineto
+	 0 35 lineto
+	 0 103 lineto
+	closepath
+	0 1331 moveto
+	 171 1331 lineto
+	 171 1263 lineto
+	 0 1263 lineto
+	 0 1331 lineto
+	closepath
+	0 1195 moveto
+	 171 1195 lineto
+	 171 1128 lineto
+	 0 1128 lineto
+	 0 1195 lineto
+	closepath
+	0 1060 moveto
+	 171 1060 lineto
+	 171 992 lineto
+	 0 992 lineto
+	 0 1060 lineto
+	closepath
+	0 924 moveto
+	 171 924 lineto
+	 171 856 lineto
+	 0 856 lineto
+	 0 924 lineto
+	closepath
+	0 785 moveto
+	 171 785 lineto
+	 171 717 lineto
+	 0 717 lineto
+	 0 785 lineto
+	closepath
+	0 649 moveto
+	 171 649 lineto
+	 171 581 lineto
+	 0 581 lineto
+	 0 649 lineto
+	closepath
+	0 513 moveto
+	 171 513 lineto
+	 171 446 lineto
+	 0 446 lineto
+	 0 513 lineto
+	closepath
+	0 378 moveto
+	 171 378 lineto
+	 171 310 lineto
+	 0 310 lineto
+	 0 378 lineto
+	closepath
+	0 239 moveto
+	 171 239 lineto
+	 171 171 lineto
+	 0 171 lineto
+	 0 239 lineto
+	closepath
+	1877 1331 moveto
+	 2047 1331 lineto
+	 2047 1263 lineto
+	 1877 1263 lineto
+	 1877 1331 lineto
+	closepath
+	1877 1195 moveto
+	 2047 1195 lineto
+	 2047 1128 lineto
+	 1877 1128 lineto
+	 1877 1195 lineto
+	closepath
+	1877 1060 moveto
+	 2047 1060 lineto
+	 2047 992 lineto
+	 1877 992 lineto
+	 1877 1060 lineto
+	closepath
+	1877 924 moveto
+	 2047 924 lineto
+	 2047 856 lineto
+	 1877 856 lineto
+	 1877 924 lineto
+	closepath
+	1877 785 moveto
+	 2047 785 lineto
+	 2047 717 lineto
+	 1877 717 lineto
+	 1877 785 lineto
+	closepath
+	1877 649 moveto
+	 2047 649 lineto
+	 2047 581 lineto
+	 1877 581 lineto
+	 1877 649 lineto
+	closepath
+	1877 513 moveto
+	 2047 513 lineto
+	 2047 446 lineto
+	 1877 446 lineto
+	 1877 513 lineto
+	closepath
+	1877 378 moveto
+	 2047 378 lineto
+	 2047 310 lineto
+	 1877 310 lineto
+	 1877 378 lineto
+	closepath
+	1877 239 moveto
+	 2047 239 lineto
+	 2047 171 lineto
+	 1877 171 lineto
+	 1877 239 lineto
+	closepath
+	1774 203 moveto
+	 274 203 lineto
+	 274 1326 lineto
+	 274 1396 308.333 1431 377 1431 curveto
+	 514 1431 lineto
+	 581.333 1431 615 1396 615 1326 curveto
+	 615 881 lineto
+	 853 881 lineto
+	 853 1324 lineto
+	 853 1395.33 888 1431 958 1431 curveto
+	 1093 1431 lineto
+	 1160.33 1431 1194 1396.67 1194 1328 curveto
+	 1194 881 lineto
+	 1433 881 lineto
+	 1433 1326 lineto
+	 1433 1396 1467.67 1431 1537 1431 curveto
+	 1672 1431 lineto
+	 1740 1431 1774 1396 1774 1326 curveto
+	 1774 203 lineto
+	closepath
+	1671 306 moveto
+	 1671 1274 lineto
+	 1671 1310 1654 1328 1620 1328 curveto
+	 1588 1328 lineto
+	 1553.33 1328 1536 1310 1536 1274 curveto
+	 1536 781 lineto
+	 1091 781 lineto
+	 1091 1274 lineto
+	 1091 1310 1074.33 1328 1041 1328 curveto
+	 1008 1328 lineto
+	 973.333 1328 956 1309.67 956 1273 curveto
+	 956 781 lineto
+	 512 781 lineto
+	 512 1275 lineto
+	 512 1310.33 494.667 1328 460 1328 curveto
+	 430 1328 lineto
+	 394.667 1328 377 1310 377 1274 curveto
+	 377 306 lineto
+	 1671 306 lineto
+	closepath
+	0 1470 moveto
+	 171 1470 lineto
+	 171 1402 lineto
+	 0 1402 lineto
+	 0 1470 lineto
+	closepath
+	1877 1470 moveto
+	 2047 1470 lineto
+	 2047 1402 lineto
+	 1877 1402 lineto
+	 1877 1470 lineto
+  closepath fill grestore
+%END WRBS
+%BEGIN BRBS : Black rook on black square
+  gsave newpath 
+	1877 1470 moveto
+	 2047 1470 lineto
+	 2047 1402 lineto
+	 1877 1402 lineto
+	 1877 1470 lineto
+	closepath
+	0 1470 moveto
+	 171 1470 lineto
+	 171 1402 lineto
+	 0 1402 lineto
+	 0 1470 lineto
+	closepath
+	1774 203 moveto
+	 274 203 lineto
+	 274 1326 lineto
+	 274 1396 308.333 1431 377 1431 curveto
+	 514 1431 lineto
+	 581.333 1431 615 1396 615 1326 curveto
+	 615 881 lineto
+	 853 881 lineto
+	 853 1324 lineto
+	 853 1395.33 888 1431 958 1431 curveto
+	 1093 1431 lineto
+	 1160.33 1431 1194 1396.67 1194 1328 curveto
+	 1194 881 lineto
+	 1433 881 lineto
+	 1433 1326 lineto
+	 1433 1396 1467.67 1431 1537 1431 curveto
+	 1672 1431 lineto
+	 1740 1431 1774 1396 1774 1326 curveto
+	 1774 203 lineto
+	closepath
+	1877 239 moveto
+	 2047 239 lineto
+	 2047 171 lineto
+	 1877 171 lineto
+	 1877 239 lineto
+	closepath
+	1877 378 moveto
+	 2047 378 lineto
+	 2047 310 lineto
+	 1877 310 lineto
+	 1877 378 lineto
+	closepath
+	1877 513 moveto
+	 2047 513 lineto
+	 2047 446 lineto
+	 1877 446 lineto
+	 1877 513 lineto
+	closepath
+	1877 649 moveto
+	 2047 649 lineto
+	 2047 581 lineto
+	 1877 581 lineto
+	 1877 649 lineto
+	closepath
+	1877 785 moveto
+	 2047 785 lineto
+	 2047 717 lineto
+	 1877 717 lineto
+	 1877 785 lineto
+	closepath
+	1877 924 moveto
+	 2047 924 lineto
+	 2047 856 lineto
+	 1877 856 lineto
+	 1877 924 lineto
+	closepath
+	1877 1060 moveto
+	 2047 1060 lineto
+	 2047 992 lineto
+	 1877 992 lineto
+	 1877 1060 lineto
+	closepath
+	1877 1195 moveto
+	 2047 1195 lineto
+	 2047 1128 lineto
+	 1877 1128 lineto
+	 1877 1195 lineto
+	closepath
+	1877 1331 moveto
+	 2047 1331 lineto
+	 2047 1263 lineto
+	 1877 1263 lineto
+	 1877 1331 lineto
+	closepath
+	0 239 moveto
+	 171 239 lineto
+	 171 171 lineto
+	 0 171 lineto
+	 0 239 lineto
+	closepath
+	0 378 moveto
+	 171 378 lineto
+	 171 310 lineto
+	 0 310 lineto
+	 0 378 lineto
+	closepath
+	0 513 moveto
+	 171 513 lineto
+	 171 446 lineto
+	 0 446 lineto
+	 0 513 lineto
+	closepath
+	0 649 moveto
+	 171 649 lineto
+	 171 581 lineto
+	 0 581 lineto
+	 0 649 lineto
+	closepath
+	0 785 moveto
+	 171 785 lineto
+	 171 717 lineto
+	 0 717 lineto
+	 0 785 lineto
+	closepath
+	0 924 moveto
+	 171 924 lineto
+	 171 856 lineto
+	 0 856 lineto
+	 0 924 lineto
+	closepath
+	0 1060 moveto
+	 171 1060 lineto
+	 171 992 lineto
+	 0 992 lineto
+	 0 1060 lineto
+	closepath
+	0 1195 moveto
+	 171 1195 lineto
+	 171 1128 lineto
+	 0 1128 lineto
+	 0 1195 lineto
+	closepath
+	0 1331 moveto
+	 171 1331 lineto
+	 171 1263 lineto
+	 0 1263 lineto
+	 0 1331 lineto
+	closepath
+	0 103 moveto
+	 2048 103 lineto
+	 2048 35 lineto
+	 0 35 lineto
+	 0 103 lineto
+	closepath
+	0 1606 moveto
+	 2048 1606 lineto
+	 2048 1538 lineto
+	 0 1538 lineto
+	 0 1606 lineto
+	closepath
+	0 1742 moveto
+	 2048 1742 lineto
+	 2048 1674 lineto
+	 0 1674 lineto
+	 0 1742 lineto
+	closepath
+	0 1877 moveto
+	 2048 1877 lineto
+	 2048 1809 lineto
+	 0 1809 lineto
+	 0 1877 lineto
+	closepath
+	0 2016 moveto
+	 2048 2016 lineto
+	 2048 1949 lineto
+	 0 1949 lineto
+	 0 2016 lineto
+  closepath fill grestore
+%END BRBS
+%BEGIN WQBS : White queen on black square
+  gsave newpath 
+	0 1331 moveto
+	 68 1331 lineto
+	 68 1263 lineto
+	 0 1263 lineto
+	 0 1331 lineto
+	closepath
+	423 171 moveto
+	 0 171 lineto
+	 0 239 lineto
+	 416 239 lineto
+	 416.667 225.667 417.667 213.667 419 203 curveto
+	 423 171 lineto
+	closepath
+	412 308 moveto
+	 0 310 lineto
+	 0 378 lineto
+	 407 378 lineto
+	 407 356.667 408.667 333.333 412 308 curveto
+	closepath
+	395 446 moveto
+	 0 446 lineto
+	 0 513 lineto
+	 384 513 lineto
+	 385.333 501 387.167 489.333 389.5 478 curveto
+	 391.833 466.667 393.667 456 395 446 curveto
+	closepath
+	375 583 moveto
+	 0 581 lineto
+	 0 649 lineto
+	 363 649 lineto
+	 365.667 627 369.667 605 375 583 curveto
+	closepath
+	341 717 moveto
+	 0 717 lineto
+	 0 785 lineto
+	 327 785 lineto
+	 329 775 330.833 764.333 332.5 753 curveto
+	 334.167 741.667 337 729.667 341 717 curveto
+	closepath
+	303 858 moveto
+	 0 856 lineto
+	 0 924 lineto
+	 281 924 lineto
+	 289 892.667 296.333 870.667 303 858 curveto
+	closepath
+	246 992 moveto
+	 0 992 lineto
+	 0 1060 lineto
+	 210 1060 lineto
+	 225.333 1024.67 237.333 1002 246 992 curveto
+	closepath
+	167 1128 moveto
+	 0 1127 lineto
+	 0 1195 lineto
+	 66 1191 lineto
+	 103.333 1169.67 137 1148.67 167 1128 curveto
+	closepath
+	771 1263 moveto
+	 633 1263 lineto
+	 560 1331 lineto
+	 807 1331 lineto
+	 791 1304.33 779 1281.67 771 1263 curveto
+	closepath
+	459 1402 moveto
+	 402.333 1436 349 1458.33 299 1469 curveto
+	 892 1470 lineto
+	 867 1435.5 lineto
+	 858.333 1423.83 851 1412.67 845 1402 curveto
+	 459 1402 lineto
+	closepath
+	68 1402 moveto
+	 0 1402 lineto
+	 0 1470 lineto
+	 201 1468 lineto
+	 120 1448.5 lineto
+	 91.3333 1441.5 74 1426 68 1402 curveto
+	closepath
+	944 1539 moveto
+	 0 1538 lineto
+	 0 1606 lineto
+	 1010 1606 lineto
+	 983.333 1584 961.333 1561.67 944 1539 curveto
+	closepath
+	1980 1331 moveto
+	 2047 1331 lineto
+	 2047 1263 lineto
+	 1980 1263 lineto
+	 1980 1331 lineto
+	closepath
+	1635 171 moveto
+	 1635 181 1634.83 191.5 1634.5 202.5 curveto
+	 1634.17 213.5 1635 225 1637 237 curveto
+	 2048 239 lineto
+	 2047 171 lineto
+	 1635 171 lineto
+	closepath
+	1643 311 moveto
+	 1643 338.333 1645 360.667 1649 378 curveto
+	 2048 378 lineto
+	 2048 310 lineto
+	 1643 311 lineto
+	closepath
+	1656 446 moveto
+	 1656 457.333 1658.83 469.333 1664.5 482 curveto
+	 1670.17 494.667 1674.67 506.333 1678 517 curveto
+	 2048 513 lineto
+	 2048 446 lineto
+	 1656 446 lineto
+	closepath
+	1677 580 moveto
+	 1679 591.333 1682.17 602.667 1686.5 614 curveto
+	 1690.83 625.333 1695 637 1699 649 curveto
+	 2047 649 lineto
+	 2048 581 lineto
+	 1677 580 lineto
+	closepath
+	1706 717 moveto
+	 1706.67 729.667 1714 752.333 1728 785 curveto
+	 2048 785 lineto
+	 2048 717 lineto
+	 1706 717 lineto
+	closepath
+	1750 856 moveto
+	 1757.33 881.333 1766.67 904 1778 924 curveto
+	 2048 924 lineto
+	 2048 856 lineto
+	 1750 856 lineto
+	closepath
+	1792 992 moveto
+	 1812.67 1019.33 1826.67 1042 1834 1060 curveto
+	 2048 1060 lineto
+	 2048 992 lineto
+	 1792 992 lineto
+	closepath
+	1889 1129 moveto
+	 1933.67 1159.67 1966.33 1180.67 1987 1192 curveto
+	 2048 1195 lineto
+	 2048 1127 lineto
+	 1889 1129 lineto
+	closepath
+	1286 1263 moveto
+	 1266.67 1308.33 1254 1331 1248 1331 curveto
+	 1485 1331 lineto
+	 1454.33 1305.67 1431 1283 1415 1263 curveto
+	 1286 1263 lineto
+	closepath
+	1749 1470 moveto
+	 1693.67 1461.33 1639 1439 1585 1403 curveto
+	 1207 1403 lineto
+	 1199 1415 1192.83 1426.67 1188.5 1438 curveto
+	 1184.17 1449.33 1179 1460 1173 1470 curveto
+	 1749 1470 lineto
+	closepath
+	1980 1402 moveto
+	 1976 1422 1957.67 1437.5 1925 1448.5 curveto
+	 1892.33 1459.5 1866.67 1466.67 1848 1470 curveto
+	 2048 1470 lineto
+	 2048 1402 lineto
+	 1980 1402 lineto
+	closepath
+	1115 1537 moveto
+	 1083 1572 lineto
+	 1053 1605 lineto
+	 2048 1606 lineto
+	 2048 1538 lineto
+	 1115 1537 lineto
+	closepath
+	0 2016 moveto
+	 2048 2016 lineto
+	 2048 1949 lineto
+	 0 1949 lineto
+	 0 2016 lineto
+	closepath
+	0 1877 moveto
+	 2048 1877 lineto
+	 2048 1809 lineto
+	 0 1809 lineto
+	 0 1877 lineto
+	closepath
+	0 1742 moveto
+	 2048 1742 lineto
+	 2048 1674 lineto
+	 0 1674 lineto
+	 0 1742 lineto
+	closepath
+	0 103 moveto
+	 2048 103 lineto
+	 2048 35 lineto
+	 0 35 lineto
+	 0 103 lineto
+	closepath
+	1024 1459 moveto
+	 1074.67 1415 1122.5 1346 1167.5 1252 curveto
+	 1212.5 1158 1251.67 1049.67 1285 927 curveto
+	 1387 1079 1487.83 1193.17 1587.5 1269.5 curveto
+	 1687.17 1345.83 1769.67 1369 1835 1339 curveto
+	 1878.33 1318.33 1901.67 1286 1905 1242 curveto
+	 1797.67 1247.33 1708.17 1147.67 1636.5 943 curveto
+	 1564.83 738.333 1530 491.667 1532 203 curveto
+	 520 203 lineto
+	 520 491.667 483.833 738.333 411.5 943 curveto
+	 339.167 1147.67 250 1247.33 144 1242 curveto
+	 146.667 1286 170 1318.33 214 1339 curveto
+	 278.667 1369 361 1345.83 461 1269.5 curveto
+	 561 1193.17 662 1079 764 927 curveto
+	 796.667 1049.67 835.5 1158 880.5 1252 curveto
+	 925.5 1346 973.333 1415 1024 1459 curveto
+	closepath
+	1418 303 moveto
+	 1421.33 496.333 1439.83 660.667 1473.5 796 curveto
+	 1507.17 931.333 1562.33 1052.67 1639 1160 curveto
+	 1637 1175.33 1611.5 1160.67 1562.5 1116 curveto
+	 1513.5 1071.33 1475 1031.33 1447 996 curveto
+	 1404.33 942 1371.33 898.167 1348 864.5 curveto
+	 1324.67 830.833 1293.67 791 1255 745 curveto
+	 1229.67 839 1193 941.667 1145 1053 curveto
+	 1097 1164.33 1056 1238 1022 1274 curveto
+	 987.333 1238 946 1164.33 898 1053 curveto
+	 850 941.667 813.667 839 789 745 curveto
+	 749.667 791 718.5 830.833 695.5 864.5 curveto
+	 672.5 898.167 639.667 942 597 996 curveto
+	 568.333 1031.33 529.5 1071.33 480.5 1116 curveto
+	 431.5 1160.67 406.667 1175.33 406 1160 curveto
+	 480.667 1054 533.833 933 565.5 797 curveto
+	 597.167 661 614 496.333 616 303 curveto
+	 1418 303 lineto
+  closepath fill grestore
+%END WQBS
+%BEGIN BQBS : Black queen on black square
+  gsave newpath 
+	1024 1459 moveto
+	 1074.67 1415 1122.5 1346 1167.5 1252 curveto
+	 1212.5 1158 1251.67 1049.67 1285 927 curveto
+	 1387 1079 1487.83 1193.17 1587.5 1269.5 curveto
+	 1687.17 1345.83 1769.67 1369 1835 1339 curveto
+	 1878.33 1318.33 1901.67 1286 1905 1242 curveto
+	 1797.67 1247.33 1708.17 1147.67 1636.5 943 curveto
+	 1564.83 738.333 1530 491.667 1532 203 curveto
+	 520 203 lineto
+	 520 491.667 483.833 738.333 411.5 943 curveto
+	 339.167 1147.67 250 1247.33 144 1242 curveto
+	 146.667 1286 170 1318.33 214 1339 curveto
+	 278.667 1369 361 1345.83 461 1269.5 curveto
+	 561 1193.17 662 1079 764 927 curveto
+	 796.667 1049.67 835.5 1158 880.5 1252 curveto
+	 925.5 1346 973.333 1415 1024 1459 curveto
+	closepath
+	0 1331 moveto
+	 68 1331 lineto
+	 68 1263 lineto
+	 0 1263 lineto
+	 0 1331 lineto
+	closepath
+	423 171 moveto
+	 0 171 lineto
+	 0 239 lineto
+	 416 239 lineto
+	 416.667 225.667 417.667 213.667 419 203 curveto
+	 423 171 lineto
+	closepath
+	412 308 moveto
+	 0 310 lineto
+	 0 378 lineto
+	 407 378 lineto
+	 407 356.667 408.667 333.333 412 308 curveto
+	closepath
+	395 446 moveto
+	 0 446 lineto
+	 0 513 lineto
+	 384 513 lineto
+	 385.333 501 387.167 489.333 389.5 478 curveto
+	 391.833 466.667 393.667 456 395 446 curveto
+	closepath
+	375 583 moveto
+	 0 581 lineto
+	 0 649 lineto
+	 363 649 lineto
+	 365.667 627 369.667 605 375 583 curveto
+	closepath
+	341 717 moveto
+	 0 717 lineto
+	 0 785 lineto
+	 327 785 lineto
+	 329 775 330.833 764.333 332.5 753 curveto
+	 334.167 741.667 337 729.667 341 717 curveto
+	closepath
+	303 858 moveto
+	 0 856 lineto
+	 0 924 lineto
+	 281 924 lineto
+	 289 892.667 296.333 870.667 303 858 curveto
+	closepath
+	246 992 moveto
+	 0 992 lineto
+	 0 1060 lineto
+	 210 1060 lineto
+	 225.333 1024.67 237.333 1002 246 992 curveto
+	closepath
+	167 1128 moveto
+	 0 1127 lineto
+	 0 1195 lineto
+	 66 1191 lineto
+	 103.333 1169.67 137 1148.67 167 1128 curveto
+	closepath
+	771 1263 moveto
+	 633 1263 lineto
+	 560 1331 lineto
+	 807 1331 lineto
+	 791 1304.33 779 1281.67 771 1263 curveto
+	closepath
+	459 1402 moveto
+	 402.333 1436 349 1458.33 299 1469 curveto
+	 892 1470 lineto
+	 867 1435.5 lineto
+	 858.333 1423.83 851 1412.67 845 1402 curveto
+	 459 1402 lineto
+	closepath
+	68 1402 moveto
+	 0 1402 lineto
+	 0 1470 lineto
+	 201 1468 lineto
+	 120 1448.5 lineto
+	 91.3333 1441.5 74 1426 68 1402 curveto
+	closepath
+	944 1539 moveto
+	 0 1538 lineto
+	 0 1606 lineto
+	 1010 1606 lineto
+	 983.333 1584 961.333 1561.67 944 1539 curveto
+	closepath
+	1980 1331 moveto
+	 2047 1331 lineto
+	 2047 1263 lineto
+	 1980 1263 lineto
+	 1980 1331 lineto
+	closepath
+	1635 171 moveto
+	 1635 181 1634.83 191.5 1634.5 202.5 curveto
+	 1634.17 213.5 1635 225 1637 237 curveto
+	 2048 239 lineto
+	 2047 171 lineto
+	 1635 171 lineto
+	closepath
+	1643 311 moveto
+	 1643 338.333 1645 360.667 1649 378 curveto
+	 2048 378 lineto
+	 2048 310 lineto
+	 1643 311 lineto
+	closepath
+	1656 446 moveto
+	 1656 457.333 1658.83 469.333 1664.5 482 curveto
+	 1670.17 494.667 1674.67 506.333 1678 517 curveto
+	 2048 513 lineto
+	 2048 446 lineto
+	 1656 446 lineto
+	closepath
+	1677 580 moveto
+	 1679 591.333 1682.17 602.667 1686.5 614 curveto
+	 1690.83 625.333 1695 637 1699 649 curveto
+	 2047 649 lineto
+	 2048 581 lineto
+	 1677 580 lineto
+	closepath
+	1706 717 moveto
+	 1706.67 729.667 1714 752.333 1728 785 curveto
+	 2048 785 lineto
+	 2048 717 lineto
+	 1706 717 lineto
+	closepath
+	1750 856 moveto
+	 1757.33 881.333 1766.67 904 1778 924 curveto
+	 2048 924 lineto
+	 2048 856 lineto
+	 1750 856 lineto
+	closepath
+	1792 992 moveto
+	 1812.67 1019.33 1826.67 1042 1834 1060 curveto
+	 2048 1060 lineto
+	 2048 992 lineto
+	 1792 992 lineto
+	closepath
+	1889 1129 moveto
+	 1933.67 1159.67 1966.33 1180.67 1987 1192 curveto
+	 2048 1195 lineto
+	 2048 1127 lineto
+	 1889 1129 lineto
+	closepath
+	1286 1263 moveto
+	 1266.67 1308.33 1254 1331 1248 1331 curveto
+	 1485 1331 lineto
+	 1454.33 1305.67 1431 1283 1415 1263 curveto
+	 1286 1263 lineto
+	closepath
+	1749 1470 moveto
+	 1693.67 1461.33 1639 1439 1585 1403 curveto
+	 1207 1403 lineto
+	 1199 1415 1192.83 1426.67 1188.5 1438 curveto
+	 1184.17 1449.33 1179 1460 1173 1470 curveto
+	 1749 1470 lineto
+	closepath
+	1980 1402 moveto
+	 1976 1422 1957.67 1437.5 1925 1448.5 curveto
+	 1892.33 1459.5 1866.67 1466.67 1848 1470 curveto
+	 2048 1470 lineto
+	 2048 1402 lineto
+	 1980 1402 lineto
+	closepath
+	1115 1537 moveto
+	 1083 1572 lineto
+	 1053 1605 lineto
+	 2048 1606 lineto
+	 2048 1538 lineto
+	 1115 1537 lineto
+	closepath
+	0 2016 moveto
+	 2048 2016 lineto
+	 2048 1949 lineto
+	 0 1949 lineto
+	 0 2016 lineto
+	closepath
+	0 1877 moveto
+	 2048 1877 lineto
+	 2048 1809 lineto
+	 0 1809 lineto
+	 0 1877 lineto
+	closepath
+	0 1742 moveto
+	 2048 1742 lineto
+	 2048 1674 lineto
+	 0 1674 lineto
+	 0 1742 lineto
+	closepath
+	0 103 moveto
+	 2048 103 lineto
+	 2048 35 lineto
+	 0 35 lineto
+	 0 103 lineto
+  closepath fill grestore
+%END BQBS
+%BEGIN WKBS : White king on black square
+  gsave newpath 
+	1245 1195 moveto
+	 1413 1159 1551.83 1088 1661.5 982 curveto
+	 1771.17 876 1826 754.667 1826 618 curveto
+	 1826 536.667 1806.17 460.333 1766.5 389 curveto
+	 1726.83 317.667 1673.33 255.667 1606 203 curveto
+	 430 203 lineto
+	 280.667 316.333 206 454.667 206 618 curveto
+	 206 753.333 259.833 873.667 367.5 979 curveto
+	 475.167 1084.33 612.667 1156 780 1194 curveto
+	 751.333 1218 737 1245.67 737 1277 curveto
+	 737 1318.33 764 1353.83 818 1383.5 curveto
+	 872 1413.17 937.333 1428 1014 1428 curveto
+	 1090 1428 1155.17 1413.17 1209.5 1383.5 curveto
+	 1263.83 1353.83 1291 1318.33 1291 1277 curveto
+	 1291 1244.33 1275.67 1217 1245 1195 curveto
+	closepath
+	1564 323 moveto
+	 1658 407.667 1705 507.667 1705 623 curveto
+	 1705 757 1637.67 871.833 1503 967.5 curveto
+	 1368.33 1063.17 1206 1111 1016 1111 curveto
+	 826 1111 663.667 1063.17 529 967.5 curveto
+	 394.333 871.833 327 757 327 623 curveto
+	 327 510.333 376.667 410.333 476 323 curveto
+	 1564 323 lineto
+	closepath
+	1015 1334 moveto
+	 977 1334 944.833 1328.33 918.5 1317 curveto
+	 892.167 1305.67 879 1292.33 879 1277 curveto
+	 879 1261 892.167 1247.33 918.5 1236 curveto
+	 944.833 1224.67 977 1219 1015 1219 curveto
+	 1052.33 1219 1084.33 1224.67 1111 1236 curveto
+	 1137.67 1247.33 1151 1261 1151 1277 curveto
+	 1151 1292.33 1137.67 1305.67 1111 1317 curveto
+	 1084.33 1328.33 1052.33 1334 1015 1334 curveto
+	closepath
+	836 1539 moveto
+	 819.333 1555 811 1578.83 811 1610.5 curveto
+	 811 1642.17 819.333 1666 836 1682 curveto
+	 852.667 1698 874.667 1695.17 902 1673.5 curveto
+	 929.333 1651.83 951 1648.33 967 1663 curveto
+	 983 1677.67 980 1698.5 958 1725.5 curveto
+	 936 1752.5 933.333 1774 950 1790 curveto
+	 966 1805.33 990.5 1813 1023.5 1813 curveto
+	 1056.5 1813 1081.33 1805.33 1098 1790 curveto
+	 1114 1774 1111.17 1752.5 1089.5 1725.5 curveto
+	 1067.83 1698.5 1065 1677.67 1081 1663 curveto
+	 1096.33 1648.33 1117.67 1651.83 1145 1673.5 curveto
+	 1172.33 1695.17 1194.67 1698 1212 1682 curveto
+	 1228 1666 1236 1642.17 1236 1610.5 curveto
+	 1236 1578.83 1228 1555 1212 1539 curveto
+	 1194.67 1523 1172.5 1525.5 1145.5 1546.5 curveto
+	 1118.5 1567.5 1097 1571.33 1081 1558 curveto
+	 1063.67 1544 1062.83 1519.17 1078.5 1483.5 curveto
+	 1094.17 1447.83 1095 1430 1081 1430 curveto
+	 1065.67 1430 1048.33 1430.83 1029 1432.5 curveto
+	 1009.67 1434.17 989 1433.33 967 1430 curveto
+	 945 1426 943.667 1442.83 963 1480.5 curveto
+	 982.333 1518.17 983.667 1544 967 1558 curveto
+	 950.333 1571.33 928.5 1567.5 901.5 1546.5 curveto
+	 874.5 1525.5 852.667 1523 836 1539 curveto
+	closepath
+	1257 1468 moveto
+	 2048 1468 lineto
+	 2048 1400 lineto
+	 1349 1400 lineto
+	 1330.33 1422 1299.67 1444.67 1257 1468 curveto
+	closepath
+	1383 1329 moveto
+	 2048 1329 lineto
+	 2048 1261 lineto
+	 1403 1261 lineto
+	 1387.67 1291.67 1381 1314.33 1383 1329 curveto
+	closepath
+	1470 1193 moveto
+	 2048 1193 lineto
+	 2048 1125 lineto
+	 1616 1124 lineto
+	 1564 1158 1515.33 1181 1470 1193 curveto
+	closepath
+	1706 1057 moveto
+	 2048 1057 lineto
+	 2048 990 lineto
+	 1767 990 lineto
+	 1752.33 1009.33 1732 1031.67 1706 1057 curveto
+	closepath
+	1821 922 moveto
+	 2048 922 lineto
+	 2048 854 lineto
+	 1855 854 lineto
+	 1849.67 864 1844.17 875 1838.5 887 curveto
+	 1832.83 899 1827 910.667 1821 922 curveto
+	closepath
+	1882 783 moveto
+	 2048 783 lineto
+	 2048 715 lineto
+	 1899 715 lineto
+	 1896.33 725 1893.33 735.667 1890 747 curveto
+	 1886.67 758.333 1884 770.333 1882 783 curveto
+	closepath
+	1913 511 moveto
+	 2048 511 lineto
+	 2048 446 lineto
+	 1887 446 lineto
+	 1889.67 456 1893.83 466.333 1899.5 477 curveto
+	 1905.17 487.667 1909.67 499 1913 511 curveto
+	closepath
+	1866 376 moveto
+	 2048 376 lineto
+	 2048 308 lineto
+	 1827 306 lineto
+	 1831 316 1837 327 1845 339 curveto
+	 1853 351 1860 363.333 1866 376 curveto
+	closepath
+	1771 235 moveto
+	 2048 236 lineto
+	 2048 168 lineto
+	 1707 167 lineto
+	 1727.67 185 1749 207.667 1771 235 curveto
+	closepath
+	1909 647 moveto
+	 2048 647 lineto
+	 2048 579 lineto
+	 1914 579 lineto
+	 1909 647 lineto
+	closepath
+	1312 1606 moveto
+	 2048 1606 lineto
+	 2048 1538 lineto
+	 1305 1540 lineto
+	 1312 1606 lineto
+	closepath
+	1262 1742 moveto
+	 2048 1742 lineto
+	 2048 1674 lineto
+	 1306 1674 lineto
+	 1262 1742 lineto
+	closepath
+	1145 1877 moveto
+	 2048 1877 lineto
+	 2048 1809 lineto
+	 1189 1809 lineto
+	 1145 1877 lineto
+	closepath
+	780 1468 moveto
+	 748 1450 717.667 1427.33 689 1400 curveto
+	 0 1400 lineto
+	 0 1468 lineto
+	 780 1468 lineto
+	closepath
+	648 1330 moveto
+	 644 1318.67 637.833 1306.83 629.5 1294.5 curveto
+	 621.167 1282.17 616.333 1271 615 1261 curveto
+	 0 1261 lineto
+	 0 1329 lineto
+	 648 1330 lineto
+	closepath
+	154 785 moveto
+	 141.5 753 lineto
+	 137.167 742.333 134 731 132 719 curveto
+	 0 717 lineto
+	 0 785 lineto
+	 154 785 lineto
+	closepath
+	174 856 moveto
+	 0 856 lineto
+	 0 924 lineto
+	 208 925 lineto
+	 195.333 900.333 184 877.333 174 856 curveto
+	closepath
+	311 1060 moveto
+	 293 1042.67 275 1020 257 992 curveto
+	 0 992 lineto
+	 0 1060 lineto
+	 311 1060 lineto
+	closepath
+	510 1195 moveto
+	 464 1177.67 422 1155 384 1127 curveto
+	 0 1127 lineto
+	 0 1195 lineto
+	 510 1195 lineto
+	closepath
+	142 517 moveto
+	 143.333 505 143.833 492.667 143.5 480 curveto
+	 143.167 467.333 145.333 456 150 446 curveto
+	 0 446 lineto
+	 0 517 lineto
+	 142 517 lineto
+	closepath
+	182 376 moveto
+	 187.333 363.333 192 351.167 196 339.5 curveto
+	 200 327.833 205 317 211 307 curveto
+	 0 308 lineto
+	 0 376 lineto
+	 182 376 lineto
+	closepath
+	264 235 moveto
+	 286.667 207.667 309 185 331 167 curveto
+	 0 168 lineto
+	 0 236 lineto
+	 264 235 lineto
+	closepath
+	123 647 moveto
+	 123 579 lineto
+	 0 579 lineto
+	 0 646 lineto
+	 123 647 lineto
+	closepath
+	762 1538 moveto
+	 0 1538 lineto
+	 0 1606 lineto
+	 741 1606 lineto
+	 762 1538 lineto
+	closepath
+	740 1674 moveto
+	 0 1674 lineto
+	 0 1742 lineto
+	 771 1742 lineto
+	 740 1674 lineto
+	closepath
+	851 1809 moveto
+	 0 1809 lineto
+	 0 1877 lineto
+	 873 1877 lineto
+	 851 1809 lineto
+	closepath
+	0 2016 moveto
+	 2048 2016 lineto
+	 2048 1949 lineto
+	 0 1949 lineto
+	 0 2016 lineto
+	closepath
+	0 103 moveto
+	 2048 103 lineto
+	 2048 35 lineto
+	 0 35 lineto
+	 0 103 lineto
+  closepath fill grestore
+%END WKBS
+%BEGIN BKBS : Black king on black square
+  gsave newpath 
+	0 103 moveto
+	 2048 103 lineto
+	 2048 35 lineto
+	 0 35 lineto
+	 0 103 lineto
+	closepath
+	0 2016 moveto
+	 2048 2016 lineto
+	 2048 1949 lineto
+	 0 1949 lineto
+	 0 2016 lineto
+	closepath
+	851 1809 moveto
+	 0 1809 lineto
+	 0 1877 lineto
+	 873 1877 lineto
+	 851 1809 lineto
+	closepath
+	740 1674 moveto
+	 0 1674 lineto
+	 0 1742 lineto
+	 771 1742 lineto
+	 740 1674 lineto
+	closepath
+	762 1538 moveto
+	 0 1538 lineto
+	 0 1606 lineto
+	 741 1606 lineto
+	 762 1538 lineto
+	closepath
+	123 647 moveto
+	 123 579 lineto
+	 0 579 lineto
+	 0 646 lineto
+	 123 647 lineto
+	closepath
+	264 235 moveto
+	 286.667 207.667 309 185 331 167 curveto
+	 0 168 lineto
+	 0 236 lineto
+	 264 235 lineto
+	closepath
+	182 376 moveto
+	 187.333 363.333 192 351.167 196 339.5 curveto
+	 200 327.833 205 317 211 307 curveto
+	 0 308 lineto
+	 0 376 lineto
+	 182 376 lineto
+	closepath
+	142 517 moveto
+	 143.333 505 143.833 492.667 143.5 480 curveto
+	 143.167 467.333 145.333 456 150 446 curveto
+	 0 446 lineto
+	 0 517 lineto
+	 142 517 lineto
+	closepath
+	510 1195 moveto
+	 464 1177.67 422 1155 384 1127 curveto
+	 0 1127 lineto
+	 0 1195 lineto
+	 510 1195 lineto
+	closepath
+	311 1060 moveto
+	 293 1042.67 275 1020 257 992 curveto
+	 0 992 lineto
+	 0 1060 lineto
+	 311 1060 lineto
+	closepath
+	174 856 moveto
+	 0 856 lineto
+	 0 924 lineto
+	 208 925 lineto
+	 195.333 900.333 184 877.333 174 856 curveto
+	closepath
+	154 785 moveto
+	 141.5 753 lineto
+	 137.167 742.333 134 731 132 719 curveto
+	 0 717 lineto
+	 0 785 lineto
+	 154 785 lineto
+	closepath
+	648 1330 moveto
+	 644 1318.67 637.833 1306.83 629.5 1294.5 curveto
+	 621.167 1282.17 616.333 1271 615 1261 curveto
+	 0 1261 lineto
+	 0 1329 lineto
+	 648 1330 lineto
+	closepath
+	780 1468 moveto
+	 748 1450 717.667 1427.33 689 1400 curveto
+	 0 1400 lineto
+	 0 1468 lineto
+	 780 1468 lineto
+	closepath
+	1145 1877 moveto
+	 2048 1877 lineto
+	 2048 1809 lineto
+	 1189 1809 lineto
+	 1145 1877 lineto
+	closepath
+	1262 1742 moveto
+	 2048 1742 lineto
+	 2048 1674 lineto
+	 1306 1674 lineto
+	 1262 1742 lineto
+	closepath
+	1312 1606 moveto
+	 2048 1606 lineto
+	 2048 1538 lineto
+	 1305 1540 lineto
+	 1312 1606 lineto
+	closepath
+	1909 647 moveto
+	 2048 647 lineto
+	 2048 579 lineto
+	 1914 579 lineto
+	 1909 647 lineto
+	closepath
+	1771 235 moveto
+	 2048 236 lineto
+	 2048 168 lineto
+	 1707 167 lineto
+	 1727.67 185 1749 207.667 1771 235 curveto
+	closepath
+	1866 376 moveto
+	 2048 376 lineto
+	 2048 308 lineto
+	 1827 306 lineto
+	 1831 316 1837 327 1845 339 curveto
+	 1853 351 1860 363.333 1866 376 curveto
+	closepath
+	1913 511 moveto
+	 2048 511 lineto
+	 2048 446 lineto
+	 1887 446 lineto
+	 1889.67 456 1893.83 466.333 1899.5 477 curveto
+	 1905.17 487.667 1909.67 499 1913 511 curveto
+	closepath
+	1882 783 moveto
+	 2048 783 lineto
+	 2048 715 lineto
+	 1899 715 lineto
+	 1896.33 725 1893.33 735.667 1890 747 curveto
+	 1886.67 758.333 1884 770.333 1882 783 curveto
+	closepath
+	1821 922 moveto
+	 2048 922 lineto
+	 2048 854 lineto
+	 1855 854 lineto
+	 1849.67 864 1844.17 875 1838.5 887 curveto
+	 1832.83 899 1827 910.667 1821 922 curveto
+	closepath
+	1706 1057 moveto
+	 2048 1057 lineto
+	 2048 990 lineto
+	 1767 990 lineto
+	 1752.33 1009.33 1732 1031.67 1706 1057 curveto
+	closepath
+	1470 1193 moveto
+	 2048 1193 lineto
+	 2048 1125 lineto
+	 1616 1124 lineto
+	 1564 1158 1515.33 1181 1470 1193 curveto
+	closepath
+	1383 1329 moveto
+	 2048 1329 lineto
+	 2048 1261 lineto
+	 1403 1261 lineto
+	 1387.67 1291.67 1381 1314.33 1383 1329 curveto
+	closepath
+	1257 1468 moveto
+	 2048 1468 lineto
+	 2048 1400 lineto
+	 1349 1400 lineto
+	 1330.33 1422 1299.67 1444.67 1257 1468 curveto
+	closepath
+	836 1539 moveto
+	 819.333 1555 811 1578.83 811 1610.5 curveto
+	 811 1642.17 819.333 1666 836 1682 curveto
+	 852.667 1698 874.667 1695.17 902 1673.5 curveto
+	 929.333 1651.83 951 1648.33 967 1663 curveto
+	 983 1677.67 980 1698.5 958 1725.5 curveto
+	 936 1752.5 933.333 1774 950 1790 curveto
+	 966 1805.33 990.5 1813 1023.5 1813 curveto
+	 1056.5 1813 1081.33 1805.33 1098 1790 curveto
+	 1114 1774 1111.17 1752.5 1089.5 1725.5 curveto
+	 1067.83 1698.5 1065 1677.67 1081 1663 curveto
+	 1096.33 1648.33 1117.67 1651.83 1145 1673.5 curveto
+	 1172.33 1695.17 1194.67 1698 1212 1682 curveto
+	 1228 1666 1236 1642.17 1236 1610.5 curveto
+	 1236 1578.83 1228 1555 1212 1539 curveto
+	 1194.67 1523 1172.5 1525.5 1145.5 1546.5 curveto
+	 1118.5 1567.5 1097 1571.33 1081 1558 curveto
+	 1063.67 1544 1062.83 1519.17 1078.5 1483.5 curveto
+	 1094.17 1447.83 1095 1430 1081 1430 curveto
+	 1065.67 1430 1048.33 1430.83 1029 1432.5 curveto
+	 1009.67 1434.17 989 1433.33 967 1430 curveto
+	 945 1426 943.667 1442.83 963 1480.5 curveto
+	 982.333 1518.17 983.667 1544 967 1558 curveto
+	 950.333 1571.33 928.5 1567.5 901.5 1546.5 curveto
+	 874.5 1525.5 852.667 1523 836 1539 curveto
+	closepath
+	1245 1195 moveto
+	 1413 1159 1551.83 1088 1661.5 982 curveto
+	 1771.17 876 1826 754.667 1826 618 curveto
+	 1826 536.667 1806.17 460.333 1766.5 389 curveto
+	 1726.83 317.667 1673.33 255.667 1606 203 curveto
+	 430 203 lineto
+	 280.667 316.333 206 454.667 206 618 curveto
+	 206 753.333 259.833 873.667 367.5 979 curveto
+	 475.167 1084.33 612.667 1156 780 1194 curveto
+	 751.333 1218 737 1245.67 737 1277 curveto
+	 737 1318.33 764 1353.83 818 1383.5 curveto
+	 872 1413.17 937.333 1428 1014 1428 curveto
+	 1090 1428 1155.17 1413.17 1209.5 1383.5 curveto
+	 1263.83 1353.83 1291 1318.33 1291 1277 curveto
+	 1291 1244.33 1275.67 1217 1245 1195 curveto
+  closepath fill grestore
+%END BKBS
+
+%BEGIN WS : White square
+%END WS
+
+%BEGIN WPWS : White pawn on white square
+  gsave newpath 
+	1344 410 moveto
+	 1274.67 410 1240 444.333 1240 513 curveto
+	 1240 545 1253 572 1279 594 curveto
+	 1335.67 634.667 1381.17 686.667 1415.5 750 curveto
+	 1449.83 813.333 1467 882 1467 956 curveto
+	 1467 1078 1423.67 1182.33 1337 1269 curveto
+	 1250.33 1355.67 1146 1399 1024 1399 curveto
+	 902 1399 797.667 1355.67 711 1269 curveto
+	 624.333 1182.33 581 1078 581 956 curveto
+	 581 880 598.833 809.667 634.5 745 curveto
+	 670.167 680.333 717.667 628 777 588 curveto
+	 797 566.667 807 541.667 807 513 curveto
+	 807 444.333 773.333 410 706 410 curveto
+	 377 410 lineto
+	 377 306 lineto
+	 1671 306 lineto
+	 1671 410 lineto
+	 1344 410 lineto
+	closepath
+	1344 514 moveto
+	 1774 513 lineto
+	 1774 203 lineto
+	 274 203 lineto
+	 274 513 lineto
+	 706 513 lineto
+	 554 618.333 478 766 478 956 curveto
+	 478 1106 531.333 1234.5 638 1341.5 curveto
+	 744.667 1448.5 873.333 1502 1024 1502 curveto
+	 1174 1502 1302.5 1448.5 1409.5 1341.5 curveto
+	 1516.5 1234.5 1570 1106 1570 956 curveto
+	 1570 865.333 1549.33 781.5 1508 704.5 curveto
+	 1466.67 627.5 1412 564 1344 514 curveto
+  closepath fill grestore
+%END WPWS
+%BEGIN BPWS : Black pawn on white square
+  gsave newpath 
+	1344 514 moveto
+	 1774 513 lineto
+	 1774 203 lineto
+	 274 203 lineto
+	 274 513 lineto
+	 706 513 lineto
+	 554 618.333 478 766 478 956 curveto
+	 478 1106 531.333 1234.5 638 1341.5 curveto
+	 744.667 1448.5 873.333 1502 1024 1502 curveto
+	 1174 1502 1302.5 1448.5 1409.5 1341.5 curveto
+	 1516.5 1234.5 1570 1106 1570 956 curveto
+	 1570 865.333 1549.33 781.5 1508 704.5 curveto
+	 1466.67 627.5 1412 564 1344 514 curveto
+  closepath fill grestore
+%END BPWS
+%BEGIN WNWS : White knight on white square
+  gsave newpath 
+	1639 205 moveto
+	 349 203 lineto
+	 360.333 379.667 409.833 535.333 497.5 670 curveto
+	 585.167 804.667 719.667 883 901 905 curveto
+	 852.333 910.333 806.833 925.667 764.5 951 curveto
+	 722.167 976.333 690 1013 668 1061 curveto
+	 646 1059 619.667 1053 589 1043 curveto
+	 558.333 1033 525.667 1034 491 1046 curveto
+	 415 1042 369.5 1067 354.5 1121 curveto
+	 339.5 1175 332 1225.33 332 1272 curveto
+	 332 1318.67 347.667 1358.83 379 1392.5 curveto
+	 410.333 1426.17 449 1444.33 495 1447 curveto
+	 747 1443 980.167 1462.17 1194.5 1504.5 curveto
+	 1408.83 1546.83 1563 1607.67 1657 1687 curveto
+	 1685 1639 1699 1589.67 1699 1539 curveto
+	 1699 1473.67 1678.83 1416.5 1638.5 1367.5 curveto
+	 1598.17 1318.5 1548.33 1289 1489 1279 curveto
+	 1531 1269 1566.33 1245.83 1595 1209.5 curveto
+	 1623.67 1173.17 1638 1131.67 1638 1085 curveto
+	 1638 1037 1623.67 995 1595 959 curveto
+	 1566.33 923 1531 900 1489 890 curveto
+	 1531 879.333 1566.33 856 1595 820 curveto
+	 1623.67 784 1638 742.333 1638 695 curveto
+	 1638 647 1623.67 605 1595 569 curveto
+	 1566.33 533 1531 510 1489 500 curveto
+	 1531 489.333 1566.17 465.833 1594.5 429.5 curveto
+	 1622.83 393.167 1637 351.667 1637 305 curveto
+	 1639 205 lineto
+	closepath
+	1536 303 moveto
+	 1536 369 1508 401.667 1452 401 curveto
+	 1390 399.667 1359 432 1359 498 curveto
+	 1359 563.333 1390 596 1452 596 curveto
+	 1513.33 596.667 1544 629.667 1544 695 curveto
+	 1544 761 1513.33 793 1452 791 curveto
+	 1390 788.333 1359 820.333 1359 887 curveto
+	 1359 953 1391 986 1455 986 curveto
+	 1514.33 984.667 1544 1016.33 1544 1081 curveto
+	 1544 1146.33 1513.33 1179 1452 1179 curveto
+	 1390 1177.67 1359 1210 1359 1276 curveto
+	 1359 1340.67 1390 1373.67 1452 1375 curveto
+	 1494 1375.67 1530 1391.83 1560 1423.5 curveto
+	 1590 1455.17 1605.33 1492 1606 1534 curveto
+	 1486 1470.67 1328.33 1420.83 1133 1384.5 curveto
+	 937.667 1348.17 734.333 1334 523 1342 curveto
+	 461 1346.67 430 1322.67 430 1270 curveto
+	 430 1249.33 430.5 1221.33 431.5 1186 curveto
+	 432.5 1150.67 454.667 1136 498 1142 curveto
+	 534 1131.33 569.167 1129.83 603.5 1137.5 curveto
+	 637.833 1145.17 674 1152.67 712 1160 curveto
+	 740.667 1092 787.5 1043.67 852.5 1015 curveto
+	 917.5 986.333 982 988 1046 1020 curveto
+	 1118 1023.33 1154 989.667 1154 919 curveto
+	 1154 848.333 1118 810.333 1046 805 curveto
+	 864 807 729 760.667 641 666 curveto
+	 553 571.333 498 451 476 305 curveto
+	 1536 303 lineto
+	closepath
+	1127 1209 moveto
+	 1057 1195.67 1019 1208 1013 1246 curveto
+	 1006.33 1283.33 1038 1308.67 1108 1322 curveto
+	 1176.67 1335.33 1214.33 1323 1221 1285 curveto
+	 1227 1246.33 1195.67 1221 1127 1209 curveto
+  closepath fill grestore
+%END WNWS
+%BEGIN BNWS : Black knight on white square
+  gsave newpath 
+	1127 1206 moveto
+	 1199.67 1219.33 1232.67 1246 1226 1286 curveto
+	 1219.33 1325.33 1179.67 1338.33 1107 1325 curveto
+	 1033.67 1311 1000.67 1284.33 1008 1245 curveto
+	 1015.33 1204.33 1055 1191.33 1127 1206 curveto
+	closepath
+	1639 205 moveto
+	 349 203 lineto
+	 360.333 379.667 409.833 535.333 497.5 670 curveto
+	 585.167 804.667 719.667 883 901 905 curveto
+	 852.333 910.333 806.833 925.667 764.5 951 curveto
+	 722.167 976.333 690 1013 668 1061 curveto
+	 646 1059 619.667 1053 589 1043 curveto
+	 558.333 1033 525.667 1034 491 1046 curveto
+	 415 1042 369.5 1067 354.5 1121 curveto
+	 339.5 1175 332 1225.33 332 1272 curveto
+	 332 1318.67 347.667 1358.83 379 1392.5 curveto
+	 410.333 1426.17 449 1444.33 495 1447 curveto
+	 747 1443 980.167 1462.17 1194.5 1504.5 curveto
+	 1408.83 1546.83 1563 1607.67 1657 1687 curveto
+	 1685 1639 1699 1589.67 1699 1539 curveto
+	 1699 1473.67 1678.83 1416.5 1638.5 1367.5 curveto
+	 1598.17 1318.5 1548.33 1289 1489 1279 curveto
+	 1531 1269 1566.33 1245.83 1595 1209.5 curveto
+	 1623.67 1173.17 1638 1131.67 1638 1085 curveto
+	 1638 1037 1623.67 995 1595 959 curveto
+	 1566.33 923 1531 900 1489 890 curveto
+	 1531 879.333 1566.33 856 1595 820 curveto
+	 1623.67 784 1638 742.333 1638 695 curveto
+	 1638 647 1623.67 605 1595 569 curveto
+	 1566.33 533 1531 510 1489 500 curveto
+	 1531 489.333 1566.17 465.833 1594.5 429.5 curveto
+	 1622.83 393.167 1637 351.667 1637 305 curveto
+	 1639 205 lineto
+  closepath fill grestore
+%END BNWS
+%BEGIN WBWS : White bishop on white square
+  gsave newpath 
+	1549 203 moveto
+	 501 203 lineto
+	 434.333 324.333 394.833 456.5 382.5 599.5 curveto
+	 370.167 742.5 389.667 884.333 441 1025 curveto
+	 492.333 1165.67 569.333 1285.83 672 1385.5 curveto
+	 774.667 1485.17 892 1560 1024 1610 curveto
+	 1154.67 1554 1270.33 1475.67 1371 1375 curveto
+	 1471.67 1274.33 1547.67 1154 1599 1014 curveto
+	 1649 875.333 1668.67 735.5 1658 594.5 curveto
+	 1647.33 453.5 1611 323 1549 203 curveto
+	closepath
+	562 306 moveto
+	 1500 303 lineto
+	 1586.67 518.333 1587.67 743.667 1503 979 curveto
+	 1459 1099.67 1395 1205.33 1311 1296 curveto
+	 1227 1386.67 1131.33 1458 1024 1510 curveto
+	 916.667 1463.33 819.833 1395.17 733.5 1305.5 curveto
+	 647.167 1215.83 582 1110.67 538 990 curveto
+	 495.333 874 477 756.667 483 638 curveto
+	 489 519.333 515.333 408.667 562 306 curveto
+	closepath
+	926 533 moveto
+	 906 571.667 909 626.5 935 697.5 curveto
+	 961 768.5 968 822.333 956 859 curveto
+	 944 895 923.833 892.833 895.5 852.5 curveto
+	 867.167 812.167 844.667 803 828 825 curveto
+	 810.667 846.333 802 878.833 802 922.5 curveto
+	 802 966.167 810.667 999 828 1021 curveto
+	 844.667 1042.33 866.167 1038.17 892.5 1008.5 curveto
+	 918.833 978.833 940 972 956 988 curveto
+	 972 1002.67 965.5 1023.5 936.5 1050.5 curveto
+	 907.5 1077.5 904 1099.33 926 1116 curveto
+	 947.333 1132.67 979.833 1141 1023.5 1141 curveto
+	 1067.17 1141 1100 1132.67 1122 1116 curveto
+	 1143.33 1099.33 1139.5 1077.5 1110.5 1050.5 curveto
+	 1081.5 1023.5 1075 1002.67 1091 988 curveto
+	 1107 972 1128.17 978.833 1154.5 1008.5 curveto
+	 1180.83 1038.17 1202.67 1042.33 1220 1021 curveto
+	 1236.67 999 1245 966.167 1245 922.5 curveto
+	 1245 878.833 1236.67 846.333 1220 825 curveto
+	 1202.67 803 1179.83 812.167 1151.5 852.5 curveto
+	 1123.17 892.833 1103 895 1091 859 curveto
+	 1079 822.333 1086 768.5 1112 697.5 curveto
+	 1138 626.5 1141.33 571.667 1122 533 curveto
+	 1102 493.667 1069.17 474 1023.5 474 curveto
+	 977.833 474 945.333 493.667 926 533 curveto
+  closepath fill grestore
+%END WBWS
+%BEGIN BBWS : Black bishop on white square
+  gsave newpath 
+	1549 203 moveto
+	 501 203 lineto
+	 434.333 324.333 394.833 456.5 382.5 599.5 curveto
+	 370.167 742.5 389.667 884.333 441 1025 curveto
+	 492.333 1165.67 569.333 1285.83 672 1385.5 curveto
+	 774.667 1485.17 892 1560 1024 1610 curveto
+	 1154.67 1554 1270.33 1475.67 1371 1375 curveto
+	 1471.67 1274.33 1547.67 1154 1599 1014 curveto
+	 1649 875.333 1668.67 735.5 1658 594.5 curveto
+	 1647.33 453.5 1611 323 1549 203 curveto
+	closepath
+	921 519 moveto
+	 941.667 478.333 975.833 458 1023.5 458 curveto
+	 1071.17 458 1105.67 478.333 1127 519 curveto
+	 1147 559.667 1143.33 617.333 1116 692 curveto
+	 1088.67 766.667 1081.67 823 1095 861 curveto
+	 1107 899 1128 897 1158 855 curveto
+	 1188 813 1212 803.333 1230 826 curveto
+	 1247.33 848 1256 882.167 1256 928.5 curveto
+	 1256 974.833 1247.33 1009.33 1230 1032 curveto
+	 1212 1054 1189 1049.67 1161 1019 curveto
+	 1133 988.333 1111 981 1095 997 curveto
+	 1077.67 1013 1084.17 1035 1114.5 1063 curveto
+	 1144.83 1091 1149 1114 1127 1132 curveto
+	 1104.33 1149.33 1069.83 1158 1023.5 1158 curveto
+	 977.167 1158 943 1149.33 921 1132 curveto
+	 899 1114 902.833 1091 932.5 1063 curveto
+	 962.167 1035 969 1013 953 997 curveto
+	 936.333 981 914.167 988.333 886.5 1019 curveto
+	 858.833 1049.67 836.333 1054 819 1032 curveto
+	 801 1009.33 792 974.833 792 928.5 curveto
+	 792 882.167 801 848 819 826 curveto
+	 836.333 803.333 859.833 813 889.5 855 curveto
+	 919.167 897 940.333 899 953 861 curveto
+	 965 823 957.5 766.667 930.5 692 curveto
+	 903.5 617.333 900.333 559.667 921 519 curveto
+  closepath fill grestore
+%END BBWS
+%BEGIN WRWS : White rook on white square
+  gsave newpath 
+	1671 306 moveto
+	 1671 1274 lineto
+	 1671 1310 1654 1328 1620 1328 curveto
+	 1588 1328 lineto
+	 1553.33 1328 1536 1310 1536 1274 curveto
+	 1536 781 lineto
+	 1091 781 lineto
+	 1091 1274 lineto
+	 1091 1310 1074.33 1328 1041 1328 curveto
+	 1008 1328 lineto
+	 973.333 1328 956 1309.67 956 1273 curveto
+	 956 781 lineto
+	 512 781 lineto
+	 512 1275 lineto
+	 512 1310.33 494.667 1328 460 1328 curveto
+	 430 1328 lineto
+	 394.667 1328 377 1310 377 1274 curveto
+	 377 306 lineto
+	 1671 306 lineto
+	closepath
+	1774 203 moveto
+	 274 203 lineto
+	 274 1326 lineto
+	 274 1396 308.333 1431 377 1431 curveto
+	 514 1431 lineto
+	 581.333 1431 615 1396 615 1326 curveto
+	 615 881 lineto
+	 853 881 lineto
+	 853 1324 lineto
+	 853 1395.33 888 1431 958 1431 curveto
+	 1093 1431 lineto
+	 1160.33 1431 1194 1396.67 1194 1328 curveto
+	 1194 881 lineto
+	 1433 881 lineto
+	 1433 1326 lineto
+	 1433 1396 1467.67 1431 1537 1431 curveto
+	 1672 1431 lineto
+	 1740 1431 1774 1396 1774 1326 curveto
+	 1774 203 lineto
+  closepath fill grestore
+%END WRWS
+%BEGIN BRWS : Black rook on white square
+  gsave newpath 
+	1774 203 moveto
+	 274 203 lineto
+	 274 1326 lineto
+	 274 1396 308.333 1431 377 1431 curveto
+	 514 1431 lineto
+	 581.333 1431 615 1396 615 1326 curveto
+	 615 881 lineto
+	 853 881 lineto
+	 853 1324 lineto
+	 853 1395.33 888 1431 958 1431 curveto
+	 1093 1431 lineto
+	 1160.33 1431 1194 1396.67 1194 1328 curveto
+	 1194 881 lineto
+	 1433 881 lineto
+	 1433 1326 lineto
+	 1433 1396 1467.67 1431 1537 1431 curveto
+	 1672 1431 lineto
+	 1740 1431 1774 1396 1774 1326 curveto
+	 1774 203 lineto
+  closepath fill grestore
+%END BRWS
+%BEGIN WQWS : White queen on white square
+  gsave newpath 
+	1418 303 moveto
+	 1421.33 496.333 1439.83 660.667 1473.5 796 curveto
+	 1507.17 931.333 1562.33 1052.67 1639 1160 curveto
+	 1637 1175.33 1611.5 1160.67 1562.5 1116 curveto
+	 1513.5 1071.33 1475 1031.33 1447 996 curveto
+	 1404.33 942 1371.33 898.167 1348 864.5 curveto
+	 1324.67 830.833 1293.67 791 1255 745 curveto
+	 1229.67 839 1193 941.667 1145 1053 curveto
+	 1097 1164.33 1056 1238 1022 1274 curveto
+	 987.333 1238 946 1164.33 898 1053 curveto
+	 850 941.667 813.667 839 789 745 curveto
+	 749.667 791 718.5 830.833 695.5 864.5 curveto
+	 672.5 898.167 639.667 942 597 996 curveto
+	 568.333 1031.33 529.5 1071.33 480.5 1116 curveto
+	 431.5 1160.67 406.667 1175.33 406 1160 curveto
+	 480.667 1054 533.833 933 565.5 797 curveto
+	 597.167 661 614 496.333 616 303 curveto
+	 1418 303 lineto
+	closepath
+	1024 1459 moveto
+	 1074.67 1415 1122.5 1346 1167.5 1252 curveto
+	 1212.5 1158 1251.67 1049.67 1285 927 curveto
+	 1387 1079 1487.83 1193.17 1587.5 1269.5 curveto
+	 1687.17 1345.83 1769.67 1369 1835 1339 curveto
+	 1878.33 1318.33 1901.67 1286 1905 1242 curveto
+	 1797.67 1247.33 1708.17 1147.67 1636.5 943 curveto
+	 1564.83 738.333 1530 491.667 1532 203 curveto
+	 520 203 lineto
+	 520 491.667 483.833 738.333 411.5 943 curveto
+	 339.167 1147.67 250 1247.33 144 1242 curveto
+	 146.667 1286 170 1318.33 214 1339 curveto
+	 278.667 1369 361 1345.83 461 1269.5 curveto
+	 561 1193.17 662 1079 764 927 curveto
+	 796.667 1049.67 835.5 1158 880.5 1252 curveto
+	 925.5 1346 973.333 1415 1024 1459 curveto
+  closepath fill grestore
+%END WQWS
+%BEGIN BQWS : Black queen on white square
+  gsave newpath 
+	1024 1459 moveto
+	 1074.67 1415 1122.5 1346 1167.5 1252 curveto
+	 1212.5 1158 1251.67 1049.67 1285 927 curveto
+	 1387 1079 1487.83 1193.17 1587.5 1269.5 curveto
+	 1687.17 1345.83 1769.67 1369 1835 1339 curveto
+	 1878.33 1318.33 1901.67 1286 1905 1242 curveto
+	 1797.67 1247.33 1708.17 1147.67 1636.5 943 curveto
+	 1564.83 738.333 1530 491.667 1532 203 curveto
+	 520 203 lineto
+	 520 491.667 483.833 738.333 411.5 943 curveto
+	 339.167 1147.67 250 1247.33 144 1242 curveto
+	 146.667 1286 170 1318.33 214 1339 curveto
+	 278.667 1369 361 1345.83 461 1269.5 curveto
+	 561 1193.17 662 1079 764 927 curveto
+	 796.667 1049.67 835.5 1158 880.5 1252 curveto
+	 925.5 1346 973.333 1415 1024 1459 curveto
+  closepath fill grestore
+%END BQWS
+%BEGIN WKWS : White king on white square
+  gsave newpath 
+	1245 1195 moveto
+	 1413 1159 1551.83 1088 1661.5 982 curveto
+	 1771.17 876 1826 754.667 1826 618 curveto
+	 1826 536.667 1806.17 460.333 1766.5 389 curveto
+	 1726.83 317.667 1673.33 255.667 1606 203 curveto
+	 430 203 lineto
+	 280.667 316.333 206 454.667 206 618 curveto
+	 206 753.333 259.833 873.667 367.5 979 curveto
+	 475.167 1084.33 612.667 1156 780 1194 curveto
+	 751.333 1218 737 1245.67 737 1277 curveto
+	 737 1318.33 764 1353.83 818 1383.5 curveto
+	 872 1413.17 937.333 1428 1014 1428 curveto
+	 1090 1428 1155.17 1413.17 1209.5 1383.5 curveto
+	 1263.83 1353.83 1291 1318.33 1291 1277 curveto
+	 1291 1244.33 1275.67 1217 1245 1195 curveto
+	closepath
+	1564 323 moveto
+	 1658 407.667 1705 507.667 1705 623 curveto
+	 1705 757 1637.67 871.833 1503 967.5 curveto
+	 1368.33 1063.17 1206 1111 1016 1111 curveto
+	 826 1111 663.667 1063.17 529 967.5 curveto
+	 394.333 871.833 327 757 327 623 curveto
+	 327 510.333 376.667 410.333 476 323 curveto
+	 1564 323 lineto
+	closepath
+	1015 1334 moveto
+	 977 1334 944.833 1328.33 918.5 1317 curveto
+	 892.167 1305.67 879 1292.33 879 1277 curveto
+	 879 1261 892.167 1247.33 918.5 1236 curveto
+	 944.833 1224.67 977 1219 1015 1219 curveto
+	 1052.33 1219 1084.33 1224.67 1111 1236 curveto
+	 1137.67 1247.33 1151 1261 1151 1277 curveto
+	 1151 1292.33 1137.67 1305.67 1111 1317 curveto
+	 1084.33 1328.33 1052.33 1334 1015 1334 curveto
+	closepath
+	836 1539 moveto
+	 819.333 1555 811 1578.83 811 1610.5 curveto
+	 811 1642.17 819.333 1666 836 1682 curveto
+	 852.667 1698 874.667 1695.17 902 1673.5 curveto
+	 929.333 1651.83 951 1648.33 967 1663 curveto
+	 983 1677.67 980 1698.5 958 1725.5 curveto
+	 936 1752.5 933.333 1774 950 1790 curveto
+	 966 1805.33 990.5 1813 1023.5 1813 curveto
+	 1056.5 1813 1081.33 1805.33 1098 1790 curveto
+	 1114 1774 1111.17 1752.5 1089.5 1725.5 curveto
+	 1067.83 1698.5 1065 1677.67 1081 1663 curveto
+	 1096.33 1648.33 1117.67 1651.83 1145 1673.5 curveto
+	 1172.33 1695.17 1194.67 1698 1212 1682 curveto
+	 1228 1666 1236 1642.17 1236 1610.5 curveto
+	 1236 1578.83 1228 1555 1212 1539 curveto
+	 1194.67 1523 1172.5 1525.5 1145.5 1546.5 curveto
+	 1118.5 1567.5 1097 1571.33 1081 1558 curveto
+	 1063.67 1544 1062.83 1519.17 1078.5 1483.5 curveto
+	 1094.17 1447.83 1095 1430 1081 1430 curveto
+	 1065.67 1430 1048.33 1430.83 1029 1432.5 curveto
+	 1009.67 1434.17 989 1433.33 967 1430 curveto
+	 945 1426 943.667 1442.83 963 1480.5 curveto
+	 982.333 1518.17 983.667 1544 967 1558 curveto
+	 950.333 1571.33 928.5 1567.5 901.5 1546.5 curveto
+	 874.5 1525.5 852.667 1523 836 1539 curveto
+  closepath fill grestore
+%END WKWS
+%BEGIN BKWS : Black king on white square
+  gsave newpath 
+	836 1539 moveto
+	 819.333 1555 811 1578.83 811 1610.5 curveto
+	 811 1642.17 819.333 1666 836 1682 curveto
+	 852.667 1698 874.667 1695.17 902 1673.5 curveto
+	 929.333 1651.83 951 1648.33 967 1663 curveto
+	 983 1677.67 980 1698.5 958 1725.5 curveto
+	 936 1752.5 933.333 1774 950 1790 curveto
+	 966 1805.33 990.5 1813 1023.5 1813 curveto
+	 1056.5 1813 1081.33 1805.33 1098 1790 curveto
+	 1114 1774 1111.17 1752.5 1089.5 1725.5 curveto
+	 1067.83 1698.5 1065 1677.67 1081 1663 curveto
+	 1096.33 1648.33 1117.67 1651.83 1145 1673.5 curveto
+	 1172.33 1695.17 1194.67 1698 1212 1682 curveto
+	 1228 1666 1236 1642.17 1236 1610.5 curveto
+	 1236 1578.83 1228 1555 1212 1539 curveto
+	 1194.67 1523 1172.5 1525.5 1145.5 1546.5 curveto
+	 1118.5 1567.5 1097 1571.33 1081 1558 curveto
+	 1063.67 1544 1062.83 1519.17 1078.5 1483.5 curveto
+	 1094.17 1447.83 1095 1430 1081 1430 curveto
+	 1065.67 1430 1048.33 1430.83 1029 1432.5 curveto
+	 1009.67 1434.17 989 1433.33 967 1430 curveto
+	 945 1426 943.667 1442.83 963 1480.5 curveto
+	 982.333 1518.17 983.667 1544 967 1558 curveto
+	 950.333 1571.33 928.5 1567.5 901.5 1546.5 curveto
+	 874.5 1525.5 852.667 1523 836 1539 curveto
+	closepath
+	1245 1195 moveto
+	 1413 1159 1551.83 1088 1661.5 982 curveto
+	 1771.17 876 1826 754.667 1826 618 curveto
+	 1826 536.667 1806.17 460.333 1766.5 389 curveto
+	 1726.83 317.667 1673.33 255.667 1606 203 curveto
+	 430 203 lineto
+	 280.667 316.333 206 454.667 206 618 curveto
+	 206 753.333 259.833 873.667 367.5 979 curveto
+	 475.167 1084.33 612.667 1156 780 1194 curveto
+	 751.333 1218 737 1245.67 737 1277 curveto
+	 737 1318.33 764 1353.83 818 1383.5 curveto
+	 872 1413.17 937.333 1428 1014 1428 curveto
+	 1090 1428 1155.17 1413.17 1209.5 1383.5 curveto
+	 1263.83 1353.83 1291 1318.33 1291 1277 curveto
+	 1291 1244.33 1275.67 1217 1245 1195 curveto
+  closepath fill grestore
+%END BKWS
+
+%BEGIN TF : Top frame
+  gsave newpath 
+	0 135 moveto
+	 2048 135 lineto
+	 2048 0 lineto
+	 0 0 lineto
+	 0 135 lineto
+	closepath
+	100 406 moveto
+	 166 406 199 372.667 199 306 curveto
+	 199 239.333 166 206 100 206 curveto
+	 33.3333 206 -1.27157e-06 239.333 0 306 curveto
+	 0 372.667 33.3333 406 100 406 curveto
+	closepath
+	302 409 moveto
+	 371.333 409 406 374.667 406 306 curveto
+	 406 237.333 371.333 203 302 203 curveto
+	 233.333 203 199 237.333 199 306 curveto
+	 199 374.667 233.333 409 302 409 curveto
+	closepath
+	509 409 moveto
+	 577.667 409 612 374.667 612 306 curveto
+	 612 237.333 577.667 203 509 203 curveto
+	 440.333 203 406 237.333 406 306 curveto
+	 406 374.667 440.333 409 509 409 curveto
+	closepath
+	715 406 moveto
+	 781 406 814 372.667 814 306 curveto
+	 814 239.333 781 206 715 206 curveto
+	 648.333 206 615 239.333 615 306 curveto
+	 615 372.667 648.333 406 715 406 curveto
+	closepath
+	917 409 moveto
+	 985.667 409 1020 374.667 1020 306 curveto
+	 1020 237.333 985.667 203 917 203 curveto
+	 848.333 203 814 237.333 814 306 curveto
+	 814 374.667 848.333 409 917 409 curveto
+	closepath
+	1124 409 moveto
+	 1192.67 409 1227 374.667 1227 306 curveto
+	 1227 237.333 1192.67 203 1124 203 curveto
+	 1055.33 203 1021 237.333 1021 306 curveto
+	 1021 374.667 1055.33 409 1124 409 curveto
+	closepath
+	1326 407 moveto
+	 1393.33 407 1427 373.333 1427 306 curveto
+	 1427 238.667 1393.33 205 1326 205 curveto
+	 1258.67 205 1225 238.667 1225 306 curveto
+	 1225 373.333 1258.67 407 1326 407 curveto
+	closepath
+	1532 409 moveto
+	 1600.67 409 1635 374.667 1635 306 curveto
+	 1635 237.333 1600.67 203 1532 203 curveto
+	 1463.33 203 1429 237.333 1429 306 curveto
+	 1429 374.667 1463.33 409 1532 409 curveto
+	closepath
+	1738 406 moveto
+	 1804.67 406 1838 372.667 1838 306 curveto
+	 1838 239.333 1804.67 206 1738 206 curveto
+	 1672 206 1639 239.333 1639 306 curveto
+	 1639 372.667 1672 406 1738 406 curveto
+	closepath
+	1941 409 moveto
+	 2009.67 409 2044 374.667 2044 306 curveto
+	 2044 237.333 2009.67 203 1941 203 curveto
+	 1872.33 203 1838 237.333 1838 306 curveto
+	 1838 374.667 1872.33 409 1941 409 curveto
+  closepath fill grestore
+%END TF
+%BEGIN LF : Left frame
+  gsave newpath 
+	274 0 moveto
+	 274 2048 lineto
+	 410 2048 lineto
+	 410 0 lineto
+	 274 0 lineto
+	closepath
+	3 99 moveto
+	 3 165 36.33 198 103 198 curveto
+	 169.67 198 203 165 203 99 curveto
+	 203 33 169.67 0 103 0 curveto
+	 36.33 0 3 33 3 99 curveto
+	closepath
+	0 301 moveto
+	 0 370.333 34.33 405 103 405 curveto
+	 171.67 405 206 370.333 206 301 curveto
+	 206 232.333 171.67 198 103 198 curveto
+	 34.33 198 0 232.333 0 301 curveto
+	closepath
+	0 508 moveto
+	 0 576.667 34.33 611 103 611 curveto
+	 171.67 611 206 576.667 206 508 curveto
+	 206 439.333 171.67 405 103 405 curveto
+	 34.33 405 0 439.333 0 508 curveto
+	closepath
+	3 714 moveto
+	 3 780 36.33 813 103 813 curveto
+	 169.67 813 203 780 203 714 curveto
+	 203 647.333 169.67 614 103 614 curveto
+	 36.33 614 3 647.333 3 714 curveto
+	closepath
+	0 916 moveto
+	 0 984.667 34.33 1019 103 1019 curveto
+	 171.67 1019 206 984.667 206 916 curveto
+	 206 847.333 171.67 813 103 813 curveto
+	 34.33 813 0 847.333 0 916 curveto
+	closepath
+	0 1123 moveto
+	 0 1191.67 34.33 1226 103 1226 curveto
+	 171.67 1226 206 1191.67 206 1123 curveto
+	 206 1054.33 171.67 1020 103 1020 curveto
+	 34.33 1020 0 1054.33 0 1123 curveto
+	closepath
+	2 1325 moveto
+	 2 1392.33 35.67 1426 103 1426 curveto
+	 170.33 1426 204 1392.33 204 1325 curveto
+	 204 1257.67 170.33 1224 103 1224 curveto
+	 35.67 1224 2 1257.67 2 1325 curveto
+	closepath
+	0 1531 moveto
+	 0 1600.33 34.33 1635 103 1635 curveto
+	 171.67 1635 206 1600.33 206 1531 curveto
+	 206 1462.33 171.67 1428 103 1428 curveto
+	 34.33 1428 0 1462.33 0 1531 curveto
+	closepath
+	3 1738 moveto
+	 3 1804 36.33 1837 103 1837 curveto
+	 169.67 1837 203 1804 203 1738 curveto
+	 203 1671.33 169.67 1638 103 1638 curveto
+	 36.33 1638 3 1671.33 3 1738 curveto
+	closepath
+	0 1940 moveto
+	 0 2008.67 34.33 2043 103 2043 curveto
+	 171.67 2043 206 2008.67 206 1940 curveto
+	 206 1871.33 171.67 1837 103 1837 curveto
+	 34.33 1837 0 1871.33 0 1940 curveto
+  closepath fill grestore
+%END LF
+%BEGIN RF : Right frame
+  gsave newpath 
+	135 0 moveto
+	 0 0 lineto
+	 0 2048 lineto
+	 135 2048 lineto
+	 135 0 lineto
+	closepath
+	406 99 moveto
+	 406 33 373 0 307 0 curveto
+	 240.333 0 207 33 207 99 curveto
+	 207 165 240.333 198 307 198 curveto
+	 373 198 406 165 406 99 curveto
+	closepath
+	410 301 moveto
+	 410 232.333 375.667 198 307 198 curveto
+	 238.333 198 204 232.333 204 301 curveto
+	 204 370.333 238.333 405 307 405 curveto
+	 375.667 405 410 370.333 410 301 curveto
+	closepath
+	410 508 moveto
+	 410 439.333 375.667 405 307 405 curveto
+	 238.333 405 204 439.333 204 508 curveto
+	 204 576.667 238.333 611 307 611 curveto
+	 375.667 611 410 576.667 410 508 curveto
+	closepath
+	406 714 moveto
+	 406 647.333 373 614 307 614 curveto
+	 240.333 614 207 647.333 207 714 curveto
+	 207 780 240.333 813 307 813 curveto
+	 373 813 406 780 406 714 curveto
+	closepath
+	410 916 moveto
+	 410 847.333 375.667 813 307 813 curveto
+	 238.333 813 204 847.333 204 916 curveto
+	 204 984.667 238.333 1019 307 1019 curveto
+	 375.667 1019 410 984.667 410 916 curveto
+	closepath
+	410 1123 moveto
+	 410 1054.33 375.667 1020 307 1020 curveto
+	 238.333 1020 204 1054.33 204 1123 curveto
+	 204 1191.67 238.333 1226 307 1226 curveto
+	 375.667 1226 410 1191.67 410 1123 curveto
+	closepath
+	408 1325 moveto
+	 408 1257.67 374.333 1224 307 1224 curveto
+	 239.667 1224 206 1257.67 206 1325 curveto
+	 206 1392.33 239.667 1426 307 1426 curveto
+	 374.333 1426 408 1392.33 408 1325 curveto
+	closepath
+	410 1531 moveto
+	 410 1462.33 375.667 1428 307 1428 curveto
+	 238.333 1428 204 1462.33 204 1531 curveto
+	 204 1600.33 238.333 1635 307 1635 curveto
+	 375.667 1635 410 1600.33 410 1531 curveto
+	closepath
+	406 1738 moveto
+	 406 1671.33 373 1638 307 1638 curveto
+	 240.333 1638 207 1671.33 207 1738 curveto
+	 207 1804 240.333 1837 307 1837 curveto
+	 373 1837 406 1804 406 1738 curveto
+	closepath
+	410 1940 moveto
+	 410 1871.33 375.667 1837 307 1837 curveto
+	 238.333 1837 204 1871.33 204 1940 curveto
+	 204 2008.67 238.333 2043 307 2043 curveto
+	 375.667 2043 410 2008.67 410 1940 curveto
+  closepath fill grestore
+%END RF
+%BEGIN BF : Bottom frame
+  gsave newpath 
+	0 410 moveto
+	 2048 410 lineto
+	 2048 275 lineto
+	 0 275 lineto
+	 0 410 lineto
+	closepath
+	100 203 moveto
+	 166 203 199 169.67 199 103 curveto
+	 199 37 166 4 100 4 curveto
+	 33.3333 4 0 37 0 103 curveto
+	 0 169.67 33.3333 203 100 203 curveto
+	closepath
+	302 206 moveto
+	 371.333 206 406 171.67 406 103 curveto
+	 406 34.33 371.333 0 302 0 curveto
+	 233.333 0 199 34.33 199 103 curveto
+	 199 171.67 233.333 206 302 206 curveto
+	closepath
+	509 206 moveto
+	 577.667 206 612 171.67 612 103 curveto
+	 612 34.33 577.667 0 509 0 curveto
+	 440.333 0 406 34.33 406 103 curveto
+	 406 171.67 440.333 206 509 206 curveto
+	closepath
+	715 203 moveto
+	 781 203 814 169.67 814 103 curveto
+	 814 37 781 4 715 4 curveto
+	 648.333 4 615 37 615 103 curveto
+	 615 169.67 648.333 203 715 203 curveto
+	closepath
+	917 206 moveto
+	 985.667 206 1020 171.67 1020 103 curveto
+	 1020 34.33 985.667 0 917 0 curveto
+	 848.333 0 814 34.33 814 103 curveto
+	 814 171.67 848.333 206 917 206 curveto
+	closepath
+	1124 206 moveto
+	 1192.67 206 1227 171.67 1227 103 curveto
+	 1227 34.33 1192.67 0 1124 0 curveto
+	 1055.33 0 1021 34.33 1021 103 curveto
+	 1021 171.67 1055.33 206 1124 206 curveto
+	closepath
+	1326 204 moveto
+	 1393.33 204 1427 170.33 1427 103 curveto
+	 1427 35.67 1393.33 2 1326 2 curveto
+	 1258.67 2 1225 35.67 1225 103 curveto
+	 1225 170.33 1258.67 204 1326 204 curveto
+	closepath
+	1532 206 moveto
+	 1600.67 206 1635 171.67 1635 103 curveto
+	 1635 34.33 1600.67 0 1532 0 curveto
+	 1463.33 0 1429 34.33 1429 103 curveto
+	 1429 171.67 1463.33 206 1532 206 curveto
+	closepath
+	1738 203 moveto
+	 1804.67 203 1838 169.67 1838 103 curveto
+	 1838 37 1804.67 4 1738 4 curveto
+	 1672 4 1639 37 1639 103 curveto
+	 1639 169.67 1672 203 1738 203 curveto
+	closepath
+	1941 206 moveto
+	 2009.67 206 2044 171.67 2044 103 curveto
+	 2044 34.33 2009.67 0 1941 0 curveto
+	 1872.33 0 1838 34.33 1838 103 curveto
+	 1838 171.67 1872.33 206 1941 206 curveto
+  closepath fill grestore
+%END BF
+%BEGIN LFUC : Upper corner of left frame
+  gsave newpath 
+	271 135 moveto
+	 271 0 lineto
+	 406 0 lineto
+	 406 135 lineto
+	 271 135 lineto
+	closepath
+	101 207 moveto
+	 169.667 207 204 172.333 204 103 curveto
+	 204 34.3333 169.667 0 101 0 curveto
+	 31.667 0 0 34.3333 0 103 curveto
+	 0 172.333 31.667 207 101 207 curveto
+	closepath
+	306 410 moveto
+	 237.333 410 203 375.333 203 306 curveto
+	 203 237.333 237.333 203 306 203 curveto
+	 375.333 203 410 237.333 410 306 curveto
+	 410 375.333 375.333 410 306 410 curveto
+	closepath
+	101 407 moveto
+	 34.333 407 0 373.333 0 306 curveto
+	 0 239.333 34.333 206 101 206 curveto
+	 168.333 206 202 239.333 202 306 curveto
+	 202 373.333 168.333 407 101 407 curveto
+  closepath fill grestore
+%END LFUC
+%BEGIN RFUC : Upper corner of right frame
+  gsave newpath 
+	139 135 moveto
+	 139 0 lineto
+	 4 0 lineto
+	 4 135 lineto
+	 139 135 lineto
+	closepath
+	309 207 moveto
+	 240.333 207 206 172.333 206 103 curveto
+	 206 34.3333 240.333 0 309 0 curveto
+	 378.333 0 413 34.3333 413 103 curveto
+	 413 172.333 378.333 207 309 207 curveto
+	closepath
+	104 410 moveto
+	 172.667 410 207 375.333 207 306 curveto
+	 207 237.333 172.667 203 104 203 curveto
+	 34.6667 203 0 237.333 0 306 curveto
+	 0 375.333 34.6667 410 104 410 curveto
+	closepath
+	309 407 moveto
+	 375.667 407 409 373.333 409 306 curveto
+	 409 239.333 375.667 206 309 206 curveto
+	 241.667 206 208 239.333 208 306 curveto
+	 208 373.333 241.667 407 309 407 curveto
+  closepath fill grestore
+%END RFUC
+%BEGIN LFLC : Lower corner of left frame
+  gsave newpath 
+	271 275 moveto
+	 271 410 lineto
+	 406 410 lineto
+	 406 275 lineto
+	 271 275 lineto
+	closepath
+	101 203 moveto
+	 169.667 203 204 237.667 204 307 curveto
+	 204 375.667 169.667 410 101 410 curveto
+	 31.667 410 0 375.667 0 307 curveto
+	 0 237.667 31.667 203 101 203 curveto
+	closepath
+	306 0 moveto
+	 237.333 0 203 34.667 203 104 curveto
+	 203 172.667 237.333 207 306 207 curveto
+	 375.333 207 410 172.667 410 104 curveto
+	 410 34.667 375.333 0 306 0 curveto
+	closepath
+	101 3 moveto
+	 34.333 3 0 36.667 0 104 curveto
+	 0 170.667 34.333 204 101 204 curveto
+	 168.333 204 202 170.667 202 104 curveto
+	 202 36.667 168.333 3 101 3 curveto
+  closepath fill grestore
+%END LFLC
+%BEGIN RFLC : Lower corner of right frame
+  gsave newpath 
+	139 275 moveto
+	 139 410 lineto
+	 4 410 lineto
+	 4 275 lineto
+	 139 275 lineto
+	closepath
+	309 203 moveto
+	 240.333 203 206 237.667 206 307 curveto
+	 206 375.667 240.333 410 309 410 curveto
+	 378.333 410 413 375.667 413 307 curveto
+	 413 237.667 378.333 203 309 203 curveto
+	closepath
+	104 0 moveto
+	 172.667 0 207 34.667 207 104 curveto
+	 207 172.667 172.667 207 104 207 curveto
+	 34.6667 207 0 172.667 0 104 curveto
+	 0 34.667 34.6667 0 104 0 curveto
+	closepath
+	309 3 moveto
+	 375.667 3 409 36.667 409 104 curveto
+	 409 170.667 375.667 204 309 204 curveto
+	 241.667 204 208 170.667 208 104 curveto
+	 208 36.667 241.667 3 309 3 curveto
+  closepath fill grestore
+%END RFLC
+
+%BEGIN LFNA : Left frame with notation digit "1"
+  gsave newpath 
+	938 1321 moveto
+	 976.667 1340.33 1020.67 1371 1070 1413 curveto
+	 1159 1413 lineto
+	 1159 631 lineto
+	 1057 631 lineto
+	 1057 1302 lineto
+	 1036 1282 lineto
+	 998 1249.33 958.333 1224.67 917 1208 curveto
+	 883 1196 lineto
+	 883 1295 lineto
+	 938 1321 lineto
+	closepath
+	1912 0 moveto
+	 1912 2047 lineto
+	 2048 2047 lineto
+	 2048 0 lineto
+	 1912 0 lineto
+	closepath
+	1641 99 moveto
+	 1641 165 1674.33 198 1741 198 curveto
+	 1807.67 198 1841 165 1841 99 curveto
+	 1841 33 1807.67 0 1741 0 curveto
+	 1674.33 0 1641 33 1641 99 curveto
+	closepath
+	1638 301 moveto
+	 1638 370.333 1672.33 405 1741 405 curveto
+	 1809.67 405 1844 370.333 1844 301 curveto
+	 1844 232.333 1809.67 198 1741 198 curveto
+	 1672.33 198 1638 232.333 1638 301 curveto
+	closepath
+	1638 508 moveto
+	 1638 576.667 1672.33 611 1741 611 curveto
+	 1809.67 611 1844 576.667 1844 508 curveto
+	 1844 439.333 1809.67 405 1741 405 curveto
+	 1672.33 405 1638 439.333 1638 508 curveto
+	closepath
+	1641 714 moveto
+	 1641 780 1674.33 813 1741 813 curveto
+	 1807.67 813 1841 780 1841 714 curveto
+	 1841 647.333 1807.67 614 1741 614 curveto
+	 1674.33 614 1641 647.333 1641 714 curveto
+	closepath
+	1638 916 moveto
+	 1638 984.667 1672.33 1019 1741 1019 curveto
+	 1809.67 1019 1844 984.667 1844 916 curveto
+	 1844 847.333 1809.67 813 1741 813 curveto
+	 1672.33 813 1638 847.333 1638 916 curveto
+	closepath
+	1638 1123 moveto
+	 1638 1191.67 1672.33 1226 1741 1226 curveto
+	 1809.67 1226 1844 1191.67 1844 1123 curveto
+	 1844 1054.33 1809.67 1020 1741 1020 curveto
+	 1672.33 1020 1638 1054.33 1638 1123 curveto
+	closepath
+	1640 1325 moveto
+	 1640 1392.33 1673.67 1426 1741 1426 curveto
+	 1808.33 1426 1842 1392.33 1842 1325 curveto
+	 1842 1257.67 1808.33 1224 1741 1224 curveto
+	 1673.67 1224 1640 1257.67 1640 1325 curveto
+	closepath
+	1638 1531 moveto
+	 1638 1600.33 1672.33 1635 1741 1635 curveto
+	 1809.67 1635 1844 1600.33 1844 1531 curveto
+	 1844 1462.33 1809.67 1428 1741 1428 curveto
+	 1672.33 1428 1638 1462.33 1638 1531 curveto
+	closepath
+	1641 1738 moveto
+	 1641 1804 1674.33 1837 1741 1837 curveto
+	 1807.67 1837 1841 1804 1841 1738 curveto
+	 1841 1671.33 1807.67 1638 1741 1638 curveto
+	 1674.33 1638 1641 1671.33 1641 1738 curveto
+	closepath
+	1638 1940 moveto
+	 1638 2008.67 1672.33 2043 1741 2043 curveto
+	 1809.67 2043 1844 2008.67 1844 1940 curveto
+	 1844 1871.33 1809.67 1837 1741 1837 curveto
+	 1672.33 1837 1638 1871.33 1638 1940 curveto
+  closepath fill grestore
+%END LFNA
+%BEGIN LFNB : Left frame with notation digit "2"
+  gsave newpath 
+	750 837 moveto
+	 838 913.667 909.667 986.667 965 1056 curveto
+	 985.667 1081.33 1002.67 1105.67 1016 1129 curveto
+	 1031.33 1154.33 1039 1182.67 1039 1214 curveto
+	 1039 1253.33 1025.33 1285.33 998 1310 curveto
+	 973.333 1331.33 940 1342 898 1342 curveto
+	 849.333 1342 813 1330.67 789 1308 curveto
+	 764.333 1286 751.333 1251.33 750 1204 curveto
+	 648 1204 lineto
+	 659.333 1355.33 743 1431 899 1431 curveto
+	 940.333 1431 977 1424.33 1009 1411 curveto
+	 1035.67 1400.33 1059.67 1384.33 1081 1363 curveto
+	 1121 1323 1141 1274 1141 1216 curveto
+	 1141 1176.67 1133.67 1141 1119 1109 curveto
+	 1090.33 1049 1048.33 991.333 993 936 curveto
+	 941.667 884 888.667 836 834 792 curveto
+	 738 718 lineto
+	 738 720 lineto
+	 1159 720 lineto
+	 1159 631 lineto
+	 617 631 lineto
+	 617 727 lineto
+	 750 837 lineto
+	closepath
+	1638 1940 moveto
+	 1638 2008.67 1672.33 2043 1741 2043 curveto
+	 1809.67 2043 1844 2008.67 1844 1940 curveto
+	 1844 1871.33 1809.67 1837 1741 1837 curveto
+	 1672.33 1837 1638 1871.33 1638 1940 curveto
+	closepath
+	1641 1738 moveto
+	 1641 1804 1674.33 1837 1741 1837 curveto
+	 1807.67 1837 1841 1804 1841 1738 curveto
+	 1841 1671.33 1807.67 1638 1741 1638 curveto
+	 1674.33 1638 1641 1671.33 1641 1738 curveto
+	closepath
+	1638 1531 moveto
+	 1638 1600.33 1672.33 1635 1741 1635 curveto
+	 1809.67 1635 1844 1600.33 1844 1531 curveto
+	 1844 1462.33 1809.67 1428 1741 1428 curveto
+	 1672.33 1428 1638 1462.33 1638 1531 curveto
+	closepath
+	1640 1325 moveto
+	 1640 1392.33 1673.67 1426 1741 1426 curveto
+	 1808.33 1426 1842 1392.33 1842 1325 curveto
+	 1842 1257.67 1808.33 1224 1741 1224 curveto
+	 1673.67 1224 1640 1257.67 1640 1325 curveto
+	closepath
+	1638 1123 moveto
+	 1638 1191.67 1672.33 1226 1741 1226 curveto
+	 1809.67 1226 1844 1191.67 1844 1123 curveto
+	 1844 1054.33 1809.67 1020 1741 1020 curveto
+	 1672.33 1020 1638 1054.33 1638 1123 curveto
+	closepath
+	1638 916 moveto
+	 1638 984.667 1672.33 1019 1741 1019 curveto
+	 1809.67 1019 1844 984.667 1844 916 curveto
+	 1844 847.333 1809.67 813 1741 813 curveto
+	 1672.33 813 1638 847.333 1638 916 curveto
+	closepath
+	1641 714 moveto
+	 1641 780 1674.33 813 1741 813 curveto
+	 1807.67 813 1841 780 1841 714 curveto
+	 1841 647.333 1807.67 614 1741 614 curveto
+	 1674.33 614 1641 647.333 1641 714 curveto
+	closepath
+	1638 508 moveto
+	 1638 576.667 1672.33 611 1741 611 curveto
+	 1809.67 611 1844 576.667 1844 508 curveto
+	 1844 439.333 1809.67 405 1741 405 curveto
+	 1672.33 405 1638 439.333 1638 508 curveto
+	closepath
+	1638 301 moveto
+	 1638 370.333 1672.33 405 1741 405 curveto
+	 1809.67 405 1844 370.333 1844 301 curveto
+	 1844 232.333 1809.67 198 1741 198 curveto
+	 1672.33 198 1638 232.333 1638 301 curveto
+	closepath
+	1641 99 moveto
+	 1641 165 1674.33 198 1741 198 curveto
+	 1807.67 198 1841 165 1841 99 curveto
+	 1841 33 1807.67 0 1741 0 curveto
+	 1674.33 0 1641 33 1641 99 curveto
+	closepath
+	1912 0 moveto
+	 1912 2047 lineto
+	 2048 2047 lineto
+	 2048 0 lineto
+	 1912 0 lineto
+  closepath fill grestore
+%END LFNB
+%BEGIN LFNC : Left frame with notation digit "3"
+  gsave newpath 
+	706 862 moveto
+	 715 831 lineto
+	 731 786.333 759.667 755 801 737 curveto
+	 824.333 725.667 851.333 720 882 720 curveto
+	 929.333 720 970 733 1004 759 curveto
+	 1038 785.667 1055.67 823.667 1057 873 curveto
+	 1057 887.667 1054.67 902 1050 916 curveto
+	 1044 930.667 1035 943.667 1023 955 curveto
+	 1004.33 971 985.667 982 967 988 curveto
+	 932.333 998.667 896.667 1004 860 1004 curveto
+	 817 1004 lineto
+	 817 1093 lineto
+	 841 1093 lineto
+	 894.333 1093 937.667 1102.33 971 1121 curveto
+	 1013 1147.67 1034 1185 1034 1233 curveto
+	 1034 1274.33 1017.33 1306.67 984 1330 curveto
+	 958 1350 922.333 1360 877 1360 curveto
+	 792.333 1360 743.667 1330.67 731 1272 curveto
+	 727.667 1263.33 725 1249.67 723 1231 curveto
+	 621 1231 lineto
+	 626 1266 lineto
+	 644 1386.67 728 1447.67 878 1449 curveto
+	 1004.67 1447.67 1086.33 1401.33 1123 1310 curveto
+	 1132.33 1286 1137 1261 1137 1235 curveto
+	 1137 1152.33 1099.67 1093.67 1025 1059 curveto
+	 1008 1052 lineto
+	 1008 1050 lineto
+	 1030 1044 lineto
+	 1086.67 1025.33 1124.67 993.333 1144 948 curveto
+	 1154 924.667 1159 898.333 1159 869 curveto
+	 1157.67 792.333 1128.67 732.667 1072 690 curveto
+	 1021.33 650.667 957.333 631 880 631 curveto
+	 785.333 631 713 662.667 663 726 curveto
+	 637 758 619 794 609 834 curveto
+	 603 862 lineto
+	 706 862 lineto
+	closepath
+	1638 1940 moveto
+	 1638 2008.67 1672.33 2043 1741 2043 curveto
+	 1809.67 2043 1844 2008.67 1844 1940 curveto
+	 1844 1871.33 1809.67 1837 1741 1837 curveto
+	 1672.33 1837 1638 1871.33 1638 1940 curveto
+	closepath
+	1641 1738 moveto
+	 1641 1804 1674.33 1837 1741 1837 curveto
+	 1807.67 1837 1841 1804 1841 1738 curveto
+	 1841 1671.33 1807.67 1638 1741 1638 curveto
+	 1674.33 1638 1641 1671.33 1641 1738 curveto
+	closepath
+	1638 1531 moveto
+	 1638 1600.33 1672.33 1635 1741 1635 curveto
+	 1809.67 1635 1844 1600.33 1844 1531 curveto
+	 1844 1462.33 1809.67 1428 1741 1428 curveto
+	 1672.33 1428 1638 1462.33 1638 1531 curveto
+	closepath
+	1640 1325 moveto
+	 1640 1392.33 1673.67 1426 1741 1426 curveto
+	 1808.33 1426 1842 1392.33 1842 1325 curveto
+	 1842 1257.67 1808.33 1224 1741 1224 curveto
+	 1673.67 1224 1640 1257.67 1640 1325 curveto
+	closepath
+	1638 1123 moveto
+	 1638 1191.67 1672.33 1226 1741 1226 curveto
+	 1809.67 1226 1844 1191.67 1844 1123 curveto
+	 1844 1054.33 1809.67 1020 1741 1020 curveto
+	 1672.33 1020 1638 1054.33 1638 1123 curveto
+	closepath
+	1638 916 moveto
+	 1638 984.667 1672.33 1019 1741 1019 curveto
+	 1809.67 1019 1844 984.667 1844 916 curveto
+	 1844 847.333 1809.67 813 1741 813 curveto
+	 1672.33 813 1638 847.333 1638 916 curveto
+	closepath
+	1641 714 moveto
+	 1641 780 1674.33 813 1741 813 curveto
+	 1807.67 813 1841 780 1841 714 curveto
+	 1841 647.333 1807.67 614 1741 614 curveto
+	 1674.33 614 1641 647.333 1641 714 curveto
+	closepath
+	1638 508 moveto
+	 1638 576.667 1672.33 611 1741 611 curveto
+	 1809.67 611 1844 576.667 1844 508 curveto
+	 1844 439.333 1809.67 405 1741 405 curveto
+	 1672.33 405 1638 439.333 1638 508 curveto
+	closepath
+	1638 301 moveto
+	 1638 370.333 1672.33 405 1741 405 curveto
+	 1809.67 405 1844 370.333 1844 301 curveto
+	 1844 232.333 1809.67 198 1741 198 curveto
+	 1672.33 198 1638 232.333 1638 301 curveto
+	closepath
+	1641 99 moveto
+	 1641 165 1674.33 198 1741 198 curveto
+	 1807.67 198 1841 165 1841 99 curveto
+	 1841 33 1807.67 0 1741 0 curveto
+	 1674.33 0 1641 33 1641 99 curveto
+	closepath
+	1912 0 moveto
+	 1912 2047 lineto
+	 2048 2047 lineto
+	 2048 0 lineto
+	 1912 0 lineto
+  closepath fill grestore
+%END LFNC
+%BEGIN LFND : Left frame with notation digit "4"
+  gsave newpath 
+	771 913 moveto
+	 771 916 lineto
+	 1048 916 lineto
+	 1048 1313 lineto
+	 1046 1313 lineto
+	 771 913 lineto
+	closepath
+	1026 1413 moveto
+	 1150 1413 lineto
+	 1150 916 lineto
+	 1301 916 lineto
+	 1301 827 lineto
+	 1150 827 lineto
+	 1150 631 lineto
+	 1048 631 lineto
+	 1048 827 lineto
+	 679 827 lineto
+	 679 925 lineto
+	 1026 1413 lineto
+	closepath
+	1638 1940 moveto
+	 1638 2008.67 1672.33 2043 1741 2043 curveto
+	 1809.67 2043 1844 2008.67 1844 1940 curveto
+	 1844 1871.33 1809.67 1837 1741 1837 curveto
+	 1672.33 1837 1638 1871.33 1638 1940 curveto
+	closepath
+	1641 1738 moveto
+	 1641 1804 1674.33 1837 1741 1837 curveto
+	 1807.67 1837 1841 1804 1841 1738 curveto
+	 1841 1671.33 1807.67 1638 1741 1638 curveto
+	 1674.33 1638 1641 1671.33 1641 1738 curveto
+	closepath
+	1638 1531 moveto
+	 1638 1600.33 1672.33 1635 1741 1635 curveto
+	 1809.67 1635 1844 1600.33 1844 1531 curveto
+	 1844 1462.33 1809.67 1428 1741 1428 curveto
+	 1672.33 1428 1638 1462.33 1638 1531 curveto
+	closepath
+	1640 1325 moveto
+	 1640 1392.33 1673.67 1426 1741 1426 curveto
+	 1808.33 1426 1842 1392.33 1842 1325 curveto
+	 1842 1257.67 1808.33 1224 1741 1224 curveto
+	 1673.67 1224 1640 1257.67 1640 1325 curveto
+	closepath
+	1638 1123 moveto
+	 1638 1191.67 1672.33 1226 1741 1226 curveto
+	 1809.67 1226 1844 1191.67 1844 1123 curveto
+	 1844 1054.33 1809.67 1020 1741 1020 curveto
+	 1672.33 1020 1638 1054.33 1638 1123 curveto
+	closepath
+	1638 916 moveto
+	 1638 984.667 1672.33 1019 1741 1019 curveto
+	 1809.67 1019 1844 984.667 1844 916 curveto
+	 1844 847.333 1809.67 813 1741 813 curveto
+	 1672.33 813 1638 847.333 1638 916 curveto
+	closepath
+	1641 714 moveto
+	 1641 780 1674.33 813 1741 813 curveto
+	 1807.67 813 1841 780 1841 714 curveto
+	 1841 647.333 1807.67 614 1741 614 curveto
+	 1674.33 614 1641 647.333 1641 714 curveto
+	closepath
+	1638 508 moveto
+	 1638 576.667 1672.33 611 1741 611 curveto
+	 1809.67 611 1844 576.667 1844 508 curveto
+	 1844 439.333 1809.67 405 1741 405 curveto
+	 1672.33 405 1638 439.333 1638 508 curveto
+	closepath
+	1638 301 moveto
+	 1638 370.333 1672.33 405 1741 405 curveto
+	 1809.67 405 1844 370.333 1844 301 curveto
+	 1844 232.333 1809.67 198 1741 198 curveto
+	 1672.33 198 1638 232.333 1638 301 curveto
+	closepath
+	1641 99 moveto
+	 1641 165 1674.33 198 1741 198 curveto
+	 1807.67 198 1841 165 1841 99 curveto
+	 1841 33 1807.67 0 1741 0 curveto
+	 1674.33 0 1641 33 1641 99 curveto
+	closepath
+	1912 0 moveto
+	 1912 2047 lineto
+	 2048 2047 lineto
+	 2048 0 lineto
+	 1912 0 lineto
+  closepath fill grestore
+%END LFND
+%BEGIN LFNE : Left frame with notation digit "5"
+  gsave newpath 
+	741 849 moveto
+	 753.667 761.667 802 718.667 886 720 curveto
+	 963.333 720 1014.67 752.667 1040 818 curveto
+	 1051.33 844.667 1057 873 1057 903 curveto
+	 1057 951 1044 991.667 1018 1025 curveto
+	 990.667 1061.67 952.333 1080 903 1080 curveto
+	 837 1080 794.667 1053.67 776 1001 curveto
+	 770.667 991 767.333 980.333 766 969 curveto
+	 657 969 lineto
+	 666 1431 lineto
+	 1110 1431 lineto
+	 1110 1342 lineto
+	 768 1342 lineto
+	 768 1343 lineto
+	 759 1084 lineto
+	 759 1084 lineto
+	 778 1107 lineto
+	 818 1148.33 868.333 1169 929 1169 curveto
+	 975 1169 1017.33 1155.33 1056 1128 curveto
+	 1094 1101.33 1121.33 1065.67 1138 1021 curveto
+	 1152 985 1159 946.667 1159 906 curveto
+	 1159 827.333 1135 762 1087 710 curveto
+	 1038.33 657.333 973.667 631 893 631 curveto
+	 831.667 631 779 645 735 673 curveto
+	 687.667 703 658 747.667 646 807 curveto
+	 639 849 lineto
+	 741 849 lineto
+	closepath
+	1638 1940 moveto
+	 1638 2008.67 1672.33 2043 1741 2043 curveto
+	 1809.67 2043 1844 2008.67 1844 1940 curveto
+	 1844 1871.33 1809.67 1837 1741 1837 curveto
+	 1672.33 1837 1638 1871.33 1638 1940 curveto
+	closepath
+	1641 1738 moveto
+	 1641 1804 1674.33 1837 1741 1837 curveto
+	 1807.67 1837 1841 1804 1841 1738 curveto
+	 1841 1671.33 1807.67 1638 1741 1638 curveto
+	 1674.33 1638 1641 1671.33 1641 1738 curveto
+	closepath
+	1638 1531 moveto
+	 1638 1600.33 1672.33 1635 1741 1635 curveto
+	 1809.67 1635 1844 1600.33 1844 1531 curveto
+	 1844 1462.33 1809.67 1428 1741 1428 curveto
+	 1672.33 1428 1638 1462.33 1638 1531 curveto
+	closepath
+	1640 1325 moveto
+	 1640 1392.33 1673.67 1426 1741 1426 curveto
+	 1808.33 1426 1842 1392.33 1842 1325 curveto
+	 1842 1257.67 1808.33 1224 1741 1224 curveto
+	 1673.67 1224 1640 1257.67 1640 1325 curveto
+	closepath
+	1638 1123 moveto
+	 1638 1191.67 1672.33 1226 1741 1226 curveto
+	 1809.67 1226 1844 1191.67 1844 1123 curveto
+	 1844 1054.33 1809.67 1020 1741 1020 curveto
+	 1672.33 1020 1638 1054.33 1638 1123 curveto
+	closepath
+	1638 916 moveto
+	 1638 984.667 1672.33 1019 1741 1019 curveto
+	 1809.67 1019 1844 984.667 1844 916 curveto
+	 1844 847.333 1809.67 813 1741 813 curveto
+	 1672.33 813 1638 847.333 1638 916 curveto
+	closepath
+	1641 714 moveto
+	 1641 780 1674.33 813 1741 813 curveto
+	 1807.67 813 1841 780 1841 714 curveto
+	 1841 647.333 1807.67 614 1741 614 curveto
+	 1674.33 614 1641 647.333 1641 714 curveto
+	closepath
+	1638 508 moveto
+	 1638 576.667 1672.33 611 1741 611 curveto
+	 1809.67 611 1844 576.667 1844 508 curveto
+	 1844 439.333 1809.67 405 1741 405 curveto
+	 1672.33 405 1638 439.333 1638 508 curveto
+	closepath
+	1638 301 moveto
+	 1638 370.333 1672.33 405 1741 405 curveto
+	 1809.67 405 1844 370.333 1844 301 curveto
+	 1844 232.333 1809.67 198 1741 198 curveto
+	 1672.33 198 1638 232.333 1638 301 curveto
+	closepath
+	1641 99 moveto
+	 1641 165 1674.33 198 1741 198 curveto
+	 1807.67 198 1841 165 1841 99 curveto
+	 1841 33 1807.67 0 1741 0 curveto
+	 1674.33 0 1641 33 1641 99 curveto
+	closepath
+	1912 0 moveto
+	 1912 2047 lineto
+	 2048 2047 lineto
+	 2048 0 lineto
+	 1912 0 lineto
+  closepath fill grestore
+%END LFNE
+%BEGIN LFNF : Left frame with notation digit "6"
+  gsave newpath 
+	715 897 moveto
+	 715 867 720 840 730 816 curveto
+	 740.667 786.667 761 762.667 791 744 curveto
+	 817 728 847.667 720 883 720 curveto
+	 936.333 720 978.667 737.333 1010 772 curveto
+	 1041.33 808 1057 851.333 1057 902 curveto
+	 1057 949.333 1042.33 990 1013 1024 curveto
+	 983 1058 942.667 1075 892 1075 curveto
+	 839.333 1075 796.333 1058.33 763 1025 curveto
+	 731 993 715 950.333 715 897 curveto
+	closepath
+	701 1053 moveto
+	 735 1099 772 1130 812 1146 curveto
+	 844 1158 877 1164 911 1164 curveto
+	 985.667 1164 1045.67 1140.33 1091 1093 curveto
+	 1136.33 1046.33 1159 986 1159 912 curveto
+	 1159 866.667 1151 824.667 1135 786 curveto
+	 1123 756 1105 729 1081 705 curveto
+	 1057 681 1030.67 663.667 1002 653 curveto
+	 965.333 638.333 925.333 631 882 631 curveto
+	 839.333 631 800.667 638 766 652 curveto
+	 740 662 717.333 676.667 698 696 curveto
+	 632 756.667 599 859.667 599 1005 curveto
+	 599.667 1109.67 613.333 1197.33 640 1268 curveto
+	 656 1310 678.667 1345.67 708 1375 curveto
+	 757.333 1423 823 1447.67 905 1449 curveto
+	 972.333 1449 1027.67 1431.67 1071 1397 curveto
+	 1110.33 1364.33 1133.67 1312 1141 1240 curveto
+	 1039 1240 lineto
+	 1029 1320 984.333 1360 905 1360 curveto
+	 797.667 1360 732 1283.67 708 1131 curveto
+	 703.333 1098.33 701 1074 701 1058 curveto
+	 701 1053 lineto
+	closepath
+	1638 1940 moveto
+	 1638 2008.67 1672.33 2043 1741 2043 curveto
+	 1809.67 2043 1844 2008.67 1844 1940 curveto
+	 1844 1871.33 1809.67 1837 1741 1837 curveto
+	 1672.33 1837 1638 1871.33 1638 1940 curveto
+	closepath
+	1641 1738 moveto
+	 1641 1804 1674.33 1837 1741 1837 curveto
+	 1807.67 1837 1841 1804 1841 1738 curveto
+	 1841 1671.33 1807.67 1638 1741 1638 curveto
+	 1674.33 1638 1641 1671.33 1641 1738 curveto
+	closepath
+	1638 1531 moveto
+	 1638 1600.33 1672.33 1635 1741 1635 curveto
+	 1809.67 1635 1844 1600.33 1844 1531 curveto
+	 1844 1462.33 1809.67 1428 1741 1428 curveto
+	 1672.33 1428 1638 1462.33 1638 1531 curveto
+	closepath
+	1640 1325 moveto
+	 1640 1392.33 1673.67 1426 1741 1426 curveto
+	 1808.33 1426 1842 1392.33 1842 1325 curveto
+	 1842 1257.67 1808.33 1224 1741 1224 curveto
+	 1673.67 1224 1640 1257.67 1640 1325 curveto
+	closepath
+	1638 1123 moveto
+	 1638 1191.67 1672.33 1226 1741 1226 curveto
+	 1809.67 1226 1844 1191.67 1844 1123 curveto
+	 1844 1054.33 1809.67 1020 1741 1020 curveto
+	 1672.33 1020 1638 1054.33 1638 1123 curveto
+	closepath
+	1638 916 moveto
+	 1638 984.667 1672.33 1019 1741 1019 curveto
+	 1809.67 1019 1844 984.667 1844 916 curveto
+	 1844 847.333 1809.67 813 1741 813 curveto
+	 1672.33 813 1638 847.333 1638 916 curveto
+	closepath
+	1641 714 moveto
+	 1641 780 1674.33 813 1741 813 curveto
+	 1807.67 813 1841 780 1841 714 curveto
+	 1841 647.333 1807.67 614 1741 614 curveto
+	 1674.33 614 1641 647.333 1641 714 curveto
+	closepath
+	1638 508 moveto
+	 1638 576.667 1672.33 611 1741 611 curveto
+	 1809.67 611 1844 576.667 1844 508 curveto
+	 1844 439.333 1809.67 405 1741 405 curveto
+	 1672.33 405 1638 439.333 1638 508 curveto
+	closepath
+	1638 301 moveto
+	 1638 370.333 1672.33 405 1741 405 curveto
+	 1809.67 405 1844 370.333 1844 301 curveto
+	 1844 232.333 1809.67 198 1741 198 curveto
+	 1672.33 198 1638 232.333 1638 301 curveto
+	closepath
+	1641 99 moveto
+	 1641 165 1674.33 198 1741 198 curveto
+	 1807.67 198 1841 165 1841 99 curveto
+	 1841 33 1807.67 0 1741 0 curveto
+	 1674.33 0 1641 33 1641 99 curveto
+	closepath
+	1912 0 moveto
+	 1912 2047 lineto
+	 2048 2047 lineto
+	 2048 0 lineto
+	 1912 0 lineto
+  closepath fill grestore
+%END LFNF
+%BEGIN LFNG : Left frame with notation digit "7"
+  gsave newpath 
+	621 1413 moveto
+	 1159 1413 lineto
+	 1159 1323 lineto
+	 854 631 lineto
+	 728 631 lineto
+	 1047 1326 lineto
+	 1047 1324 lineto
+	 621 1324 lineto
+	 621 1413 lineto
+	closepath
+	1638 1940 moveto
+	 1638 2008.67 1672.33 2043 1741 2043 curveto
+	 1809.67 2043 1844 2008.67 1844 1940 curveto
+	 1844 1871.33 1809.67 1837 1741 1837 curveto
+	 1672.33 1837 1638 1871.33 1638 1940 curveto
+	closepath
+	1641 1738 moveto
+	 1641 1804 1674.33 1837 1741 1837 curveto
+	 1807.67 1837 1841 1804 1841 1738 curveto
+	 1841 1671.33 1807.67 1638 1741 1638 curveto
+	 1674.33 1638 1641 1671.33 1641 1738 curveto
+	closepath
+	1638 1531 moveto
+	 1638 1600.33 1672.33 1635 1741 1635 curveto
+	 1809.67 1635 1844 1600.33 1844 1531 curveto
+	 1844 1462.33 1809.67 1428 1741 1428 curveto
+	 1672.33 1428 1638 1462.33 1638 1531 curveto
+	closepath
+	1640 1325 moveto
+	 1640 1392.33 1673.67 1426 1741 1426 curveto
+	 1808.33 1426 1842 1392.33 1842 1325 curveto
+	 1842 1257.67 1808.33 1224 1741 1224 curveto
+	 1673.67 1224 1640 1257.67 1640 1325 curveto
+	closepath
+	1638 1123 moveto
+	 1638 1191.67 1672.33 1226 1741 1226 curveto
+	 1809.67 1226 1844 1191.67 1844 1123 curveto
+	 1844 1054.33 1809.67 1020 1741 1020 curveto
+	 1672.33 1020 1638 1054.33 1638 1123 curveto
+	closepath
+	1638 916 moveto
+	 1638 984.667 1672.33 1019 1741 1019 curveto
+	 1809.67 1019 1844 984.667 1844 916 curveto
+	 1844 847.333 1809.67 813 1741 813 curveto
+	 1672.33 813 1638 847.333 1638 916 curveto
+	closepath
+	1641 714 moveto
+	 1641 780 1674.33 813 1741 813 curveto
+	 1807.67 813 1841 780 1841 714 curveto
+	 1841 647.333 1807.67 614 1741 614 curveto
+	 1674.33 614 1641 647.333 1641 714 curveto
+	closepath
+	1638 508 moveto
+	 1638 576.667 1672.33 611 1741 611 curveto
+	 1809.67 611 1844 576.667 1844 508 curveto
+	 1844 439.333 1809.67 405 1741 405 curveto
+	 1672.33 405 1638 439.333 1638 508 curveto
+	closepath
+	1638 301 moveto
+	 1638 370.333 1672.33 405 1741 405 curveto
+	 1809.67 405 1844 370.333 1844 301 curveto
+	 1844 232.333 1809.67 198 1741 198 curveto
+	 1672.33 198 1638 232.333 1638 301 curveto
+	closepath
+	1641 99 moveto
+	 1641 165 1674.33 198 1741 198 curveto
+	 1807.67 198 1841 165 1841 99 curveto
+	 1841 33 1807.67 0 1741 0 curveto
+	 1674.33 0 1641 33 1641 99 curveto
+	closepath
+	1912 0 moveto
+	 1912 2047 lineto
+	 2048 2047 lineto
+	 2048 0 lineto
+	 1912 0 lineto
+  closepath fill grestore
+%END LFNG
+%BEGIN LFNH : Left frame with notation digit "8"
+  gsave newpath 
+	719 1232 moveto
+	 719 1191.33 736 1159 770 1135 curveto
+	 799.333 1115 835.667 1105.67 879 1107 curveto
+	 922.333 1107 958.333 1116.67 987 1136 curveto
+	 1021.67 1161.33 1039 1194 1039 1234 curveto
+	 1039 1271.33 1022 1303 988 1329 curveto
+	 960.667 1349.67 925 1360 881 1360 curveto
+	 827.667 1360 785.667 1344.67 755 1314 curveto
+	 731 1290.67 719 1263.33 719 1232 curveto
+	closepath
+	701 866 moveto
+	 701 818.667 718.667 782 754 756 curveto
+	 786 732 825.667 720 873 720 curveto
+	 963 718.667 1020.67 751.667 1046 819 curveto
+	 1053.33 836.333 1057 853.333 1057 870 curveto
+	 1055.67 916.667 1037 953.667 1001 981 curveto
+	 967 1005.67 927 1018 881 1018 curveto
+	 831 1018 789.333 1005.33 756 980 curveto
+	 719.333 954 701 916 701 866 curveto
+	closepath
+	722 1074 moveto
+	 703.333 1083.33 687 1095 673 1109 curveto
+	 655 1125.67 641 1145.67 631 1169 curveto
+	 621.667 1190.33 617 1214.33 617 1241 curveto
+	 617 1281.67 628.667 1318.67 652 1352 curveto
+	 674.667 1384 705.333 1407.67 744 1423 curveto
+	 787.333 1440.33 833 1449 881 1449 curveto
+	 935 1449 983 1439 1025 1419 curveto
+	 1075.67 1394.33 1109.67 1359.67 1127 1315 curveto
+	 1136.33 1291 1141 1266.67 1141 1242 curveto
+	 1141.67 1167.33 1103.33 1111 1026 1073 curveto
+	 1003 1063 lineto
+	 1003 1061 lineto
+	 1028 1051 lineto
+	 1115.33 1014.33 1159 952 1159 864 curveto
+	 1159 803.333 1139.33 752.333 1100 711 curveto
+	 1047.33 657.667 972.333 631 875 631 curveto
+	 793.667 631 730.667 648.667 686 684 curveto
+	 628 726.667 599 784.667 599 858 curveto
+	 599 906 612.667 947.667 640 983 curveto
+	 658.667 1007 695.333 1032.67 750 1060 curveto
+	 750 1061 lineto
+	 722 1074 lineto
+	closepath
+	1638 1940 moveto
+	 1638 2008.67 1672.33 2043 1741 2043 curveto
+	 1809.67 2043 1844 2008.67 1844 1940 curveto
+	 1844 1871.33 1809.67 1837 1741 1837 curveto
+	 1672.33 1837 1638 1871.33 1638 1940 curveto
+	closepath
+	1641 1738 moveto
+	 1641 1804 1674.33 1837 1741 1837 curveto
+	 1807.67 1837 1841 1804 1841 1738 curveto
+	 1841 1671.33 1807.67 1638 1741 1638 curveto
+	 1674.33 1638 1641 1671.33 1641 1738 curveto
+	closepath
+	1638 1531 moveto
+	 1638 1600.33 1672.33 1635 1741 1635 curveto
+	 1809.67 1635 1844 1600.33 1844 1531 curveto
+	 1844 1462.33 1809.67 1428 1741 1428 curveto
+	 1672.33 1428 1638 1462.33 1638 1531 curveto
+	closepath
+	1640 1325 moveto
+	 1640 1392.33 1673.67 1426 1741 1426 curveto
+	 1808.33 1426 1842 1392.33 1842 1325 curveto
+	 1842 1257.67 1808.33 1224 1741 1224 curveto
+	 1673.67 1224 1640 1257.67 1640 1325 curveto
+	closepath
+	1638 1123 moveto
+	 1638 1191.67 1672.33 1226 1741 1226 curveto
+	 1809.67 1226 1844 1191.67 1844 1123 curveto
+	 1844 1054.33 1809.67 1020 1741 1020 curveto
+	 1672.33 1020 1638 1054.33 1638 1123 curveto
+	closepath
+	1638 916 moveto
+	 1638 984.667 1672.33 1019 1741 1019 curveto
+	 1809.67 1019 1844 984.667 1844 916 curveto
+	 1844 847.333 1809.67 813 1741 813 curveto
+	 1672.33 813 1638 847.333 1638 916 curveto
+	closepath
+	1641 714 moveto
+	 1641 780 1674.33 813 1741 813 curveto
+	 1807.67 813 1841 780 1841 714 curveto
+	 1841 647.333 1807.67 614 1741 614 curveto
+	 1674.33 614 1641 647.333 1641 714 curveto
+	closepath
+	1638 508 moveto
+	 1638 576.667 1672.33 611 1741 611 curveto
+	 1809.67 611 1844 576.667 1844 508 curveto
+	 1844 439.333 1809.67 405 1741 405 curveto
+	 1672.33 405 1638 439.333 1638 508 curveto
+	closepath
+	1638 301 moveto
+	 1638 370.333 1672.33 405 1741 405 curveto
+	 1809.67 405 1844 370.333 1844 301 curveto
+	 1844 232.333 1809.67 198 1741 198 curveto
+	 1672.33 198 1638 232.333 1638 301 curveto
+	closepath
+	1641 99 moveto
+	 1641 165 1674.33 198 1741 198 curveto
+	 1807.67 198 1841 165 1841 99 curveto
+	 1841 33 1807.67 0 1741 0 curveto
+	 1674.33 0 1641 33 1641 99 curveto
+	closepath
+	1912 0 moveto
+	 1912 2047 lineto
+	 2048 2047 lineto
+	 2048 0 lineto
+	 1912 0 lineto
+  closepath fill grestore
+%END LFNH
+
+%BEGIN BFNA : Bottom frame with notation letter "a"
+  gsave newpath 
+	806 1043 moveto
+	 810 1079 815.333 1103 822 1115 curveto
+	 832.667 1137 850.333 1154.67 875 1168 curveto
+	 911.667 1188.67 961.333 1199 1024 1199 curveto
+	 1092.67 1199 1145 1187 1181 1163 curveto
+	 1223 1136.33 1244.67 1090 1246 1024 curveto
+	 1246 809 lineto
+	 1246 767 lineto
+	 1248 712 lineto
+	 1248.67 691.333 1251 673.667 1255 659 curveto
+	 1264 635 lineto
+	 1166 635 lineto
+	 1154.67 658.333 1148.67 682 1148 706 curveto
+	 1140 693 lineto
+	 1127.33 676.333 1116 664.333 1106 657 curveto
+	 1070 630.333 1026.33 617 975 617 curveto
+	 941.667 617 908.667 623.333 876 636 curveto
+	 856 643.333 838 655.333 822 672 curveto
+	 808 686 798 701.667 792 719 curveto
+	 783.333 741.667 779 764.667 779 788 curveto
+	 779 810 782.667 831.667 790 853 curveto
+	 798 874.333 810.667 893.667 828 911 curveto
+	 848.667 931.667 869.667 946 891 954 curveto
+	 939 972 998.333 981 1069 981 curveto
+	 1144 981 lineto
+	 1144 1035.67 1138 1071 1126 1087 curveto
+	 1108 1111.67 1074.67 1124 1026 1124 curveto
+	 992.667 1124 966.667 1118.67 948 1108 curveto
+	 930 1098 918 1076.33 912 1043 curveto
+	 806 1043 lineto
+	closepath
+	1144 906 moveto
+	 1080 906 lineto
+	 1030.67 906 989 900.333 955 889 curveto
+	 909 872.333 886 839.667 886 791 curveto
+	 886 757 897.333 732.333 920 717 curveto
+	 941.333 700.333 968 692 1000 692 curveto
+	 1068.67 692 1111.67 718.667 1129 772 curveto
+	 1139 806 1144 850.667 1144 906 curveto
+	closepath
+	1941 1844 moveto
+	 2009.67 1844 2044 1809.67 2044 1741 curveto
+	 2044 1672.33 2009.67 1638 1941 1638 curveto
+	 1872.33 1638 1838 1672.33 1838 1741 curveto
+	 1838 1809.67 1872.33 1844 1941 1844 curveto
+	closepath
+	1738 1841 moveto
+	 1804.67 1841 1838 1807.67 1838 1741 curveto
+	 1838 1675 1804.67 1642 1738 1642 curveto
+	 1672 1642 1639 1675 1639 1741 curveto
+	 1639 1807.67 1672 1841 1738 1841 curveto
+	closepath
+	1532 1844 moveto
+	 1600.67 1844 1635 1809.67 1635 1741 curveto
+	 1635 1672.33 1600.67 1638 1532 1638 curveto
+	 1463.33 1638 1429 1672.33 1429 1741 curveto
+	 1429 1809.67 1463.33 1844 1532 1844 curveto
+	closepath
+	1326 1842 moveto
+	 1393.33 1842 1427 1808.33 1427 1741 curveto
+	 1427 1673.67 1393.33 1640 1326 1640 curveto
+	 1258.67 1640 1225 1673.67 1225 1741 curveto
+	 1225 1808.33 1258.67 1842 1326 1842 curveto
+	closepath
+	1124 1844 moveto
+	 1192.67 1844 1227 1809.67 1227 1741 curveto
+	 1227 1672.33 1192.67 1638 1124 1638 curveto
+	 1055.33 1638 1021 1672.33 1021 1741 curveto
+	 1021 1809.67 1055.33 1844 1124 1844 curveto
+	closepath
+	917 1844 moveto
+	 985.667 1844 1020 1809.67 1020 1741 curveto
+	 1020 1672.33 985.667 1638 917 1638 curveto
+	 848.333 1638 814 1672.33 814 1741 curveto
+	 814 1809.67 848.333 1844 917 1844 curveto
+	closepath
+	715 1841 moveto
+	 781 1841 814 1807.67 814 1741 curveto
+	 814 1675 781 1642 715 1642 curveto
+	 648.333 1642 615 1675 615 1741 curveto
+	 615 1807.67 648.333 1841 715 1841 curveto
+	closepath
+	509 1844 moveto
+	 577.667 1844 612 1809.67 612 1741 curveto
+	 612 1672.33 577.667 1638 509 1638 curveto
+	 440.333 1638 406 1672.33 406 1741 curveto
+	 406 1809.67 440.333 1844 509 1844 curveto
+	closepath
+	302 1844 moveto
+	 371.333 1844 406 1809.67 406 1741 curveto
+	 406 1672.33 371.333 1638 302 1638 curveto
+	 233.333 1638 199 1672.33 199 1741 curveto
+	 199 1809.67 233.333 1844 302 1844 curveto
+	closepath
+	100 1841 moveto
+	 166 1841 199 1807.67 199 1741 curveto
+	 199 1675 166 1642 100 1642 curveto
+	 33.3333 1642 -1.27157e-06 1675 0 1741 curveto
+	 0 1807.67 33.3333 1841 100 1841 curveto
+	closepath
+	0 2049 moveto
+	 2047 2049 lineto
+	 2047 1913 lineto
+	 0 1913 lineto
+	 0 2049 lineto
+  closepath fill grestore
+%END BFNA
+%BEGIN BFNB : Bottom frame with notation letter "b"
+  gsave newpath 
+	870 904 moveto
+	 868.667 762.667 918.333 692 1019 692 curveto
+	 1072.33 692 1112.67 715.333 1140 762 curveto
+	 1161.33 799.333 1172 847.333 1172 906 curveto
+	 1172 951.333 1164.67 992.667 1150 1030 curveto
+	 1126 1090 1083.33 1121.33 1022 1124 curveto
+	 968 1124 926.667 1099.33 898 1050 curveto
+	 879.333 1017.33 870 968.667 870 904 curveto
+	closepath
+	767 1421 moveto
+	 870 1421 lineto
+	 870 1115 lineto
+	 896 1141 lineto
+	 932 1178.33 982.333 1197.67 1047 1199 curveto
+	 1079.67 1199 1109.33 1193.67 1136 1183 curveto
+	 1162 1172.33 1183.67 1158 1201 1140 curveto
+	 1251.67 1086 1277.67 1009.33 1279 910 curveto
+	 1277.67 825.333 1258.33 757.667 1221 707 curveto
+	 1177 647 1116.67 617 1040 617 curveto
+	 1008 617 978.333 622.667 951 634 curveto
+	 927.667 642.667 906.667 656.667 888 676 curveto
+	 870 697 lineto
+	 870 635 lineto
+	 767 635 lineto
+	 767 1421 lineto
+	closepath
+	0 2049 moveto
+	 2047 2049 lineto
+	 2047 1913 lineto
+	 0 1913 lineto
+	 0 2049 lineto
+	closepath
+	100 1841 moveto
+	 166 1841 199 1807.67 199 1741 curveto
+	 199 1675 166 1642 100 1642 curveto
+	 33.3333 1642 -1.27157e-06 1675 0 1741 curveto
+	 0 1807.67 33.3333 1841 100 1841 curveto
+	closepath
+	302 1844 moveto
+	 371.333 1844 406 1809.67 406 1741 curveto
+	 406 1672.33 371.333 1638 302 1638 curveto
+	 233.333 1638 199 1672.33 199 1741 curveto
+	 199 1809.67 233.333 1844 302 1844 curveto
+	closepath
+	509 1844 moveto
+	 577.667 1844 612 1809.67 612 1741 curveto
+	 612 1672.33 577.667 1638 509 1638 curveto
+	 440.333 1638 406 1672.33 406 1741 curveto
+	 406 1809.67 440.333 1844 509 1844 curveto
+	closepath
+	715 1841 moveto
+	 781 1841 814 1807.67 814 1741 curveto
+	 814 1675 781 1642 715 1642 curveto
+	 648.333 1642 615 1675 615 1741 curveto
+	 615 1807.67 648.333 1841 715 1841 curveto
+	closepath
+	917 1844 moveto
+	 985.667 1844 1020 1809.67 1020 1741 curveto
+	 1020 1672.33 985.667 1638 917 1638 curveto
+	 848.333 1638 814 1672.33 814 1741 curveto
+	 814 1809.67 848.333 1844 917 1844 curveto
+	closepath
+	1124 1844 moveto
+	 1192.67 1844 1227 1809.67 1227 1741 curveto
+	 1227 1672.33 1192.67 1638 1124 1638 curveto
+	 1055.33 1638 1021 1672.33 1021 1741 curveto
+	 1021 1809.67 1055.33 1844 1124 1844 curveto
+	closepath
+	1326 1842 moveto
+	 1393.33 1842 1427 1808.33 1427 1741 curveto
+	 1427 1673.67 1393.33 1640 1326 1640 curveto
+	 1258.67 1640 1225 1673.67 1225 1741 curveto
+	 1225 1808.33 1258.67 1842 1326 1842 curveto
+	closepath
+	1532 1844 moveto
+	 1600.67 1844 1635 1809.67 1635 1741 curveto
+	 1635 1672.33 1600.67 1638 1532 1638 curveto
+	 1463.33 1638 1429 1672.33 1429 1741 curveto
+	 1429 1809.67 1463.33 1844 1532 1844 curveto
+	closepath
+	1738 1841 moveto
+	 1804.67 1841 1838 1807.67 1838 1741 curveto
+	 1838 1675 1804.67 1642 1738 1642 curveto
+	 1672 1642 1639 1675 1639 1741 curveto
+	 1639 1807.67 1672 1841 1738 1841 curveto
+	closepath
+	1941 1844 moveto
+	 2009.67 1844 2044 1809.67 2044 1741 curveto
+	 2044 1672.33 2009.67 1638 1941 1638 curveto
+	 1872.33 1638 1838 1672.33 1838 1741 curveto
+	 1838 1809.67 1872.33 1844 1941 1844 curveto
+  closepath fill grestore
+%END BFNB
+%BEGIN BFNC : Bottom frame with notation letter "c"
+  gsave newpath 
+	1157 1008 moveto
+	 1146.33 1084 1104.33 1122.67 1031 1124 curveto
+	 1010.33 1124 990 1119.67 970 1111 curveto
+	 934 1097 910.667 1073 900 1039 curveto
+	 887.333 1002.33 881 963 881 921 curveto
+	 881 851 888.667 799.667 904 767 curveto
+	 926.667 715.667 967.667 690.667 1027 692 curveto
+	 1094.33 692 1135.67 717 1151 767 curveto
+	 1155.67 783 1159 799.667 1161 817 curveto
+	 1268 817 lineto
+	 1262.67 778.333 1256 749.667 1248 731 curveto
+	 1236 703.667 1218 681.333 1194 664 curveto
+	 1151.33 632.667 1096.33 617 1029 617 curveto
+	 943 617 878.667 643.333 836 696 curveto
+	 795.333 745.333 775 813.333 775 900 curveto
+	 775 994.667 795.333 1066 836 1114 curveto
+	 884 1170.67 952 1199 1040 1199 curveto
+	 1118 1197.67 1176.33 1176.67 1215 1136 curveto
+	 1235.67 1112.67 1249.33 1085.33 1256 1054 curveto
+	 1264 1008 lineto
+	 1157 1008 lineto
+	closepath
+	1941 1844 moveto
+	 2009.67 1844 2044 1809.67 2044 1741 curveto
+	 2044 1672.33 2009.67 1638 1941 1638 curveto
+	 1872.33 1638 1838 1672.33 1838 1741 curveto
+	 1838 1809.67 1872.33 1844 1941 1844 curveto
+	closepath
+	1738 1841 moveto
+	 1804.67 1841 1838 1807.67 1838 1741 curveto
+	 1838 1675 1804.67 1642 1738 1642 curveto
+	 1672 1642 1639 1675 1639 1741 curveto
+	 1639 1807.67 1672 1841 1738 1841 curveto
+	closepath
+	1532 1844 moveto
+	 1600.67 1844 1635 1809.67 1635 1741 curveto
+	 1635 1672.33 1600.67 1638 1532 1638 curveto
+	 1463.33 1638 1429 1672.33 1429 1741 curveto
+	 1429 1809.67 1463.33 1844 1532 1844 curveto
+	closepath
+	1326 1842 moveto
+	 1393.33 1842 1427 1808.33 1427 1741 curveto
+	 1427 1673.67 1393.33 1640 1326 1640 curveto
+	 1258.67 1640 1225 1673.67 1225 1741 curveto
+	 1225 1808.33 1258.67 1842 1326 1842 curveto
+	closepath
+	1124 1844 moveto
+	 1192.67 1844 1227 1809.67 1227 1741 curveto
+	 1227 1672.33 1192.67 1638 1124 1638 curveto
+	 1055.33 1638 1021 1672.33 1021 1741 curveto
+	 1021 1809.67 1055.33 1844 1124 1844 curveto
+	closepath
+	917 1844 moveto
+	 985.667 1844 1020 1809.67 1020 1741 curveto
+	 1020 1672.33 985.667 1638 917 1638 curveto
+	 848.333 1638 814 1672.33 814 1741 curveto
+	 814 1809.67 848.333 1844 917 1844 curveto
+	closepath
+	715 1841 moveto
+	 781 1841 814 1807.67 814 1741 curveto
+	 814 1675 781 1642 715 1642 curveto
+	 648.333 1642 615 1675 615 1741 curveto
+	 615 1807.67 648.333 1841 715 1841 curveto
+	closepath
+	509 1844 moveto
+	 577.667 1844 612 1809.67 612 1741 curveto
+	 612 1672.33 577.667 1638 509 1638 curveto
+	 440.333 1638 406 1672.33 406 1741 curveto
+	 406 1809.67 440.333 1844 509 1844 curveto
+	closepath
+	302 1844 moveto
+	 371.333 1844 406 1809.67 406 1741 curveto
+	 406 1672.33 371.333 1638 302 1638 curveto
+	 233.333 1638 199 1672.33 199 1741 curveto
+	 199 1809.67 233.333 1844 302 1844 curveto
+	closepath
+	100 1841 moveto
+	 166 1841 199 1807.67 199 1741 curveto
+	 199 1675 166 1642 100 1642 curveto
+	 33.3333 1642 -1.27157e-06 1675 0 1741 curveto
+	 0 1807.67 33.3333 1841 100 1841 curveto
+	closepath
+	0 2049 moveto
+	 2047 2049 lineto
+	 2047 1913 lineto
+	 0 1913 lineto
+	 0 2049 lineto
+  closepath fill grestore
+%END BFNC
+%BEGIN BFND : Bottom frame with notation letter "d"
+  gsave newpath 
+	872 899 moveto
+	 872 840.333 882.333 794 903 760 curveto
+	 930.333 714.667 969.333 692 1020 692 curveto
+	 1122 692.667 1173.67 766.333 1175 913 curveto
+	 1175 953 1168.33 992 1155 1030 curveto
+	 1144.33 1057.33 1127.33 1079.67 1104 1097 curveto
+	 1079.33 1115 1053 1124 1025 1124 curveto
+	 969 1124 928 1098.67 902 1048 curveto
+	 882 1008 872 958.333 872 899 curveto
+	closepath
+	1175 1421 moveto
+	 1277 1421 lineto
+	 1277 635 lineto
+	 1175 635 lineto
+	 1175 701 lineto
+	 1137 645 1079.67 617 1003 617 curveto
+	 969.667 617 939 623 911 635 curveto
+	 813 675.667 764.667 766 766 906 curveto
+	 766 989.333 784.667 1056.33 822 1107 curveto
+	 866 1167 927 1197.67 1005 1199 curveto
+	 1067 1197.67 1116.33 1178 1153 1140 curveto
+	 1175 1115 lineto
+	 1175 1421 lineto
+	closepath
+	1941 1844 moveto
+	 2009.67 1844 2044 1809.67 2044 1741 curveto
+	 2044 1672.33 2009.67 1638 1941 1638 curveto
+	 1872.33 1638 1838 1672.33 1838 1741 curveto
+	 1838 1809.67 1872.33 1844 1941 1844 curveto
+	closepath
+	1738 1841 moveto
+	 1804.67 1841 1838 1807.67 1838 1741 curveto
+	 1838 1675 1804.67 1642 1738 1642 curveto
+	 1672 1642 1639 1675 1639 1741 curveto
+	 1639 1807.67 1672 1841 1738 1841 curveto
+	closepath
+	1532 1844 moveto
+	 1600.67 1844 1635 1809.67 1635 1741 curveto
+	 1635 1672.33 1600.67 1638 1532 1638 curveto
+	 1463.33 1638 1429 1672.33 1429 1741 curveto
+	 1429 1809.67 1463.33 1844 1532 1844 curveto
+	closepath
+	1326 1842 moveto
+	 1393.33 1842 1427 1808.33 1427 1741 curveto
+	 1427 1673.67 1393.33 1640 1326 1640 curveto
+	 1258.67 1640 1225 1673.67 1225 1741 curveto
+	 1225 1808.33 1258.67 1842 1326 1842 curveto
+	closepath
+	1124 1844 moveto
+	 1192.67 1844 1227 1809.67 1227 1741 curveto
+	 1227 1672.33 1192.67 1638 1124 1638 curveto
+	 1055.33 1638 1021 1672.33 1021 1741 curveto
+	 1021 1809.67 1055.33 1844 1124 1844 curveto
+	closepath
+	917 1844 moveto
+	 985.667 1844 1020 1809.67 1020 1741 curveto
+	 1020 1672.33 985.667 1638 917 1638 curveto
+	 848.333 1638 814 1672.33 814 1741 curveto
+	 814 1809.67 848.333 1844 917 1844 curveto
+	closepath
+	715 1841 moveto
+	 781 1841 814 1807.67 814 1741 curveto
+	 814 1675 781 1642 715 1642 curveto
+	 648.333 1642 615 1675 615 1741 curveto
+	 615 1807.67 648.333 1841 715 1841 curveto
+	closepath
+	509 1844 moveto
+	 577.667 1844 612 1809.67 612 1741 curveto
+	 612 1672.33 577.667 1638 509 1638 curveto
+	 440.333 1638 406 1672.33 406 1741 curveto
+	 406 1809.67 440.333 1844 509 1844 curveto
+	closepath
+	302 1844 moveto
+	 371.333 1844 406 1809.67 406 1741 curveto
+	 406 1672.33 371.333 1638 302 1638 curveto
+	 233.333 1638 199 1672.33 199 1741 curveto
+	 199 1809.67 233.333 1844 302 1844 curveto
+	closepath
+	100 1841 moveto
+	 166 1841 199 1807.67 199 1741 curveto
+	 199 1675 166 1642 100 1642 curveto
+	 33.3333 1642 -1.27157e-06 1675 0 1741 curveto
+	 0 1807.67 33.3333 1841 100 1841 curveto
+	closepath
+	0 2049 moveto
+	 2047 2049 lineto
+	 2047 1913 lineto
+	 0 1913 lineto
+	 0 2049 lineto
+  closepath fill grestore
+%END BFND
+%BEGIN BFNE : Bottom frame with notation letter "e"
+  gsave newpath 
+	884 968 moveto
+	 1169 968 lineto
+	 1167 1021.33 1156.67 1059 1138 1081 curveto
+	 1114 1109.67 1078.67 1124 1032 1124 curveto
+	 956 1124 909.667 1086.67 893 1012 curveto
+	 884 968 lineto
+	closepath
+	884 892 moveto
+	 885.333 846.667 890.667 810.333 900 783 curveto
+	 914 743.667 938 717.333 972 704 curveto
+	 990.667 696 1011.33 692 1034 692 curveto
+	 1109.33 692.667 1152.67 731.333 1164 808 curveto
+	 1271 808 lineto
+	 1261.67 758 1249.33 722.667 1234 702 curveto
+	 1208 669.333 1178.33 647.333 1145 636 curveto
+	 1110.33 623.333 1073.33 617 1034 617 curveto
+	 947.333 617 882.667 643 840 695 curveto
+	 798 744.333 777 812.333 777 899 curveto
+	 777 959.667 786.333 1013.33 805 1060 curveto
+	 820.333 1102 850.667 1137 896 1165 curveto
+	 934 1187.67 980 1199 1034 1199 curveto
+	 1182.67 1197.67 1262.67 1121.67 1274 971 curveto
+	 1275 892 lineto
+	 884 892 lineto
+	closepath
+	1941 1844 moveto
+	 2009.67 1844 2044 1809.67 2044 1741 curveto
+	 2044 1672.33 2009.67 1638 1941 1638 curveto
+	 1872.33 1638 1838 1672.33 1838 1741 curveto
+	 1838 1809.67 1872.33 1844 1941 1844 curveto
+	closepath
+	1738 1841 moveto
+	 1804.67 1841 1838 1807.67 1838 1741 curveto
+	 1838 1675 1804.67 1642 1738 1642 curveto
+	 1672 1642 1639 1675 1639 1741 curveto
+	 1639 1807.67 1672 1841 1738 1841 curveto
+	closepath
+	1532 1844 moveto
+	 1600.67 1844 1635 1809.67 1635 1741 curveto
+	 1635 1672.33 1600.67 1638 1532 1638 curveto
+	 1463.33 1638 1429 1672.33 1429 1741 curveto
+	 1429 1809.67 1463.33 1844 1532 1844 curveto
+	closepath
+	1326 1842 moveto
+	 1393.33 1842 1427 1808.33 1427 1741 curveto
+	 1427 1673.67 1393.33 1640 1326 1640 curveto
+	 1258.67 1640 1225 1673.67 1225 1741 curveto
+	 1225 1808.33 1258.67 1842 1326 1842 curveto
+	closepath
+	1124 1844 moveto
+	 1192.67 1844 1227 1809.67 1227 1741 curveto
+	 1227 1672.33 1192.67 1638 1124 1638 curveto
+	 1055.33 1638 1021 1672.33 1021 1741 curveto
+	 1021 1809.67 1055.33 1844 1124 1844 curveto
+	closepath
+	917 1844 moveto
+	 985.667 1844 1020 1809.67 1020 1741 curveto
+	 1020 1672.33 985.667 1638 917 1638 curveto
+	 848.333 1638 814 1672.33 814 1741 curveto
+	 814 1809.67 848.333 1844 917 1844 curveto
+	closepath
+	715 1841 moveto
+	 781 1841 814 1807.67 814 1741 curveto
+	 814 1675 781 1642 715 1642 curveto
+	 648.333 1642 615 1675 615 1741 curveto
+	 615 1807.67 648.333 1841 715 1841 curveto
+	closepath
+	509 1844 moveto
+	 577.667 1844 612 1809.67 612 1741 curveto
+	 612 1672.33 577.667 1638 509 1638 curveto
+	 440.333 1638 406 1672.33 406 1741 curveto
+	 406 1809.67 440.333 1844 509 1844 curveto
+	closepath
+	302 1844 moveto
+	 371.333 1844 406 1809.67 406 1741 curveto
+	 406 1672.33 371.333 1638 302 1638 curveto
+	 233.333 1638 199 1672.33 199 1741 curveto
+	 199 1809.67 233.333 1844 302 1844 curveto
+	closepath
+	100 1841 moveto
+	 166 1841 199 1807.67 199 1741 curveto
+	 199 1675 166 1642 100 1642 curveto
+	 33.3333 1642 -1.27157e-06 1675 0 1741 curveto
+	 0 1807.67 33.3333 1841 100 1841 curveto
+	closepath
+	0 2049 moveto
+	 2047 2049 lineto
+	 2047 1913 lineto
+	 0 1913 lineto
+	 0 2049 lineto
+  closepath fill grestore
+%END BFNE
+%BEGIN BFNF : Bottom frame with notation letter "f"
+  gsave newpath 
+	959 1164 moveto
+	 959 1225 lineto
+	 959 1281.67 964.333 1321.33 975 1344 curveto
+	 991 1379.33 1023.67 1400.67 1073 1408 curveto
+	 1093.67 1411.33 1114.33 1413 1135 1413 curveto
+	 1172 1410 lineto
+	 1190 1408 lineto
+	 1190 1333 lineto
+	 1150 1337 lineto
+	 1138 1337 1125.33 1335.67 1112 1333 curveto
+	 1086.67 1326.33 1071.67 1312.33 1067 1291 curveto
+	 1063 1275.67 1061 1254.33 1061 1227 curveto
+	 1061 1164 lineto
+	 1190 1164 lineto
+	 1190 1088 lineto
+	 1061 1088 lineto
+	 1061 617 lineto
+	 959 617 lineto
+	 959 1088 lineto
+	 852 1088 lineto
+	 852 1164 lineto
+	 959 1164 lineto
+	closepath
+	1941 1844 moveto
+	 2009.67 1844 2044 1809.67 2044 1741 curveto
+	 2044 1672.33 2009.67 1638 1941 1638 curveto
+	 1872.33 1638 1838 1672.33 1838 1741 curveto
+	 1838 1809.67 1872.33 1844 1941 1844 curveto
+	closepath
+	1738 1841 moveto
+	 1804.67 1841 1838 1807.67 1838 1741 curveto
+	 1838 1675 1804.67 1642 1738 1642 curveto
+	 1672 1642 1639 1675 1639 1741 curveto
+	 1639 1807.67 1672 1841 1738 1841 curveto
+	closepath
+	1532 1844 moveto
+	 1600.67 1844 1635 1809.67 1635 1741 curveto
+	 1635 1672.33 1600.67 1638 1532 1638 curveto
+	 1463.33 1638 1429 1672.33 1429 1741 curveto
+	 1429 1809.67 1463.33 1844 1532 1844 curveto
+	closepath
+	1326 1842 moveto
+	 1393.33 1842 1427 1808.33 1427 1741 curveto
+	 1427 1673.67 1393.33 1640 1326 1640 curveto
+	 1258.67 1640 1225 1673.67 1225 1741 curveto
+	 1225 1808.33 1258.67 1842 1326 1842 curveto
+	closepath
+	1124 1844 moveto
+	 1192.67 1844 1227 1809.67 1227 1741 curveto
+	 1227 1672.33 1192.67 1638 1124 1638 curveto
+	 1055.33 1638 1021 1672.33 1021 1741 curveto
+	 1021 1809.67 1055.33 1844 1124 1844 curveto
+	closepath
+	917 1844 moveto
+	 985.667 1844 1020 1809.67 1020 1741 curveto
+	 1020 1672.33 985.667 1638 917 1638 curveto
+	 848.333 1638 814 1672.33 814 1741 curveto
+	 814 1809.67 848.333 1844 917 1844 curveto
+	closepath
+	715 1841 moveto
+	 781 1841 814 1807.67 814 1741 curveto
+	 814 1675 781 1642 715 1642 curveto
+	 648.333 1642 615 1675 615 1741 curveto
+	 615 1807.67 648.333 1841 715 1841 curveto
+	closepath
+	509 1844 moveto
+	 577.667 1844 612 1809.67 612 1741 curveto
+	 612 1672.33 577.667 1638 509 1638 curveto
+	 440.333 1638 406 1672.33 406 1741 curveto
+	 406 1809.67 440.333 1844 509 1844 curveto
+	closepath
+	302 1844 moveto
+	 371.333 1844 406 1809.67 406 1741 curveto
+	 406 1672.33 371.333 1638 302 1638 curveto
+	 233.333 1638 199 1672.33 199 1741 curveto
+	 199 1809.67 233.333 1844 302 1844 curveto
+	closepath
+	100 1841 moveto
+	 166 1841 199 1807.67 199 1741 curveto
+	 199 1675 166 1642 100 1642 curveto
+	 33.3333 1642 -1.27157e-06 1675 0 1741 curveto
+	 0 1807.67 33.3333 1841 100 1841 curveto
+	closepath
+	0 2049 moveto
+	 2047 2049 lineto
+	 2047 1913 lineto
+	 0 1913 lineto
+	 0 2049 lineto
+  closepath fill grestore
+%END BFNF
+%BEGIN BFNG : Bottom frame with notation letter "g"
+  gsave newpath 
+	877 895 moveto
+	 877 763.667 926 698 1024 698 curveto
+	 1124.67 698 1176.33 766.667 1179 904 curveto
+	 1179 962 1168.33 1007.33 1147 1040 curveto
+	 1119 1082 1079 1103 1027 1103 curveto
+	 927 1103.67 877 1034.33 877 895 curveto
+	closepath
+	904 569 moveto
+	 904 551 lineto
+	 910 495 952 467 1030 467 curveto
+	 1118 467 1166.67 510.667 1176 598 curveto
+	 1178 620 1179 641 1179 661 curveto
+	 1179 716 lineto
+	 1162 691 lineto
+	 1124 645.667 1070 623 1000 623 curveto
+	 930.667 623 877.667 643.333 841 684 curveto
+	 819.667 705.333 804 730.333 794 759 curveto
+	 778 801 770 846.667 770 896 curveto
+	 770 944 778 988.667 794 1030 curveto
+	 810 1074.67 839 1111 881 1139 curveto
+	 919.667 1165 964.333 1178 1015 1178 curveto
+	 1079.67 1178 1130 1155.67 1166 1111 curveto
+	 1179 1094 lineto
+	 1179 1160 lineto
+	 1281 1160 lineto
+	 1281 658 lineto
+	 1281 609.333 1278 573.667 1272 551 curveto
+	 1264.67 511.667 1249 480 1225 456 curveto
+	 1183 413.333 1116.67 392 1026 392 curveto
+	 884 390.667 808.333 437.667 799 533 curveto
+	 797 569 lineto
+	 904 569 lineto
+	closepath
+	1941 1844 moveto
+	 2009.67 1844 2044 1809.67 2044 1741 curveto
+	 2044 1672.33 2009.67 1638 1941 1638 curveto
+	 1872.33 1638 1838 1672.33 1838 1741 curveto
+	 1838 1809.67 1872.33 1844 1941 1844 curveto
+	closepath
+	1738 1841 moveto
+	 1804.67 1841 1838 1807.67 1838 1741 curveto
+	 1838 1675 1804.67 1642 1738 1642 curveto
+	 1672 1642 1639 1675 1639 1741 curveto
+	 1639 1807.67 1672 1841 1738 1841 curveto
+	closepath
+	1532 1844 moveto
+	 1600.67 1844 1635 1809.67 1635 1741 curveto
+	 1635 1672.33 1600.67 1638 1532 1638 curveto
+	 1463.33 1638 1429 1672.33 1429 1741 curveto
+	 1429 1809.67 1463.33 1844 1532 1844 curveto
+	closepath
+	1326 1842 moveto
+	 1393.33 1842 1427 1808.33 1427 1741 curveto
+	 1427 1673.67 1393.33 1640 1326 1640 curveto
+	 1258.67 1640 1225 1673.67 1225 1741 curveto
+	 1225 1808.33 1258.67 1842 1326 1842 curveto
+	closepath
+	1124 1844 moveto
+	 1192.67 1844 1227 1809.67 1227 1741 curveto
+	 1227 1672.33 1192.67 1638 1124 1638 curveto
+	 1055.33 1638 1021 1672.33 1021 1741 curveto
+	 1021 1809.67 1055.33 1844 1124 1844 curveto
+	closepath
+	917 1844 moveto
+	 985.667 1844 1020 1809.67 1020 1741 curveto
+	 1020 1672.33 985.667 1638 917 1638 curveto
+	 848.333 1638 814 1672.33 814 1741 curveto
+	 814 1809.67 848.333 1844 917 1844 curveto
+	closepath
+	715 1841 moveto
+	 781 1841 814 1807.67 814 1741 curveto
+	 814 1675 781 1642 715 1642 curveto
+	 648.333 1642 615 1675 615 1741 curveto
+	 615 1807.67 648.333 1841 715 1841 curveto
+	closepath
+	509 1844 moveto
+	 577.667 1844 612 1809.67 612 1741 curveto
+	 612 1672.33 577.667 1638 509 1638 curveto
+	 440.333 1638 406 1672.33 406 1741 curveto
+	 406 1809.67 440.333 1844 509 1844 curveto
+	closepath
+	302 1844 moveto
+	 371.333 1844 406 1809.67 406 1741 curveto
+	 406 1672.33 371.333 1638 302 1638 curveto
+	 233.333 1638 199 1672.33 199 1741 curveto
+	 199 1809.67 233.333 1844 302 1844 curveto
+	closepath
+	100 1841 moveto
+	 166 1841 199 1807.67 199 1741 curveto
+	 199 1675 166 1642 100 1642 curveto
+	 33.3333 1642 -1.27157e-06 1675 0 1741 curveto
+	 0 1807.67 33.3333 1841 100 1841 curveto
+	closepath
+	0 2049 moveto
+	 2047 2049 lineto
+	 2047 1913 lineto
+	 0 1913 lineto
+	 0 2049 lineto
+  closepath fill grestore
+%END BFNG
+%BEGIN BFNH : Bottom frame with notation letter "h"
+  gsave newpath 
+	879 1404 moveto
+	 879 1097 lineto
+	 917.667 1153 979.333 1181 1064 1181 curveto
+	 1097.33 1181 1129 1175 1159 1163 curveto
+	 1182.33 1153.67 1202.33 1140.33 1219 1123 curveto
+	 1253 1085.67 1270 1023.67 1270 937 curveto
+	 1270 617 lineto
+	 1168 617 lineto
+	 1168 940 lineto
+	 1168 1000.67 1155.33 1043.67 1130 1069 curveto
+	 1118.67 1079.67 1106 1088 1092 1094 curveto
+	 1074 1102 1053.67 1106 1031 1106 curveto
+	 957.667 1106 912 1081 894 1031 curveto
+	 885.333 1009.67 880.667 985.333 880 958 curveto
+	 879 929 lineto
+	 879 617 lineto
+	 776 617 lineto
+	 776 1404 lineto
+	 879 1404 lineto
+	closepath
+	1941 1844 moveto
+	 2009.67 1844 2044 1809.67 2044 1741 curveto
+	 2044 1672.33 2009.67 1638 1941 1638 curveto
+	 1872.33 1638 1838 1672.33 1838 1741 curveto
+	 1838 1809.67 1872.33 1844 1941 1844 curveto
+	closepath
+	1738 1841 moveto
+	 1804.67 1841 1838 1807.67 1838 1741 curveto
+	 1838 1675 1804.67 1642 1738 1642 curveto
+	 1672 1642 1639 1675 1639 1741 curveto
+	 1639 1807.67 1672 1841 1738 1841 curveto
+	closepath
+	1532 1844 moveto
+	 1600.67 1844 1635 1809.67 1635 1741 curveto
+	 1635 1672.33 1600.67 1638 1532 1638 curveto
+	 1463.33 1638 1429 1672.33 1429 1741 curveto
+	 1429 1809.67 1463.33 1844 1532 1844 curveto
+	closepath
+	1326 1842 moveto
+	 1393.33 1842 1427 1808.33 1427 1741 curveto
+	 1427 1673.67 1393.33 1640 1326 1640 curveto
+	 1258.67 1640 1225 1673.67 1225 1741 curveto
+	 1225 1808.33 1258.67 1842 1326 1842 curveto
+	closepath
+	1124 1844 moveto
+	 1192.67 1844 1227 1809.67 1227 1741 curveto
+	 1227 1672.33 1192.67 1638 1124 1638 curveto
+	 1055.33 1638 1021 1672.33 1021 1741 curveto
+	 1021 1809.67 1055.33 1844 1124 1844 curveto
+	closepath
+	917 1844 moveto
+	 985.667 1844 1020 1809.67 1020 1741 curveto
+	 1020 1672.33 985.667 1638 917 1638 curveto
+	 848.333 1638 814 1672.33 814 1741 curveto
+	 814 1809.67 848.333 1844 917 1844 curveto
+	closepath
+	715 1841 moveto
+	 781 1841 814 1807.67 814 1741 curveto
+	 814 1675 781 1642 715 1642 curveto
+	 648.333 1642 615 1675 615 1741 curveto
+	 615 1807.67 648.333 1841 715 1841 curveto
+	closepath
+	509 1844 moveto
+	 577.667 1844 612 1809.67 612 1741 curveto
+	 612 1672.33 577.667 1638 509 1638 curveto
+	 440.333 1638 406 1672.33 406 1741 curveto
+	 406 1809.67 440.333 1844 509 1844 curveto
+	closepath
+	302 1844 moveto
+	 371.333 1844 406 1809.67 406 1741 curveto
+	 406 1672.33 371.333 1638 302 1638 curveto
+	 233.333 1638 199 1672.33 199 1741 curveto
+	 199 1809.67 233.333 1844 302 1844 curveto
+	closepath
+	100 1841 moveto
+	 166 1841 199 1807.67 199 1741 curveto
+	 199 1675 166 1642 100 1642 curveto
+	 33.3333 1642 -1.27157e-06 1675 0 1741 curveto
+	 0 1807.67 33.3333 1841 100 1841 curveto
+	closepath
+	0 2049 moveto
+	 2047 2049 lineto
+	 2047 1913 lineto
+	 0 1913 lineto
+	 0 2049 lineto
+  closepath fill grestore
+%END BFNH
+
