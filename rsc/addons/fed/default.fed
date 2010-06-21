@@ -4871,16 +4871,16 @@ Converted to Fen2eps by Dirk Baechle (dl9obn@darc.de), 2003-03-23.
 %END TF
 %BEGIN LF : Left frame
   gsave newpath 
-	277 0 moveto
-	 277 2048 lineto
-	 377 2048 lineto
-	 377 0 lineto
-	 277 0 lineto
+	275 0 moveto
+	 275 2048 lineto
+	 375 2048 lineto
+	 375 0 lineto
+	 275 0 lineto
 	closepath
 	0 0 moveto
 	 0 2048 lineto
-	 174 2048 lineto
-	 174 0 lineto
+	 175 2048 lineto
+	 175 0 lineto
 	 0 0 lineto
   closepath fill grestore
 %END LF
@@ -4901,15 +4901,15 @@ Converted to Fen2eps by Dirk Baechle (dl9obn@darc.de), 2003-03-23.
 %END RF
 %BEGIN BF : Bottom frame
   gsave newpath 
-	0 277 moveto
-	 0 377 lineto
-	 2048 377 lineto
-	 2048 277 lineto
-	 0 277 lineto
+	0 275 moveto
+	 0 375 lineto
+	 2048 375 lineto
+	 2048 275 lineto
+	 0 275 lineto
 	closepath
 	0 0 moveto
-	 0 174 lineto
-	 2048 174 lineto
+	 0 175 lineto
+	 2048 175 lineto
 	 2048 0 lineto
 	 0 0 lineto
   closepath fill grestore
@@ -4954,18 +4954,18 @@ Converted to Fen2eps by Dirk Baechle (dl9obn@darc.de), 2003-03-23.
 %END RFUC
 %BEGIN LFLC : Lower corner of left frame
   gsave newpath 
-	275 277 moveto
-	 410 277 lineto
-	 410 377 lineto
-	 375 377 lineto
+	275 275 moveto
+	 410 275 lineto
+	 410 375 lineto
+	 375 375 lineto
 	 375 410 lineto
 	 275 410 lineto
-	 275 277 lineto
+	 275 275 lineto
 	closepath
 	0 0 moveto
 	 410 0 lineto
-	 410 174 lineto
-	 171 174 lineto
+	 410 175 lineto
+	 171 175 lineto
 	 171 410 lineto
 	 0 410 lineto
 	 0 0 lineto
@@ -4973,18 +4973,18 @@ Converted to Fen2eps by Dirk Baechle (dl9obn@darc.de), 2003-03-23.
 %END LFLC
 %BEGIN RFLC : Lower corner of right frame
   gsave newpath 
-	135 277 moveto
-	 0 277 lineto
-	 0 377 lineto
-	 35 377 lineto
+	135 275 moveto
+	 0 275 lineto
+	 0 375 lineto
+	 35 375 lineto
 	 35 410 lineto
 	 135 410 lineto
-	 135 277 lineto
+	 135 275 lineto
 	closepath
 	410 0 moveto
 	 0 0 lineto
-	 0 174 lineto
-	 239 174 lineto
+	 0 175 lineto
+	 239 175 lineto
 	 239 410 lineto
 	 410 410 lineto
 	 410 0 lineto
@@ -5011,17 +5011,17 @@ Converted to Fen2eps by Dirk Baechle (dl9obn@darc.de), 2003-03-23.
 	 855 1322 lineto
 	 1074 1446 lineto
 	closepath
-	1915 0 moveto
-	 1916 2049 lineto
-	 2015 2049 lineto
-	 2015 0 lineto
-	 1915 0 lineto
+	1913 0 moveto
+	 1913 2048 lineto
+	 2013 2048 lineto
+	 2013 0 lineto
+	 1913 0 lineto
 	closepath
-	1640 0 moveto
-	 1642 2049 lineto
-	 1813 2049 lineto
-	 1812 0 lineto
-	 1640 0 lineto
+	1638 0 moveto
+	 1638 2048 lineto
+	 1809 2048 lineto
+	 1809 0 lineto
+	 1638 0 lineto
   closepath fill grestore
 %END LFNA
 %BEGIN LFNB : Left frame with notation digit "2"
@@ -5058,17 +5058,17 @@ Converted to Fen2eps by Dirk Baechle (dl9obn@darc.de), 2003-03-23.
 	 771 701 lineto
 	 1014 701 lineto
 	closepath
-	1915 0 moveto
-	 1916 2049 lineto
-	 2015 2049 lineto
-	 2015 0 lineto
-	 1915 0 lineto
+	1913 0 moveto
+	 1913 2048 lineto
+	 2013 2048 lineto
+	 2013 0 lineto
+	 1913 0 lineto
 	closepath
-	1640 0 moveto
-	 1642 2049 lineto
-	 1813 2049 lineto
-	 1812 0 lineto
-	 1640 0 lineto
+	1638 0 moveto
+	 1638 2048 lineto
+	 1809 2048 lineto
+	 1809 0 lineto
+	 1638 0 lineto
   closepath fill grestore
 %END LFNB
 %BEGIN LFNC : Left frame with notation digit "3"
@@ -5108,17 +5108,17 @@ Converted to Fen2eps by Dirk Baechle (dl9obn@darc.de), 2003-03-23.
 	 711 1250 lineto
 	 725 1292 lineto
 	closepath
-	1915 0 moveto
-	 1916 2049 lineto
-	 2015 2049 lineto
-	 2015 0 lineto
-	 1915 0 lineto
+	1913 0 moveto
+	 1913 2048 lineto
+	 2013 2048 lineto
+	 2013 0 lineto
+	 1913 0 lineto
 	closepath
-	1640 0 moveto
-	 1642 2049 lineto
-	 1813 2049 lineto
-	 1812 0 lineto
-	 1640 0 lineto
+	1638 0 moveto
+	 1638 2048 lineto
+	 1809 2048 lineto
+	 1809 0 lineto
+	 1638 0 lineto
   closepath fill grestore
 %END LFNC
 %BEGIN LFND : Left frame with notation digit "4"
@@ -5143,17 +5143,17 @@ Converted to Fen2eps by Dirk Baechle (dl9obn@darc.de), 2003-03-23.
 	 982 1295 lineto
 	 701 896 lineto
 	closepath
-	1915 0 moveto
-	 1916 2049 lineto
-	 2015 2049 lineto
-	 2015 0 lineto
-	 1915 0 lineto
+	1913 0 moveto
+	 1913 2048 lineto
+	 2013 2048 lineto
+	 2013 0 lineto
+	 1913 0 lineto
 	closepath
-	1640 0 moveto
-	 1642 2049 lineto
-	 1813 2049 lineto
-	 1812 0 lineto
-	 1640 0 lineto
+	1638 0 moveto
+	 1638 2048 lineto
+	 1809 2048 lineto
+	 1809 0 lineto
+	 1638 0 lineto
   closepath fill grestore
 %END LFND
 %BEGIN LFNE : Left frame with notation digit "5"
@@ -5180,17 +5180,17 @@ Converted to Fen2eps by Dirk Baechle (dl9obn@darc.de), 2003-03-23.
 	 711 1131 lineto
 	 864 1447 lineto
 	closepath
-	1915 0 moveto
-	 1916 2049 lineto
-	 2015 2049 lineto
-	 2015 0 lineto
-	 1915 0 lineto
+	1913 0 moveto
+	 1913 2048 lineto
+	 2013 2048 lineto
+	 2013 0 lineto
+	 1913 0 lineto
 	closepath
-	1640 0 moveto
-	 1642 2049 lineto
-	 1813 2049 lineto
-	 1812 0 lineto
-	 1640 0 lineto
+	1638 0 moveto
+	 1638 2048 lineto
+	 1809 2048 lineto
+	 1809 0 lineto
+	 1638 0 lineto
   closepath fill grestore
 %END LFNE
 %BEGIN LFNF : Left frame with notation digit "6"
@@ -5227,17 +5227,17 @@ Converted to Fen2eps by Dirk Baechle (dl9obn@darc.de), 2003-03-23.
 	 1003.67 1040 963.667 1068 913 1068 curveto
 	 877.667 1068 837 1053 791 1023 curveto
 	closepath
-	1915 0 moveto
-	 1916 2049 lineto
-	 2015 2049 lineto
-	 2015 0 lineto
-	 1915 0 lineto
+	1913 0 moveto
+	 1913 2048 lineto
+	 2013 2048 lineto
+	 2013 0 lineto
+	 1913 0 lineto
 	closepath
-	1640 0 moveto
-	 1642 2049 lineto
-	 1813 2049 lineto
-	 1812 0 lineto
-	 1640 0 lineto
+	1638 0 moveto
+	 1638 2048 lineto
+	 1809 2048 lineto
+	 1809 0 lineto
+	 1638 0 lineto
   closepath fill grestore
 %END LFNF
 %BEGIN LFNG : Left frame with notation digit "7"
@@ -5255,17 +5255,17 @@ Converted to Fen2eps by Dirk Baechle (dl9obn@darc.de), 2003-03-23.
 	 645 1242 lineto
 	 721 1433 lineto
 	closepath
-	1915 0 moveto
-	 1916 2049 lineto
-	 2015 2049 lineto
-	 2015 0 lineto
-	 1915 0 lineto
+	1913 0 moveto
+	 1913 2048 lineto
+	 2013 2048 lineto
+	 2013 0 lineto
+	 1913 0 lineto
 	closepath
 	1640 0 moveto
-	 1642 2049 lineto
-	 1813 2049 lineto
-	 1812 0 lineto
-	 1640 0 lineto
+	 1638 2048 lineto
+	 1809 2048 lineto
+	 1809 0 lineto
+	 1638 0 lineto
   closepath fill grestore
 %END LFNG
 %BEGIN LFNH : Left frame with notation digit "8"
@@ -5319,17 +5319,17 @@ Converted to Fen2eps by Dirk Baechle (dl9obn@darc.de), 2003-03-23.
 	 807 1231 842.667 1177.67 914 1123 curveto
 	 953 1096 lineto
 	closepath
-	1915 0 moveto
-	 1916 2049 lineto
-	 2015 2049 lineto
-	 2015 0 lineto
-	 1915 0 lineto
+	1913 0 moveto
+	 1913 2048 lineto
+	 2013 2048 lineto
+	 2013 0 lineto
+	 1913 0 lineto
 	closepath
-	1640 0 moveto
-	 1642 2049 lineto
-	 1813 2049 lineto
-	 1812 0 lineto
-	 1640 0 lineto
+	1638 0 moveto
+	 1638 2048 lineto
+	 1809 2048 lineto
+	 1809 0 lineto
+	 1638 0 lineto
   closepath fill grestore
 %END LFNH
 
@@ -5343,8 +5343,8 @@ Converted to Fen2eps by Dirk Baechle (dl9obn@darc.de), 2003-03-23.
 	closepath
 	0 1638 moveto
 	 0 1809 lineto
-	 2047 1809 lineto
-	 2047 1638 lineto
+	 2048 1809 lineto
+	 2048 1638 lineto
 	 0 1638 lineto
 	closepath
 	1081 929 moveto
@@ -5436,8 +5436,8 @@ Converted to Fen2eps by Dirk Baechle (dl9obn@darc.de), 2003-03-23.
 	closepath
 	0 1638 moveto
 	 0 1809 lineto
-	 2047 1809 lineto
-	 2047 1638 lineto
+	 2048 1809 lineto
+	 2048 1638 lineto
 	 0 1638 lineto
   closepath fill grestore
 %END BFNB
@@ -5476,8 +5476,8 @@ Converted to Fen2eps by Dirk Baechle (dl9obn@darc.de), 2003-03-23.
 	closepath
 	0 1638 moveto
 	 0 1809 lineto
-	 2047 1809 lineto
-	 2047 1638 lineto
+	 2048 1809 lineto
+	 2048 1638 lineto
 	 0 1638 lineto
   closepath fill grestore
 %END BFNC
@@ -5528,8 +5528,8 @@ Converted to Fen2eps by Dirk Baechle (dl9obn@darc.de), 2003-03-23.
 	closepath
 	0 1638 moveto
 	 0 1809 lineto
-	 2047 1809 lineto
-	 2047 1638 lineto
+	 2048 1809 lineto
+	 2048 1638 lineto
 	 0 1638 lineto
   closepath fill grestore
 %END BFND
@@ -5571,8 +5571,8 @@ Converted to Fen2eps by Dirk Baechle (dl9obn@darc.de), 2003-03-23.
 	closepath
 	0 1638 moveto
 	 0 1809 lineto
-	 2047 1809 lineto
-	 2047 1638 lineto
+	 2048 1809 lineto
+	 2048 1638 lineto
 	 0 1638 lineto
   closepath fill grestore
 %END BFNE
@@ -5615,8 +5615,8 @@ Converted to Fen2eps by Dirk Baechle (dl9obn@darc.de), 2003-03-23.
 	closepath
 	0 1638 moveto
 	 0 1809 lineto
-	 2047 1809 lineto
-	 2047 1638 lineto
+	 2048 1809 lineto
+	 2048 1638 lineto
 	 0 1638 lineto
   closepath fill grestore
 %END BFNF
@@ -5687,8 +5687,8 @@ Converted to Fen2eps by Dirk Baechle (dl9obn@darc.de), 2003-03-23.
 	closepath
 	0 1638 moveto
 	 0 1809 lineto
-	 2047 1809 lineto
-	 2047 1638 lineto
+	 2048 1809 lineto
+	 2048 1638 lineto
 	 0 1638 lineto
   closepath fill grestore
 %END BFNG
@@ -5737,8 +5737,8 @@ Converted to Fen2eps by Dirk Baechle (dl9obn@darc.de), 2003-03-23.
 	closepath
 	0 1638 moveto
 	 0 1809 lineto
-	 2047 1809 lineto
-	 2047 1638 lineto
+	 2048 1809 lineto
+	 2048 1638 lineto
 	 0 1638 lineto
   closepath fill grestore
 %END BFNH

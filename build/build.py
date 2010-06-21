@@ -29,6 +29,9 @@ def copyContents(srcdir, dstdir):
     ensureFilePathExists(os.path.join(dstdir, 'dummy.txt'))
 
     for entry in os.listdir(srcdir):
+        if entry == '.svn':
+            continue
+        
         epath = os.path.join(srcdir, entry)
         dpath = os.path.join(dstdir, entry)
         if os.path.isdir(epath):
