@@ -1,0 +1,147 @@
+@title: Manual for Fen2eps v1.0
+@author: Dirk Bächle
+@date: 2010-06-22
+
+Abstract:
+This manual gives a short introduction to the various
+options of the program \\Fen2eps\\.
+
+
+== Requirements == required
+
+Basically, \\Fen2eps\\ doesn't have any dependencies. It should run
+out-of-the-box, when compiled with a decent C++ compiler. The Windows
+executable was prepared under Windows XP, and should
+work under Windows Vista/7 as well.
+
+== Starting the program == start
+
+Starting \\Fen2eps\\ is as simple as saying
+
+Code:
+fen2eps &lt; a.fen &gt; a.eps
+
+where the file `$$a.fen$$' contains a single FEN
+string in one line and
+`$$a.eps$$' is the resulting \\EPS\\ file.
+This \\EPS\\ file contains all necessary graphic symbols
+for displaying the chess diagram, you don't have to install any fonts!
+Since \\Fen2eps\\ reads each line only to the first "space"
+character you can also input EPD (Extended Position Description) strings...
+
+If you call \\Fen2eps\\ with one of the command-line arguments ``$$-h$$'',
+``$$-?$$'' or ``$$--help$$'', a small usage message appears. 
+It provides a short overview of the additional options, which are explained
+in detail in the following sections.
+
+== Selecting fonts == fontselect
+
+
+The current version 1.0 of \\Fen2eps\\ provides 19 different chess
+fonts for creating board diagrams. The outlines of the chess pieces
+are stored in special definition files, which have the extension `$$*.fed$$'
+and can be found in the `$$fed$$' directory.
+These files also contain information about the different heights and widths
+of the single ``characters''.
+
+The fonts were downloaded from 
+[[http://www.enpassant.dk www.enpassant.dk]] in TrueType format
+and then converted to Postscript outlines with the help of
+[[http://fontforge.sf.net FontForge]] (formerly known as 
+[[http://pfaedit.sf.net Pfaedit]]). Please, regard that the
+copyright is still with their authors \\Armando Hernandez Marroquin\\,
+\\Eric Bentzen\\ and \\Egon Madsen\\. All fonts are freeware and
+may be used for non-commercial purposes only!
+
+\\Fen2eps\\ does not have something like a built-in font. For maximum
+flexibility it always needs an external `$$*.fed$$' file where it can
+extract the piece outlines from. If nothing else is specified, \\Fen2eps\\
+looks for the font file `$$default.fed$$' which is present in
+the same directory as the executable. Right after unZIPing the archive,
+this default font file is a copy of the font ``\\Chess Merida\\'' 
+(filename: `$$merida.fed$$').
+
+If you don't like it, all you have to do is to overwrite the file
+`$$default.fed$$' with one of the other `$$*.fed$$' files.
+For an overview you can take a look at the 
+[[../fontlist/fontlist.pdf list of fonts]].
+Afterwards, the new font is used for creating the \\EPS\\ diagrams.
+
+As an alternative, you can use the option ``$$-f$$'', followed by the
+name of the font definition file that should be used instead of
+`$$default.fed$$'.
+
+So, replacing
+
+Code:
+cp fed/marroq.fed default.fed
+fen2eps &lt; a.fen > a.eps
+
+
+you could also say
+
+Code:
+fen2eps -f fed/marroq.fed &lt; a.fen > a.eps
+
+
+which leaves the default font file untouched.
+
+== Additional options == addoptions
+
+
+==+ No notation == nonotation
+
+
+If you don't want to provide a notation for the chess diagram,
+you can specify the option ``$$-n$$'' while calling \\Fen2eps\\.
+The board is output without notation letters and digits then.
+
+== Reverse board == reverseboard
+
+
+You might want to display a board from Blacks perspective. In this case, use
+the option ``$$-r$$'' which creates a diagram that is drawn reverse.
+
+== Exporting several FEN strings at once == prefix
+
+
+Exporting several FEN strings with the same settings is a
+tedious task. \\Fen2eps\\ can help if you prepare a file, let's
+name it `$$many.fen$$', that contains all the chess positions you
+want to convert. By specifying the 
+``$$-p$$'' option you give \\Fen2eps\\ a file prefix it can use
+for generating single EPS diagrams automatically. You can say
+
+Code:
+fen2eps -p diag/dg &lt; many.fen
+
+
+for example. What you get is one EPS file for each FEN string in `$$many.fen$$'.
+These EPS files are created in the directory `$$diag$$' and have the prefix 
+`$$dg$$' followed by a unique number.
+
+If the 
+``$$-p$$'' option is given, \\Fen2eps\\ does !!NOT!! write to
+`$$stdout$$' but to the created files directly. So redirecting the
+output by appending a 
+
+Code:
+&gt; isempty.eps
+
+
+to the program call does not have any effect (except that you get an
+empty file named `$$isempty.eps$$'...).
+
+Of course, you can mix all these options and after the call
+
+Code:
+fen2eps -n -r -p diag/dg -f fed/lucena.fed &lt; many.fen
+
+
+(let's assume the file `$$many.fen$$' contains 7 FEN strings...) you
+can find the files `$$dg1.eps$$' to `$$dg7.eps$$' in the
+directory `$$diag$$'. All boards are displayed reverse, without notation
+and use the font ``\\Chess Lucena\\''.
+
+
+

@@ -1,0 +1,35 @@
+#
+# A simple SConstruct for creating PDF files from Docbook XML
+# sources. It's plain and ugly...but does its job ;).
+#
+
+import os
+
+bld_fo = Builder(action = 'xsltproc ./pdf.xsl $SOURCE > $TARGET',
+                 suffix = '.fo',
+                 src_suffix = '.xml',
+                 single_source = True)
+
+bld_html = Builder(action = 'xsltproc ./html.xsl $SOURCE > $TARGET',
+                 suffix = '.html',
+                 src_suffix = '.xml',
+                 single_source = True)
+
+bld_pdf = Builder(action = '/home/dirk/programming/java/fop-trunk/fop $SOURCE $TARGET',
+                 suffix = '.pdf',
+                 src_suffix = '.fo',
+                 single_source = True)
+
+env = Environment(ENV = os.environ,
+                  BUILDERS = {'Fo' : bld_fo,
+                              'Html' : bld_html,
+                              'Pdf' : bld_pdf})
+
+env.Pdf('manual', env.Fo('manual'))
+env.Pdf('fontlist', env.Fo('fontlist'))
+
+env.Html('manual','manual')
+env.Html('fontlist','fontlist')
+
+env.Alias('manual',['manual.pdf','manual.html'])
+env.Alias('fontlist',['fontlist.pdf','fontlist.html'])

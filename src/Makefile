@@ -1,8 +1,19 @@
-CC=g++
+# Compiler and compiler options
+# -------------------------------------------------------------
+CXX=g++
+CXXFLAGS=-Wall -O2
+RM=rm
 
-all: fen2eps
+TARGET=fen2eps
+
+# Makefile options
+# -------------------------------------------------------------
+all: $(TARGET)
 	
 
-fen2eps: fen2eps.cpp
-	$(CC) fen2eps.cpp -o fen2eps
+$(TARGET): $(TARGET).cpp
+	$(CXX) $(CXXFLAGS) $(TARGET).cpp -o $(TARGET)
+
+clean:
+	$(RM) -f $(TARGET)
 

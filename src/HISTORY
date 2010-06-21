@@ -1,6 +1,14 @@
 This file describes the history of Fen2eps, i.e. which changes
 were made from version to version.
 
+v1.1 (2010-06-22)
+=================
+
+- Switched to new internal build system for creating the
+  distributions, based on Python/SCons
+- Patch by Heinz van Saanen (24.04.2010): support for
+  modern C++ compilers and improved Makefile
+
 
 v1.0 (2003-03-25)
 =================
@@ -9,6 +17,5 @@ v1.0 (2003-03-25)
 
 
 
-
-Dirk Baechle, 2003-03-25
+Dirk Baechle, 2010-06-21
 

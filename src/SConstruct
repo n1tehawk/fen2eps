@@ -1,0 +1,3 @@
+cpp_files = Glob('*.cpp')
+
+Program('fen2eps', cpp_files)

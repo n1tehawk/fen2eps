@@ -1,7 +1,7 @@
 Fen2eps - A program for converting a FEN (Forsyth Edwards Notation)
           string to an EPS (Encapsulated Postscript) file.
 
-Copyright (C) 2003 by Dirk Baechle (dl9obn@darc.de)
+Copyright (C) 2003-2010 by Dirk Baechle (dl9obn@darc.de)
 
 http://fen2eps.sourceforge.net
 
@@ -43,23 +43,17 @@ where the file `a.fen' contains the FEN data and `a.eps' is the created
 EPS file. For further information about the available command-line options
 take a look into the manual, please.
 
-If you want to use the precompiled version of Fen2eps under a plain DOS
-(and not the DOS box in Windows) you have to install the DPMI handler that
-is contained in the archive. Simply unZIP the archive `csdpmi5b.zip' and copy
-all *.EXE files from the created `bin' directory into the same directory
-`fen2eps.exe' resides in.
-
 
 2. How to compile it
 --------------------
 
 The following intructions assume that you unZIPed the source archive
-`fen2eps1_0src.zip'.
+`fen2eps1_1src.zip'.
 
 2.1 Unix/Linux
 --------------
 
-Change into the created directory `Fen2eps'.
+Change into the created directory `fen2eps'.
 
 Now, all you have to do is say
 
@@ -75,20 +69,19 @@ found, you have to edit the `Makefile' and change the variable
 
 to the C++ compiler that is actually installed on your system.
 
+For all the SCons fans out there, I added a simple "SConstruct"...so
+the usual "scons" should do the trick ;).
 
 2.2. DOS/Windows
 ----------------
 
-Start your favorite C++ compiler and tell him to compile the file
+Start your favorite C++ compiler and tell it to compile the file
 `fen2eps.cpp'. With a bit of luck it doesn't complain and you get
-the executable `fen2eps.exe'....
+the application `fen2eps.exe'....
 
-I used DJGPP 2.03 while creating the DOS executable in the archive
-`fen2eps1_0exe.zip' and issued the command
-
-  gxx fen2eps.cpp -s -o fen2eps.exe
-
-for this.
+Again, assuming SCons is properly installed and finds a default
+compiler, a simple "scons" at the command prompt creates 
+an executable too.
 
 
 3. Source code documentation
@@ -99,5 +92,5 @@ using the program "Doxygen" (http://www.stack.nl/~dimitri/doxygen).
 For further information read its manual.
 
 
-Dirk Baechle, 2003-03-25
+Dirk Baechle, 2010-06-22
 

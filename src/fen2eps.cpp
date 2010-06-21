@@ -1,6 +1,6 @@
 /* Fen2eps - A program for converting a FEN (Forsyth Edwards Notation)
 *            string to an EPS (Encapsulated Postscript) file.
-* Copyright (C) 2003 by Dirk Baechle (dl9obn@darc.de)
+* Copyright (C) 2003-2010 by Dirk Baechle (dl9obn@darc.de)
 *
 * http://fen2eps.sourceforge.net
 *
@@ -28,8 +28,8 @@
 /**
 \file fen2eps.cpp
 \author Dirk Baechle
-\version 1.0
-\date 2003-03-25
+\version 1.1
+\date 2010-06-22
 */
 
 /*------------------------------------------------------------- Includes */
@@ -40,6 +40,9 @@
 #include <string>
 #include <fstream>
 #include <sstream>
+#include <cstring>
+#include <cstdlib>
+
 
 using namespace std;
 
@@ -1069,7 +1072,7 @@ void writeEpsTrailer(std::ostream &fOut)
 */
 void usage()
 {
-  cerr << endl << "fen2eps v1.0 - by Dirk Baechle (dl9obn@darc.de), 2003-03-25" << endl;
+  cerr << endl << "fen2eps v1.1 - by Dirk Baechle (dl9obn@darc.de), 2010-06-22" << endl;
   cerr << "Available at http://fen2eps.sourceforge.net" << endl;
   cerr << endl << "Usage:" << endl;
   cerr << "fen2eps [options]" << endl;

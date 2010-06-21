@@ -1,0 +1,66 @@
+@title: Fen2eps
+@author: Dirk Baechle
+
+== Fen2eps ==
+
+
+Welcome to the homepage of \\Fen2eps\\!
+
+
+\\Fen2eps\\ is a small console-based program.
+It was written in order to convert FEN (Forsyth Edwards Notation) strings
+to \\EPS\\ (Encapsulated Postscript) files directly.
+You can import the created board diagrams into most of the commonly used
+DTP programs, without having to install any fonts! They can be scaled freely
+and still provide the highest quality, limited only by your output device.
+
+
+In general, \\Fen2eps\\ aims at the editing of documents/texts
+with only a few diagrams, e.g. posters. If you need to display a lot of chess
+positions the \\LaTeX\\ package 
+``$$skak$$'' by Torben Hoffmann might be a better solution. It is 
+available at the 
+[[http://www.tug.org/ctan CTAN (Comprehensive TeX Archive Network)]].
+
+
+\\Fen2eps\\ reads from `$$stdin$$' and writes to
+`$$stdout$$'. The user can select from 19 different chess fonts for
+creating the diagrams... check out the 
+[[./fontlist/fontlist.pdf list of fonts (PDF, 500KB)]]. 
+
+These fonts were converted from the freeware TrueType fonts that can be found at
+[[http://www.enpassant.dk www.enpassant.dk]]. So the credits
+for all the beautiful chess pieces go to their creators 
+\\Armando Hernandez Marroquin\\, \\Eric Bentzen\\ and \\Egon Madsen\\.
+Thank you!
+
+
+For more information about the various options, take a look at
+the [[./manual/manual.html manual]] that is contained in the
+[[http://www.sourceforge.net/projects/fen2eps download archive]],
+together with the source file and a small `$$Makefile$$'. Compiling
+\\Fen2eps\\ should be straightforward, using a decent C++ compiler...
+ 
+There is also an archive providing a readily compiled DOS version of
+\\Fen2eps\\ which should run on most DOS/Windows platforms. If you
+try to start it under plain DOS read the instructions in the
+`$$README$$' file and the [[./manual/manual.html manual]] first.
+
+
+Please also regard the file `$$COPYING$$' for the
+terms of the GNU GPL (General Public License).
+
+Using [[http://www.stack.nl/~dimitri/doxygen Doxygen]] 
+you can easily generate a documentation for the source file if you want to.
+
+== Contributions ==
+
+~24.04.2010||Heinz van Saanen, patch for the support of modern C++ compilers
+and improved Makefile.
+
+== Download ==
+
+[[http://www.sourceforge.net/projects/fen2eps Download archives for Fen2eps]]
+
+
+
