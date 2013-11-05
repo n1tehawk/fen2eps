@@ -55,7 +55,7 @@ which will be used to configure the chosen Forrest skin.
   <obfuscate-mail-links>true</obfuscate-mail-links>
   <obfuscate-mail-value>.at.</obfuscate-mail-value>
 <!-- Disable the javascript facility to change the font size -->
-  <disable-font-script>true</disable-font-script>
+  <disable-font-script>false</disable-font-script>
 <!-- mandatory project logo
        default skin: renders it at the top -->
   <project-name>Fen2eps</project-name>
@@ -75,7 +75,7 @@ which will be used to configure the chosen Forrest skin.
 <!-- optional host logo (e.g. sourceforge logo)
        default skin: renders it at the bottom-left corner -->
   <host-url></host-url>
-  <host-logo></host-logo>
+  <host-logo>sourceforge.png</host-logo>
 <!-- relative url of a favicon file, normally favicon.ico -->
   <favicon-url></favicon-url>
 <!-- The following are used to construct a copyright statement -->

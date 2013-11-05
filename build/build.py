@@ -4,7 +4,7 @@
 # Author: Dirk Baechle
 # 
 
-import os, sys, shutil, glob
+import os, sys, shutil, glob, re
 
 def ensureFilePathExists(fp):
     head, tail = os.path.split(fp)
@@ -34,6 +34,7 @@ def copyContents(srcdir, dstdir):
         
         epath = os.path.join(srcdir, entry)
         dpath = os.path.join(dstdir, entry)
+
         if os.path.isdir(epath):
             # Copy the subfolder
             shutil.copytree(epath, dpath)
@@ -44,6 +45,37 @@ def stripCommonPrefix(prefix, path):
     if path.startswith(prefix):
         return path[len(prefix):]
     return path
+
+re_sflogo = re.compile('<a href="[^"]*"><img class="logoImage" alt="[^"]*" src="[^"]*sourceforge\.png"></a>')
+
+def patchSourceforgeLogo(fpath, project, projectdir, projectid):
+    """
+    Replace the dummy sourceforge.png logo, with the correct
+    link to the given project ID.
+    """
+    
+    f = open(fpath,'r')
+    content = f.read()
+    f.close()
+    
+    content = re_sflogo.sub('<a href="http://sourceforge.net/projects/%s"><img src="http://sflogo.sourceforge.net/sflogo.php?group_id=%d&amp;type=16" width="150" height="40" alt="Get %s at SourceForge.net. Fast, secure and Free Open Source software downloads" /></a>' % (projectdir, projectid, project), content)
+    
+    fo = open(fpath,'w')
+    fo.write(content)
+    fo.close() 
+
+def patchSourceforgeHtmlFiles(dpath):
+    """
+    Patch all HTML files in the given dpath, to prepare them
+    for upload to a Sourceforge Webpage.
+    """
+    
+    for path, dirs, files in os.walk(dpath):
+        for f in files:
+            if f.endswith('.html'):
+                fpath = os.path.join(path,f)
+                patchSourceforgeLogo(fpath, 'Fen2eps', 'fen2eps', 76594)
+    
 
 def addResourceFiles(dpath):
     # Files
@@ -146,6 +178,7 @@ def createHomepage():
     os.chdir(cwd)
     os.chdir('homepage')
     os.system('forrest')
+    patchSourceforgeHtmlFiles('build/site/de')
     os.chdir(cwd)
 
 def cleanDocumentation():
